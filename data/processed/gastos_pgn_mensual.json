@@ -4,7 +4,7 @@
     "ministerio": "Ministerio de Hacienda y Crédito Público",
     "dataset_id": "5phs-yqfw",
     "fuente": "https://www.datos.gov.co/d/5phs-yqfw",
-    "fetched_at": "2026-09-19T02:25:42.581466+00:00",
+    "fetched_at": "2026-09-19T13:48:18.039883+00:00",
     "row_count": 2880,
     "consulta_soql": {
       "select": "anio, nombremes, sector, sum(apropiacionvigente) as apropiacion_vigente, sum(compromisos) as compromisos, sum(obligaciones) as obligaciones, sum(pagos) as pagos\n",
@@ -37,7 +37,7 @@
       "Noviembre",
       "Diciembre"
     ],
-    "sectores": [
+    "dimensiones": [
       "AGRICULTURA Y DESARROLLO RURAL",
       "AMBIENTE Y DESARROLLO SOSTENIBLE",
       "CIENCIA, TECNOLOGÍA E INNOVACIÓN",

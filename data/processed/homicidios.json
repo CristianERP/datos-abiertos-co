@@ -4,7 +4,7 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "m8fd-ahd9",
     "fuente": "https://www.datos.gov.co/d/m8fd-ahd9",
-    "fetched_at": "2026-09-19T02:25:51.202096+00:00",
+    "fetched_at": "2026-09-19T13:48:30.254539+00:00",
     "row_count": 3902,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
@@ -41,7 +41,7 @@
       "Noviembre",
       "Diciembre"
     ],
-    "departamentos": [
+    "dimensiones": [
       "AMAZONAS",
       "ANTIOQUIA",
       "ARAUCA",
