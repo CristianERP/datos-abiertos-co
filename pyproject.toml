@@ -1,0 +1,24 @@
+[project]
+name = "datos-abiertos"
+version = "0.1.0"
+description = "Sitio de transparencia con datos abiertos de Colombia"
+requires-python = "^3.11"
+dependencies = [
+    "sodapy (>=2.2.0,<3.0.0)",
+    "pandas (>=3.0.6,<4.0.0)",
+    "jinja2 (>=3.1.6,<4.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

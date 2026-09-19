@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Datos Abiertos Colombia</title>
+  <link rel="stylesheet" href="static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+</head>
+<body class="viz-root">
+  <h1>Datos Abiertos Colombia</h1>
+
+  {% if "gastos_pgn_mensual" in datasets %}
+    {% set d = datasets["gastos_pgn_mensual"] %}
+    <section>
+      <h2>Gastos del Presupuesto General de la Nación</h2>
+      <p class="fuente">
+        Apropiación vigente vs. pagos realizados, por sector.
+        Fuente: <a href="{{ d.meta.fuente }}">{{ d.meta.dataset_id }}</a> (Ministerio de Hacienda y Crédito Público) —
+        datos extraídos el {{ d.meta.fetched_at }}.
+      </p>
+
+      <form class="filtros" id="filtros">
+        <label>
+          Año
+          <select id="f-anio">
+            {% for anio in d.filtros.anios | reverse %}
+              <option value="{{ anio }}" {{ "selected" if loop.first }}>{{ anio }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label>
+          Mes
+          <select id="f-mes">
+            <option value="">Acumulado (todo el año)</option>
+            {% for mes in d.filtros.meses %}
+              <option value="{{ mes }}">{{ mes }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label>
+          Sector
+          <select id="f-sector">
+            <option value="">Todos los sectores</option>
+            {% for sector in d.filtros.sectores %}
+              <option value="{{ sector }}">{{ sector }}</option>
+            {% endfor %}
+          </select>
+        </label>
+      </form>
+
+      <div id="chart-container"><canvas id="chart-presupuesto"></canvas></div>
+      <table id="tabla-presupuesto" class="tabla-datos">
+        <caption>Vista en tabla de los mismos datos de la gráfica</caption>
+        <thead><tr><th scope="col">Sector / Mes</th><th scope="col">Apropiación vigente</th><th scope="col">Pagos</th><th scope="col">% pagado</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <script id="datos-gastos" type="application/json">{{ d.registros | tojson }}</script>
+    <script src="static/dashboard.js"></script>
+  {% else %}
+    <p>Aún no hay datasets procesados. Agrega uno en etl/datasets.yaml.</p>
+  {% endif %}
+</body>
+</html>
