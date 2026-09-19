@@ -9,8 +9,10 @@
   --baseline:       #c3c2b7;
   --border:         rgba(11, 11, 11, 0.10);
 
-  --series-1: #2a78d6; /* apropiación vigente */
-  --series-2: #eb6834; /* pagos */
+  --series-1: #2a78d6; /* apropiación vigente / heridos */
+  --series-2: #eb6834; /* pagos / asesinados */
+  --series-3: #e34948; /* casos (homicidios) */
+  --series-4: #1baf7a; /* casos (secuestro) */
 }
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) .viz-root {
@@ -26,6 +28,8 @@
 
     --series-1: #3987e5;
     --series-2: #d95926;
+    --series-3: #e66767;
+    --series-4: #199e70;
   }
 }
 :root[data-theme="dark"] .viz-root {
@@ -41,19 +45,110 @@
 
   --series-1: #3987e5;
   --series-2: #d95926;
+  --series-3: #e66767;
+  --series-4: #199e70;
 }
 
 body {
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 0;
   background: var(--page-plane);
   color: var(--text-primary);
 }
 
 h1 { font-size: 1.4rem; }
 h2 { font-size: 1.15rem; margin-bottom: 0.25rem; }
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  padding: 1.5rem 1rem;
+  background: var(--surface-1);
+  border-right: 1px solid var(--border);
+}
+.sidebar .brand {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+.nav-categoria h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin: 1.25rem 0 0.4rem;
+}
+.nav-categoria ul { list-style: none; margin: 0; padding: 0; }
+.nav-categoria li a {
+  display: block;
+  padding: 0.3rem 0;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+.nav-categoria li a:hover { color: var(--text-primary); }
+.nav-categoria li a.activo { color: var(--series-1); font-weight: 600; }
+
+.content {
+  flex: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .layout { flex-direction: column; }
+  .sidebar { width: auto; border-right: none; border-bottom: 1px solid var(--border); }
+}
+
+.intro { color: var(--text-secondary); max-width: 60ch; }
+
+.categoria-landing { margin-top: 2rem; }
+.categoria-landing h2 {
+  border-bottom: 1px solid var(--gridline);
+  padding-bottom: 0.3rem;
+}
+.lista-datasets {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+.lista-datasets li {
+  padding: 0.75rem;
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.lista-datasets a {
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.lista-datasets a:hover { color: var(--series-1); }
+.lista-datasets p {
+  margin: 0.3rem 0 0;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.breadcrumb { margin: 0 0 0.5rem; }
+.breadcrumb a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+.breadcrumb a:hover { color: var(--series-1); }
 
 .fuente {
   color: var(--text-secondary);

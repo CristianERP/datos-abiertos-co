@@ -41,7 +41,7 @@ def fetch_dataset(client: Socrata, entry: dict) -> None:
 
 def main() -> None:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    client = Socrata(DOMAIN, None)  # sin app token: suficiente para volúmenes bajos/moderados
+    client = Socrata(DOMAIN, None, timeout=60)
     for entry in load_dataset_registry():
         fetch_dataset(client, entry)
 

@@ -34,7 +34,7 @@ def transform_gastos_pgn_mensual(df: pd.DataFrame, meta: dict) -> dict:
         "filtros": {
             "anios": sorted(df["anio"].unique().tolist()),
             "meses": MESES,
-            "sectores": sorted(df["sector"].unique().tolist()),
+            "dimensiones": sorted(df["sector"].unique().tolist()),
         },
         "registros": [
             {
@@ -53,8 +53,84 @@ def transform_gastos_pgn_mensual(df: pd.DataFrame, meta: dict) -> dict:
     }
 
 
+def transform_delito_por_departamento(df: pd.DataFrame, meta: dict) -> dict:
+    """Un solo indicador (total_casos) agregado por año/mes/departamento.
+
+    Forma compartida por los datasets de delitos de alto impacto de MinDefensa
+    que traen un único conteo (homicidios, secuestro, ...).
+    """
+    df["mes_num"] = pd.to_numeric(df["mes_num"], errors="coerce")
+    df["total_casos"] = pd.to_numeric(df["total_casos"], errors="coerce").fillna(0)
+    df["mes"] = df["mes_num"].map(lambda n: MESES[int(n) - 1])
+    df = df.sort_values(["anio", "mes_num", "departamento"])
+
+    return {
+        "meta": meta,
+        "filtros": {
+            "anios": sorted(df["anio"].unique().tolist()),
+            "meses": MESES,
+            "dimensiones": sorted(df["departamento"].unique().tolist()),
+        },
+        "registros": [
+            {
+                "anio": row["anio"],
+                "mes": row["mes"],
+                "mes_num": int(row["mes_num"]),
+                "departamento": row["departamento"],
+                "total_casos": row["total_casos"],
+            }
+            for _, row in df.iterrows()
+        ],
+    }
+
+
+def transform_fuerza_publica(df: pd.DataFrame, meta: dict) -> dict:
+    df["mes_num"] = pd.to_numeric(df["mes_num"], errors="coerce")
+    df["total"] = pd.to_numeric(df["total"], errors="coerce").fillna(0)
+
+    pivot = (
+        df.pivot_table(
+            index=["anio", "mes_num", "departamento"],
+            columns="accion",
+            values="total",
+            aggfunc="sum",
+            fill_value=0,
+        )
+        .reset_index()
+        .rename(columns={"HERIDO": "heridos", "ASESINADO": "asesinados"})
+    )
+    for col in ("heridos", "asesinados"):
+        if col not in pivot:
+            pivot[col] = 0
+    pivot["mes"] = pivot["mes_num"].map(lambda n: MESES[int(n) - 1])
+    pivot = pivot.sort_values(["anio", "mes_num", "departamento"])
+
+    return {
+        "meta": meta,
+        "filtros": {
+            "anios": sorted(pivot["anio"].unique().tolist()),
+            "meses": MESES,
+            "dimensiones": sorted(pivot["departamento"].unique().tolist()),
+        },
+        "registros": [
+            {
+                "anio": row["anio"],
+                "mes": row["mes"],
+                "mes_num": int(row["mes_num"]),
+                "departamento": row["departamento"],
+                "heridos": row["heridos"],
+                "asesinados": row["asesinados"],
+            }
+            for _, row in pivot.iterrows()
+        ],
+    }
+
+
 TRANSFORMS = {
     "gastos_pgn_mensual": transform_gastos_pgn_mensual,
+    "homicidios": transform_delito_por_departamento,
+    "secuestro": transform_delito_por_departamento,
+    "fuerza_publica": transform_fuerza_publica,
 }
 
 

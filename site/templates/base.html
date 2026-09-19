@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Datos Abiertos Colombia{% endblock %}</title>
+  <link rel="stylesheet" href="{{ prefix }}static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+</head>
+<body class="viz-root">
+  <div class="layout">
+    <nav class="sidebar">
+      <a class="brand" href="{{ prefix }}index.html">Datos Abiertos Colombia</a>
+      {% for categoria in nav %}
+        <div class="nav-categoria">
+          <h3>{{ categoria.nombre }}</h3>
+          <ul>
+            {% for entry in categoria.datasets %}
+              <li>
+                <a href="{{ prefix }}{{ entry.id }}/" {% if active_id == entry.id %}class="activo" aria-current="page"{% endif %}>
+                  {{ entry.titulo }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </nav>
+    <main class="content">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</body>
+</html>

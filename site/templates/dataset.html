@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ entry.titulo }} · Datos Abiertos Colombia{% endblock %}
+{% block content %}
+  {% set viz = entry.viz %}
+  <p class="breadcrumb"><a href="{{ prefix }}index.html">← Todos los temas</a></p>
+  <h1>{{ entry.titulo }}</h1>
+  <p class="fuente">
+    {{ entry.descripcion }}
+    Fuente: <a href="{{ d.meta.fuente }}" target="_blank">{{ d.meta.dataset_id }}</a> ({{ entry.ministerio }}) —
+    datos extraídos el {{ d.meta.fetched_at }}.
+  </p>
+
+  <form class="filtros" id="filtros">
+    <label>
+      Año
+      <select id="f-anio">
+        {% for anio in d.filtros.anios | reverse %}
+          <option value="{{ anio }}" {{ "selected" if loop.first }}>{{ anio }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      Mes
+      <select id="f-mes">
+        <option value="">Acumulado (todo el año)</option>
+        {% for mes in d.filtros.meses %}
+          <option value="{{ mes }}">{{ mes }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      {{ viz.dim_label }}
+      <select id="f-dim">
+        <option value="">{{ viz.dim_todos_label }}</option>
+        {% for valor in d.filtros.dimensiones %}
+          <option value="{{ valor }}">{{ valor }}</option>
+        {% endfor %}
+      </select>
+    </label>
+  </form>
+
+  <div id="chart-container"><canvas id="chart"></canvas></div>
+  <table id="tabla" class="tabla-datos">
+    <caption>Vista en tabla de los mismos datos de la gráfica</caption>
+    <thead>
+      <tr>
+        <th scope="col">{{ viz.dim_label }} / Mes</th>
+        {% for s in viz.series %}<th scope="col">{{ s.label }}</th>{% endfor %}
+        {% if viz.pct %}<th scope="col">{{ viz.pct.label }}</th>{% endif %}
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script id="datos-dataset" type="application/json">{{ d.registros | tojson }}</script>
+  <script src="{{ prefix }}static/dashboard.js"></script>
+  <script>
+    initGovDashboard({
+      dataElId: "datos-dataset",
+      elIds: { anio: "f-anio", mes: "f-mes", dim: "f-dim" },
+      tableSelector: "#tabla",
+      canvasId: "chart",
+      containerId: "chart-container",
+      dimField: {{ viz.dim_field | tojson }},
+      series: {{ viz.series | tojson }},
+      {% if viz.pct %}pct: {{ viz.pct | tojson }},{% endif %}
+    });
+  </script>
+{% endblock %}

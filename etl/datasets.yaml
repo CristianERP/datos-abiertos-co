@@ -1,19 +1,23 @@
 # Registro de datasets a consumir desde datos.gov.co (Socrata).
-# Cada entrada define de dónde sale el dato y cada cuánto se debe refrescar.
 #
-# select/group/order son opcionales: si se dan, fetch.py pide a la API una
-# agregación (SoQL) en vez de traer las filas crudas. Útil para datasets
-# grandes donde no tiene sentido descargar el detalle completo (ver
-# gastos_pgn_mensual: 613k filas crudas -> ~2900 agregadas por año/mes/sector).
+# Cada entrada tiene dos partes:
+# - Extracción: dataset_id + select/group/where/order/limit (opcionales). Si se
+#   dan, fetch.py le pide a la API una agregación (SoQL) en vez de traer las
+#   filas crudas -> útil para datasets grandes (ver homicidios: 344k filas
+#   crudas -> ~3900 agregadas por año/mes/departamento).
+# - Visualización: categoria (agrupa el menú de navegación), titulo (nombre de
+#   la página/enlace), y viz (cómo transform.py/el sitio arman la gráfica:
+#   dimensión a filtrar y series a graficar).
 
 datasets:
   - id: gastos_pgn_mensual
+    categoria: Hacienda y Presupuesto
+    titulo: Gastos del Presupuesto General de la Nación
     ministerio: Ministerio de Hacienda y Crédito Público
     dataset_id: 5phs-yqfw
     frecuencia: mensual
     descripcion: >
-      Información de Gastos del Presupuesto General de la Nación, agregada por
-      año, mes y sector: apropiación vigente vs. compromisos, obligaciones y pagos
+      Apropiación vigente vs. pagos realizados, por sector, desde 2019.
     select: >
       anio, nombremes, sector,
       sum(apropiacionvigente) as apropiacion_vigente,
@@ -23,3 +27,85 @@ datasets:
     group: anio, nombremes, sector
     order: anio, nombremes
     limit: 10000
+    viz:
+      dim_field: sector
+      dim_label: Sector
+      dim_todos_label: Todos los sectores
+      series:
+        - { key: apropiacion_vigente, label: "Apropiación vigente", color_var: "--series-1" }
+        - { key: pagos, label: Pagos, color_var: "--series-2" }
+      pct: { key: pct_pagado, numerator_key: pagos, denominator_key: apropiacion_vigente, label: "% pagado" }
+
+  - id: homicidios
+    categoria: Seguridad y Defensa
+    titulo: Homicidios
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: m8fd-ahd9
+    frecuencia: mensual
+    descripcion: >
+      Homicidios reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-3" }
+
+  - id: fuerza_publica
+    categoria: Seguridad y Defensa
+    titulo: Afectación a la Fuerza Pública
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: 8rpn-wpty
+    frecuencia: mensual
+    descripcion: >
+      Heridos vs. asesinados en actos de servicio (Ejército, Armada, Fuerza
+      Aérea y Policía), por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento, accion,
+      sum(cantidad) as total
+    group: anio, mes_num, departamento, accion
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: heridos, label: Heridos, color_var: "--series-1" }
+        - { key: asesinados, label: Asesinados, color_var: "--series-2" }
+
+  - id: secuestro
+    categoria: Seguridad y Defensa
+    titulo: Secuestro
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: d7zw-hpf4
+    frecuencia: mensual
+    descripcion: >
+      Casos de secuestro reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-4" }
