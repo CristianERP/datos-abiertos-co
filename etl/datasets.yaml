@@ -31,6 +31,7 @@ datasets:
       dim_field: sector
       dim_label: Sector
       dim_todos_label: Todos los sectores
+      acumulado: true
       series:
         - { key: apropiacion_vigente, label: "Apropiación vigente", color_var: "--series-1" }
         - { key: pagos, label: Pagos, color_var: "--series-2" }
@@ -56,6 +57,7 @@ datasets:
       dim_field: categoria
       dim_label: Tipo de ingreso
       dim_todos_label: Todos los tipos
+      acumulado: true
       series:
         - { key: aforo_vigente, label: "Aforo vigente", color_var: "--series-1" }
         - { key: recaudo, label: Recaudo, color_var: "--series-2" }

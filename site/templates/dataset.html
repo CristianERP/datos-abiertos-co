@@ -2,6 +2,7 @@
 {% block title %}{{ entry.titulo }} · Datos Abiertos Colombia{% endblock %}
 {% block content %}
   {% set viz = entry.viz %}
+  {% set series_cmp = [viz.series[-1]] if viz.acumulado else viz.series %}
   <p class="breadcrumb"><a href="{{ prefix }}index.html">← Todos los temas</a></p>
   <h1>{{ entry.titulo }}</h1>
   <p class="fuente">
@@ -39,7 +40,35 @@
     </label>
   </form>
 
+  <details class="comparar">
+    <summary>Comparar años</summary>
+    <div class="comparar-body">
+      <div class="cmp-grupo">
+        <label class="cmp-scope">
+          de {{ viz.dim_label | lower }}:
+          <select id="cmp-anio-scope">
+            <option value="">Todos (total agregado)</option>
+            {% for valor in d.filtros.dimensiones %}
+              <option value="{{ valor }}">{{ valor }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <div class="cmp-opciones" id="cmp-anio">
+          {% for anio in d.filtros.anios | reverse %}
+            <label><input type="checkbox" value="{{ anio }}"> {{ anio }}</label>
+          {% endfor %}
+        </div>
+      </div>
+      <p class="comparar-ayuda">
+        Marca 2 o más años para comparar. Se compara con
+        {{ series_cmp | map(attribute="label") | join(" y ") | lower }}.
+        <button type="button" id="cmp-limpiar">Limpiar comparación</button>
+      </p>
+    </div>
+  </details>
+
   <div id="chart-container"><canvas id="chart"></canvas></div>
+  <p id="cmp-totales" class="cmp-totales"></p>
   <table id="tabla" class="tabla-datos">
     <caption>Vista en tabla de los mismos datos de la gráfica</caption>
     <thead>
@@ -53,16 +82,21 @@
   </table>
 
   <script id="datos-dataset" type="application/json">{{ d.registros | tojson }}</script>
-  <script src="{{ prefix }}static/dashboard.js"></script>
+  <script src="{{ prefix }}static/dashboard.js?v={{ asset_version }}"></script>
   <script>
     initGovDashboard({
       dataElId: "datos-dataset",
-      elIds: { anio: "f-anio", mes: "f-mes", dim: "f-dim" },
+      elIds: {
+        anio: "f-anio", mes: "f-mes", dim: "f-dim",
+        cmpAnio: "cmp-anio", cmpLimpiar: "cmp-limpiar", cmpAnioScope: "cmp-anio-scope",
+        cmpTotales: "cmp-totales",
+      },
       tableSelector: "#tabla",
       canvasId: "chart",
       containerId: "chart-container",
       dimField: {{ viz.dim_field | tojson }},
       series: {{ viz.series | tojson }},
+      acumulado: {{ viz.acumulado | default(false) | tojson }},
       {% if viz.pct %}pct: {{ viz.pct | tojson }},{% endif %}
     });
   </script>

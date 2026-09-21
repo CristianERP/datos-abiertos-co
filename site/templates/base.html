@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Datos Abiertos Colombia{% endblock %}</title>
-  <link rel="stylesheet" href="{{ prefix }}static/style.css">
+  <link rel="stylesheet" href="{{ prefix }}static/style.css?v={{ asset_version }}">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 </head>
 <body class="viz-root">
   <div class="layout">
     <nav class="sidebar">
       <a class="brand" href="{{ prefix }}index.html">Datos Abiertos Colombia</a>
+      <a class="nav-metodologia" href="{{ prefix }}metodologia/" {% if active_id == "metodologia" %}aria-current="page"{% endif %}>Metodología y fuentes</a>
       {% for categoria in nav %}
         <div class="nav-categoria">
           <h3>{{ categoria.nombre }}</h3>

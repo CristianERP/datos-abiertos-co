@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Metodología y Fuentes · Datos Abiertos Colombia{% endblock %}
+{% block content %}
+  <p class="breadcrumb"><a href="{{ prefix }}index.html">← Todos los temas</a></p>
+  <h1>Metodología y Fuentes</h1>
+  <p class="intro">
+    Este sitio no produce datos propios: toma información pública que las entidades del
+    Estado colombiano ya publican en
+    <a href="https://www.datos.gov.co" target="_blank">datos.gov.co</a> (el portal oficial
+    de datos abiertos), la agrega para que sea legible y la muestra en gráficas
+    interactivas. La idea es que cualquiera pueda comparar lo que se presenta aquí contra
+    la fuente oficial, sin intermediarios.
+  </p>
+
+  <h2>Cómo se actualiza</h2>
+  <p>
+    Un proceso automatizado consulta la API oficial de cada dataset (protocolo Socrata/SODA)
+    todos los días, recalcula las gráficas y publica el sitio de nuevo si algo cambió. No hay
+    edición manual de los números: lo que ves es lo que la entidad tiene publicado en el
+    momento de la última consulta, indicado abajo para cada dataset.
+  </p>
+
+  <h2>Fuentes por dataset</h2>
+  <div class="tabla-fuentes-wrap">
+    <table class="tabla-datos tabla-fuentes">
+      <thead>
+        <tr>
+          <th scope="col">Dataset</th>
+          <th scope="col">Entidad</th>
+          <th scope="col">Frecuencia</th>
+          <th scope="col">Filas consultadas</th>
+          <th scope="col">Última consulta</th>
+          <th scope="col">Fuente oficial</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for f in fuentes %}
+          <tr>
+            <td><a href="{{ prefix }}{{ f.entry.id }}/">{{ f.entry.titulo }}</a></td>
+            <td><span class="entidad" title="{{ f.entry.ministerio }}">{{ f.entry.ministerio }}</span></td>
+            <td>{{ f.entry.frecuencia }}</td>
+            <td>{{ f.meta.row_count }}</td>
+            <td>{{ f.meta.fetched_at[:10] }}</td>
+            <td><a href="{{ f.meta.fuente }}" target="_blank">{{ f.meta.dataset_id }}</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}

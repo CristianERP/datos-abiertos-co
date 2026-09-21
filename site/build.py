@@ -2,6 +2,7 @@
 y una página por dataset, a partir de etl/datasets.yaml y data/processed/.
 """
 
+import hashlib
 import json
 import shutil
 from pathlib import Path
@@ -45,6 +46,13 @@ def build_nav(registry: list[dict]) -> list[dict]:
     return nav
 
 
+def compute_asset_version() -> str:
+    h = hashlib.sha1()
+    for name in ("style.css", "dashboard.js"):
+        h.update((SITE_DIR / "static" / name).read_bytes())
+    return h.hexdigest()[:10]
+
+
 def main() -> None:
     if DIST_DIR.exists():
         shutil.rmtree(DIST_DIR)
@@ -52,12 +60,14 @@ def main() -> None:
     shutil.copytree(SITE_DIR / "static", DIST_DIR / "static")
 
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"))
+    env.globals["asset_version"] = compute_asset_version()
     registry = load_dataset_registry()
     nav = build_nav(registry)
 
     index_html = env.get_template("index.html").render(nav=nav, prefix="")
     (DIST_DIR / "index.html").write_text(index_html, encoding="utf-8")
 
+    fuentes = []
     dataset_template = env.get_template("dataset.html")
     for entry in registry:
         processed = load_processed(entry["id"])
@@ -69,6 +79,15 @@ def main() -> None:
             nav=nav, prefix="../", active_id=entry["id"], entry=entry, d=processed
         )
         (page_dir / "index.html").write_text(html, encoding="utf-8")
+        fuentes.append({"entry": entry, "meta": processed["meta"]})
+
+    fuentes.sort(key=lambda f: f["entry"]["titulo"])
+    metodologia_html = env.get_template("metodologia.html").render(
+        nav=nav, prefix="../", active_id="metodologia", fuentes=fuentes
+    )
+    metodologia_dir = DIST_DIR / "metodologia"
+    metodologia_dir.mkdir(parents=True, exist_ok=True)
+    (metodologia_dir / "index.html").write_text(metodologia_html, encoding="utf-8")
 
     print(f"Sitio generado en {DIST_DIR} ({len(registry)} datasets)")
 
