@@ -26,15 +26,23 @@ def load_processed(dataset_id: str) -> dict | None:
 
 
 def build_nav(registry: list[dict]) -> list[dict]:
-    categorias: dict[str, list[dict]] = {}
+    categorias: dict[str, dict[str | None, list[dict]]] = {}
     for entry in registry:
         if not (PROCESSED_DIR / f"{entry['id']}.json").exists():
             continue
-        categorias.setdefault(entry["categoria"], []).append(entry)
-    return [
-        {"nombre": nombre, "datasets": sorted(items, key=lambda e: e["titulo"])}
-        for nombre, items in sorted(categorias.items())
-    ]
+        subgrupos = categorias.setdefault(entry["categoria"], {})
+        subgrupos.setdefault(entry.get("subcategoria"), []).append(entry)
+
+    nav = []
+    for cat_nombre, subgrupos in sorted(categorias.items()):
+        grupos = [
+            {"nombre": sub_nombre, "datasets": sorted(items, key=lambda e: e["titulo"])}
+            for sub_nombre, items in sorted(
+                subgrupos.items(), key=lambda kv: (kv[0] is None, kv[0] or "")
+            )
+        ]
+        nav.append({"nombre": cat_nombre, "grupos": grupos})
+    return nav
 
 
 def main() -> None:

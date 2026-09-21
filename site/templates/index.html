@@ -12,14 +12,17 @@
     {% for categoria in nav %}
       <section class="categoria-landing">
         <h2>{{ categoria.nombre }}</h2>
-        <ul class="lista-datasets">
-          {% for entry in categoria.datasets %}
-            <li>
-              <a href="{{ entry.id }}/">{{ entry.titulo }}</a>
-              <p>{{ entry.descripcion }}</p>
-            </li>
-          {% endfor %}
-        </ul>
+        {% for grupo in categoria.grupos %}
+          {% if grupo.nombre %}<h3 class="subcategoria-landing">{{ grupo.nombre }}</h3>{% endif %}
+          <ul class="lista-datasets">
+            {% for entry in grupo.datasets %}
+              <li>
+                <a href="{{ entry.id }}/">{{ entry.titulo }}</a>
+                <p>{{ entry.descripcion }}</p>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
       </section>
     {% endfor %}
   {% else %}

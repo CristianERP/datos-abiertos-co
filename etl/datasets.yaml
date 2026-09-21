@@ -63,6 +63,7 @@ datasets:
 
   - id: homicidios
     categoria: Seguridad y Defensa
+    subcategoria: Delitos contra las personas
     titulo: Homicidios
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: m8fd-ahd9
@@ -87,6 +88,7 @@ datasets:
 
   - id: fuerza_publica
     categoria: Seguridad y Defensa
+    subcategoria: Terrorismo y conflicto armado
     titulo: Afectación a la Fuerza Pública
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: 8rpn-wpty
@@ -113,6 +115,7 @@ datasets:
 
   - id: secuestro
     categoria: Seguridad y Defensa
+    subcategoria: Delitos contra las personas
     titulo: Secuestro
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: d7zw-hpf4
@@ -137,6 +140,7 @@ datasets:
 
   - id: hurto_residencias
     categoria: Seguridad y Defensa
+    subcategoria: Hurtos
     titulo: Hurto a Residencias
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: 7mn7-vzqp
@@ -161,6 +165,7 @@ datasets:
 
   - id: hurto_comercio
     categoria: Seguridad y Defensa
+    subcategoria: Hurtos
     titulo: Hurto a Comercio
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: 7i2x-h5vp
@@ -185,6 +190,7 @@ datasets:
 
   - id: hurto_vehiculos
     categoria: Seguridad y Defensa
+    subcategoria: Hurtos
     titulo: Hurto a Vehículos
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: csb4-y6v2
@@ -209,6 +215,7 @@ datasets:
 
   - id: hurto_personas
     categoria: Seguridad y Defensa
+    subcategoria: Hurtos
     titulo: Hurto a Personas
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: 4rxi-8m8d
@@ -233,6 +240,7 @@ datasets:
 
   - id: extorsion
     categoria: Seguridad y Defensa
+    subcategoria: Delitos contra las personas
     titulo: Extorsión
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: q2ib-t9am
@@ -257,6 +265,7 @@ datasets:
 
   - id: lesiones_personales
     categoria: Seguridad y Defensa
+    subcategoria: Delitos contra las personas
     titulo: Lesiones Personales
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: jr6v-i33g
@@ -281,6 +290,7 @@ datasets:
 
   - id: delitos_sexuales
     categoria: Seguridad y Defensa
+    subcategoria: Delitos contra las personas
     titulo: Delitos Sexuales
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: bz43-8ahq
@@ -305,6 +315,7 @@ datasets:
 
   - id: violencia_intrafamiliar
     categoria: Seguridad y Defensa
+    subcategoria: Delitos contra las personas
     titulo: Violencia Intrafamiliar
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: gepp-dxcs
@@ -329,6 +340,7 @@ datasets:
 
   - id: terrorismo
     categoria: Seguridad y Defensa
+    subcategoria: Terrorismo y conflicto armado
     titulo: Terrorismo
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: yi5j-5fe9
@@ -352,6 +364,7 @@ datasets:
         - { key: total_casos, label: Casos, color_var: "--series-3" }
   - id: voladura_oleoductos
     categoria: Seguridad y Defensa
+    subcategoria: Terrorismo y conflicto armado
     titulo: Voladura de Oleoductos
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: ec2r-4byk
@@ -375,6 +388,7 @@ datasets:
         - { key: total_casos, label: Casos, color_var: "--series-5" }
   - id: voladura_puentes_vias
     categoria: Seguridad y Defensa
+    subcategoria: Terrorismo y conflicto armado
     titulo: Voladura de Puentes y Vías
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: m98b-cdys
@@ -398,6 +412,7 @@ datasets:
         - { key: total_casos, label: Casos, color_var: "--series-6" }
   - id: minas_intervenidas
     categoria: Seguridad y Defensa
+    subcategoria: Terrorismo y conflicto armado
     titulo: Minas Antipersonal Intervenidas
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: gr35-i7pm
@@ -421,6 +436,7 @@ datasets:
         - { key: total_casos, label: Casos, color_var: "--series-7" }
   - id: incautacion_cocaina
     categoria: Seguridad y Defensa
+    subcategoria: Narcotráfico y economías ilícitas
     titulo: Incautación de Cocaína
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: 26zg-9p9r
@@ -444,6 +460,7 @@ datasets:
         - { key: total_casos, label: Kilogramos, color_var: "--series-8" }
   - id: incautacion_base_coca
     categoria: Seguridad y Defensa
+    subcategoria: Narcotráfico y economías ilícitas
     titulo: Incautación de Base de Coca
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: nxbk-nikm
@@ -467,6 +484,7 @@ datasets:
         - { key: total_casos, label: Kilogramos, color_var: "--series-4" }
   - id: incautacion_basuco
     categoria: Seguridad y Defensa
+    subcategoria: Narcotráfico y economías ilícitas
     titulo: Incautación de Basuco
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: 3cjd-phaj
@@ -490,6 +508,7 @@ datasets:
         - { key: total_casos, label: Kilogramos, color_var: "--series-1" }
   - id: incautacion_marihuana
     categoria: Seguridad y Defensa
+    subcategoria: Narcotráfico y economías ilícitas
     titulo: Incautación de Marihuana
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: g228-vp9d
@@ -513,6 +532,7 @@ datasets:
         - { key: total_casos, label: Kilogramos, color_var: "--series-2" }
   - id: erradicacion_cultivos
     categoria: Seguridad y Defensa
+    subcategoria: Narcotráfico y economías ilícitas
     titulo: Erradicación de Cultivos Ilícitos
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: p72f-qcvk
@@ -536,6 +556,7 @@ datasets:
         - { key: total_casos, label: Hectáreas, color_var: "--series-3" }
   - id: aspersion_cultivos
     categoria: Seguridad y Defensa
+    subcategoria: Narcotráfico y economías ilícitas
     titulo: Aspersión de Cultivos Ilícitos
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: uvrw-m4tm
@@ -559,6 +580,7 @@ datasets:
         - { key: total_casos, label: Hectáreas, color_var: "--series-5" }
   - id: capturas_mineria_ilegal
     categoria: Seguridad y Defensa
+    subcategoria: Narcotráfico y economías ilícitas
     titulo: Capturas por Minería Ilegal
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: 3wcs-8xp9
@@ -582,6 +604,7 @@ datasets:
         - { key: total_casos, label: Casos, color_var: "--series-6" }
   - id: masacres
     categoria: Seguridad y Defensa
+    subcategoria: Delitos contra las personas
     titulo: Masacres
     ministerio: Ministerio de Defensa Nacional / Policía Nacional
     dataset_id: u8eq-92tb

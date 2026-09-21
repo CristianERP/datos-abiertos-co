@@ -14,15 +14,20 @@
       {% for categoria in nav %}
         <div class="nav-categoria">
           <h3>{{ categoria.nombre }}</h3>
-          <ul>
-            {% for entry in categoria.datasets %}
-              <li>
-                <a href="{{ prefix }}{{ entry.id }}/" {% if active_id == entry.id %}class="activo" aria-current="page"{% endif %}>
-                  {{ entry.titulo }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
+          {% for grupo in categoria.grupos %}
+            <div class="nav-subgrupo{% if grupo.nombre %} con-titulo{% endif %}">
+              {% if grupo.nombre %}<h4>{{ grupo.nombre }}</h4>{% endif %}
+              <ul>
+                {% for entry in grupo.datasets %}
+                  <li>
+                    <a href="{{ prefix }}{{ entry.id }}/" {% if active_id == entry.id %}class="activo" aria-current="page"{% endif %}>
+                      {{ entry.titulo }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
         </div>
       {% endfor %}
     </nav>
