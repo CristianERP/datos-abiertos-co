@@ -6,6 +6,7 @@ on:
     paths:
       - "data/processed/**"
       - "site/**"
+      - "etl/datasets.yaml"
       - ".github/workflows/deploy.yml"
   workflow_dispatch: {}
 
