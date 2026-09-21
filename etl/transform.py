@@ -53,6 +53,38 @@ def transform_gastos_pgn_mensual(df: pd.DataFrame, meta: dict) -> dict:
     }
 
 
+def transform_ingresos_pgn_mensual(df: pd.DataFrame, meta: dict) -> dict:
+    montos = ["aforo_vigente", "recaudo"]
+    df[montos] = df[montos].apply(pd.to_numeric, errors="coerce").fillna(0)
+    df["mes_num"] = pd.to_numeric(df["mes_num"], errors="coerce")
+    df["mes"] = df["mes_num"].map(lambda n: MESES[int(n) - 1])
+    df["pct_recaudado"] = (
+        df["recaudo"] / df["aforo_vigente"].replace(0, pd.NA) * 100
+    ).fillna(0).round(1)
+    df = df.sort_values(["anio", "mes_num", "categoria"])
+
+    return {
+        "meta": meta,
+        "filtros": {
+            "anios": sorted(df["anio"].unique().tolist()),
+            "meses": MESES,
+            "dimensiones": sorted(df["categoria"].unique().tolist()),
+        },
+        "registros": [
+            {
+                "anio": row["anio"],
+                "mes": row["mes"],
+                "mes_num": int(row["mes_num"]),
+                "categoria": row["categoria"],
+                "aforo_vigente": round(row["aforo_vigente"], 2),
+                "recaudo": round(row["recaudo"], 2),
+                "pct_recaudado": row["pct_recaudado"],
+            }
+            for _, row in df.iterrows()
+        ],
+    }
+
+
 def transform_delito_por_departamento(df: pd.DataFrame, meta: dict) -> dict:
     """Un solo indicador (total_casos) agregado por año/mes/departamento.
 
@@ -156,6 +188,7 @@ def transform_masacres(df: pd.DataFrame, meta: dict) -> dict:
 
 TRANSFORMS = {
     "gastos_pgn_mensual": transform_gastos_pgn_mensual,
+    "ingresos_pgn_mensual": transform_ingresos_pgn_mensual,
     "homicidios": transform_delito_por_departamento,
     "secuestro": transform_delito_por_departamento,
     "hurto_residencias": transform_delito_por_departamento,

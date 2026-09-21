@@ -36,6 +36,31 @@ datasets:
         - { key: pagos, label: Pagos, color_var: "--series-2" }
       pct: { key: pct_pagado, numeratorKey: pagos, denominatorKey: apropiacion_vigente, label: "% pagado" }
 
+  - id: ingresos_pgn_mensual
+    categoria: Hacienda y Presupuesto
+    titulo: Ingresos del Presupuesto General de la Nación
+    ministerio: Ministerio de Hacienda y Crédito Público
+    dataset_id: 22f3-gynv
+    frecuencia: mensual
+    descripcion: >
+      Aforo vigente (lo presupuestado) vs. recaudo efectivo acumulado, por
+      tipo de ingreso, desde 2019.
+    select: >
+      anio, numeromes as mes_num, nombreniveldos as categoria,
+      sum(aforovigente) as aforo_vigente,
+      sum(recaudoefectivoacumulado) as recaudo
+    group: anio, mes_num, categoria
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: categoria
+      dim_label: Tipo de ingreso
+      dim_todos_label: Todos los tipos
+      series:
+        - { key: aforo_vigente, label: "Aforo vigente", color_var: "--series-1" }
+        - { key: recaudo, label: Recaudo, color_var: "--series-2" }
+      pct: { key: pct_recaudado, numeratorKey: recaudo, denominatorKey: aforo_vigente, label: "% recaudado" }
+
   - id: homicidios
     categoria: Seguridad y Defensa
     titulo: Homicidios
