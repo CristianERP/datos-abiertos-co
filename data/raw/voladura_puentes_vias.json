@@ -1,0 +1,954 @@
+{
+  "meta": {
+    "id": "voladura_puentes_vias",
+    "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
+    "dataset_id": "m98b-cdys",
+    "fuente": "https://www.datos.gov.co/d/m98b-cdys",
+    "fetched_at": "2026-09-21T17:01:09.667980+00:00",
+    "row_count": 156,
+    "consulta_soql": {
+      "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
+      "group": "anio, mes_num, departamento",
+      "order": "anio, mes_num",
+      "where": "fecha_hecho >= '2016-01-01'"
+    }
+  },
+  "records": [
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "CASANARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "2",
+      "departamento": "BOGOTA D.C.",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "4",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "5",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "6",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "2",
+      "departamento": "CESAR",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "7",
+      "departamento": "CASANARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "11",
+      "departamento": "CESAR",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "3",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "CHOCO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "7"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "CAQUETA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "CHOCO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "TOLIMA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "departamento": "CALDAS",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "BOGOTA D.C.",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "CHOCO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "CORDOBA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "CHOCO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "BOLIVAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "CAQUETA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "CHOCO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "CUNDINAMARCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "BOGOTA D.C.",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "CAQUETA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "CUNDINAMARCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "QUINDIO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "10",
+      "departamento": "CALDAS",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "5",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "SUCRE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "MAGDALENA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "BOLIVAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "CAQUETA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "CHOCO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "MAGDALENA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "SUCRE",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "MAGDALENA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "SUCRE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "BOLIVAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "MAGDALENA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "SUCRE",
+      "total_casos": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "BOLIVAR",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "MAGDALENA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "SUCRE",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "ATLANTICO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "BOLIVAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "11",
+      "departamento": "BOLIVAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "departamento": "BOLIVAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "CHOCO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "CHOCO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "departamento": "CHOCO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "8"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "10",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "1"
+    }
+  ]
+}

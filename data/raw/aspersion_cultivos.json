@@ -1,0 +1,5345 @@
+{
+  "meta": {
+    "id": "aspersion_cultivos",
+    "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
+    "dataset_id": "uvrw-m4tm",
+    "fuente": "https://www.datos.gov.co/d/uvrw-m4tm",
+    "fetched_at": "2026-09-21T17:02:43.593046+00:00",
+    "row_count": 888,
+    "consulta_soql": {
+      "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
+      "group": "anio, mes_num, departamento",
+      "order": "anio, mes_num"
+    }
+  },
+  "records": [
+    {
+      "anio": "2003",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "1226.2"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "1706.85"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "1",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1059.64"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1842"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "1",
+      "departamento": "CESAR",
+      "total_casos": "292"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "1",
+      "departamento": "LA GUAJIRA",
+      "total_casos": "165"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "4610.94"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "5340.35"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "6220.19"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4245.3"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "3",
+      "departamento": "TOLIMA",
+      "total_casos": "107"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "11812.54"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "383"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "1317.02"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "3986.33"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "104"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "4",
+      "departamento": "LA GUAJIRA",
+      "total_casos": "75"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "total_casos": "4225.09"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "51"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "8694.15"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "total_casos": "84"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "4",
+      "departamento": "CESAR",
+      "total_casos": "58"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "5",
+      "departamento": "SANTANDER",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "5",
+      "departamento": "BOLÍVAR",
+      "total_casos": "996.13"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "5",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1368.72"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "405.27"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "5",
+      "departamento": "GUAVIARE",
+      "total_casos": "2822.80"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "3200.00"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "6",
+      "departamento": "SANTANDER",
+      "total_casos": "5.89"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "6",
+      "departamento": "GUAVIARE",
+      "total_casos": "4530.46"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2542.01"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "6",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1323.70"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "6",
+      "departamento": "META",
+      "total_casos": "331.8"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "7",
+      "departamento": "PUTUMAYO",
+      "total_casos": "4611.45"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "7",
+      "departamento": "HUILA",
+      "total_casos": "154.35"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "7",
+      "departamento": "BOLÍVAR",
+      "total_casos": "636.65"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "5527.64"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "7",
+      "departamento": "TOLIMA",
+      "total_casos": "106.76"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "4288.53"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "1203.22"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "4.59"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "5072.37"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "4587.25"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "8",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1023.06"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "8",
+      "departamento": "CESAR",
+      "total_casos": "260.84"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "8",
+      "departamento": "TOLIMA",
+      "total_casos": "63.3"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3900.58"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "1059.30"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "201.83"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "187.11"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "172.6"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "2477.47"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "10",
+      "departamento": "ARAUCA",
+      "total_casos": "6034.87"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "10",
+      "departamento": "CALDAS",
+      "total_casos": "167.61"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "744.12"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3186.25"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "220.46"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "11",
+      "departamento": "META",
+      "total_casos": "2955.81"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "3053.09"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "4660.71"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "12",
+      "departamento": "CESAR",
+      "total_casos": "168"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "total_casos": "87.46"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "931.59"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "2715.30"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "12",
+      "departamento": "TOLIMA",
+      "total_casos": "41.68"
+    },
+    {
+      "anio": "2003",
+      "mes_num": "12",
+      "departamento": "HUILA",
+      "total_casos": "167.43"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "1",
+      "departamento": "HUILA",
+      "total_casos": "90.80"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "139.49"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "1",
+      "departamento": "TOLIMA",
+      "total_casos": "68.68"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "5446.67"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "11243.12"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "1",
+      "departamento": "CAQUETÁ",
+      "total_casos": "39.0"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "839.71"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "2",
+      "departamento": "PUTUMAYO",
+      "total_casos": "273.73"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "728.79"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "9521.30"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "2",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1336.65"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "3",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3471.31"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "5325.44"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3837.39"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "3",
+      "departamento": "CAQUETÁ",
+      "total_casos": "214.98"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "197.18"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "total_casos": "4773.02"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "5283.68"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1120.71"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "4",
+      "departamento": "HUILA",
+      "total_casos": "146.33"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "4",
+      "departamento": "TOLIMA",
+      "total_casos": "58.29"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "4",
+      "departamento": "CESAR",
+      "total_casos": "163.48"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "61.58"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "HUILA",
+      "total_casos": "135.48"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "CAQUETÁ",
+      "total_casos": "595.92"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2215.31"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "TOLIMA",
+      "total_casos": "149.13"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "VICHADA",
+      "total_casos": "143.02"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2998.88"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "114.41"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "6",
+      "departamento": "CAQUETÁ",
+      "total_casos": "180.89"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "6",
+      "departamento": "META",
+      "total_casos": "384.45"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1698.04"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "6",
+      "departamento": "VICHADA",
+      "total_casos": "1302.62"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "total_casos": "902.20"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "MAGDALENA",
+      "total_casos": "1631.64"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "49.83"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "HUILA",
+      "total_casos": "238.28"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "480.93"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "CALDAS",
+      "total_casos": "15"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "CESAR",
+      "total_casos": "274.49"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3273.43"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "SANTANDER",
+      "total_casos": "1562.14"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "LA GUAJIRA",
+      "total_casos": "448.60"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "319.91"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "7",
+      "departamento": "BOLÍVAR",
+      "total_casos": "582.16"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "TOLIMA",
+      "total_casos": "426.81"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2017.83"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "SANTANDER",
+      "total_casos": "201.26"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "HUILA",
+      "total_casos": "206.47"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "BOLÍVAR",
+      "total_casos": "4023.56"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "183.53"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "CALDAS",
+      "total_casos": "143.26"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "24.76"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "5478.40"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "910.93"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "SANTANDER",
+      "total_casos": "91.32"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1850.69"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "6193.41"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "2589.78"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "CALDAS",
+      "total_casos": "31.36"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "708.53"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "394.44"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "1047.84"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "583.5"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "HUILA",
+      "total_casos": "87.13"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "3586.43"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "LA GUAJIRA",
+      "total_casos": "18.11"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "GUAVIARE",
+      "total_casos": "6713.28"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2297.41"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "CESAR",
+      "total_casos": "66.76"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "85"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "TOLIMA",
+      "total_casos": "106.65"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "META",
+      "total_casos": "404.27"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "10",
+      "departamento": "ARAUCA",
+      "total_casos": "2746.46"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1546.46"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "898.71"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "3865.13"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "11",
+      "departamento": "META",
+      "total_casos": "445.25"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "11",
+      "departamento": "VAUPÉS",
+      "total_casos": "524.06"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "5782.35"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "11",
+      "departamento": "HUILA",
+      "total_casos": "8.21"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "2936.25"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "12",
+      "departamento": "CAQUETÁ",
+      "total_casos": "3512.81"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "12",
+      "departamento": "VAUPÉS",
+      "total_casos": "231.60"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "941.84"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "12",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1460.97"
+    },
+    {
+      "anio": "2004",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "160.89"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "1",
+      "departamento": "CHOCÓ",
+      "total_casos": "425.22"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "3196.94"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "9952.55"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "5.26"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "2143.41"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "14695.76"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "2",
+      "departamento": "VAUPÉS",
+      "total_casos": "340.17"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "2988.02"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "162.50"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "2",
+      "departamento": "META",
+      "total_casos": "295.71"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "21343.02"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "3",
+      "departamento": "TOLIMA",
+      "total_casos": "167.14"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "3",
+      "departamento": "CAQUETÁ",
+      "total_casos": "85.56"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "2813.46"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "3",
+      "departamento": "HUILA",
+      "total_casos": "197.03"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "217.72"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "HUILA",
+      "total_casos": "100.02"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "15.48"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "768.01"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "SANTANDER",
+      "total_casos": "152.07"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "9880.90"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "total_casos": "501.37"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "META",
+      "total_casos": "2832.68"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "BOYACÁ",
+      "total_casos": "925.36"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "4",
+      "departamento": "CALDAS",
+      "total_casos": "1089.99"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "META",
+      "total_casos": "1604.46"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "293.75"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "CÓRDOBA",
+      "total_casos": "1505.55"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "CESAR",
+      "total_casos": "19.66"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "LA GUAJIRA",
+      "total_casos": "388.42"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "CUNDINAMARCA",
+      "total_casos": "43.2"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "MAGDALENA",
+      "total_casos": "324.36"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "168.61"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "7002.58"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "337.70"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "6",
+      "departamento": "META",
+      "total_casos": "1504.37"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "6",
+      "departamento": "BOLÍVAR",
+      "total_casos": "30.72"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "total_casos": "1605.98"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "6490.36"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2411.35"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "337.41"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "TOLIMA",
+      "total_casos": "225.14"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "BOLÍVAR",
+      "total_casos": "538.06"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "CAQUETÁ",
+      "total_casos": "973.52"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "SANTANDER",
+      "total_casos": "1116.59"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "628.02"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "170.99"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "HUILA",
+      "total_casos": "49.87"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "7",
+      "departamento": "CÓRDOBA",
+      "total_casos": "261.48"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "1839.12"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "504.27"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2192.88"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "SANTANDER",
+      "total_casos": "179.11"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "161.16"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "HUILA",
+      "total_casos": "78.23"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "BOLÍVAR",
+      "total_casos": "3435.62"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "8",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1774.87"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "9",
+      "departamento": "SANTANDER",
+      "total_casos": "347.91"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "899.05"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "744.93"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "783.92"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "9",
+      "departamento": "BOLÍVAR",
+      "total_casos": "2651.16"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2420.04"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "10",
+      "departamento": "MAGDALENA",
+      "total_casos": "58.81"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "10",
+      "departamento": "GUAVIARE",
+      "total_casos": "1455.39"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "10",
+      "departamento": "LA GUAJIRA",
+      "total_casos": "184.07"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "430.01"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1337.20"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "10",
+      "departamento": "META",
+      "total_casos": "4170.37"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "10",
+      "departamento": "CESAR",
+      "total_casos": "36.12"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "683.50"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3236.40"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "131.98"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "909.78"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "511.70"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "11",
+      "departamento": "META",
+      "total_casos": "1202.52"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "1022.52"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "12",
+      "departamento": "TOLIMA",
+      "total_casos": "11.93"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "12",
+      "departamento": "CAQUETÁ",
+      "total_casos": "977.97"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "total_casos": "92.97"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "12",
+      "departamento": "HUILA",
+      "total_casos": "29.21"
+    },
+    {
+      "anio": "2005",
+      "mes_num": "12",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2577.37"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "32.37"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2520.20"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "12252.92"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "1",
+      "departamento": "TOLIMA",
+      "total_casos": "39.98"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "1",
+      "departamento": "CAQUETÁ",
+      "total_casos": "642.40"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "1",
+      "departamento": "HUILA",
+      "total_casos": "52.84"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "2",
+      "departamento": "TOLIMA",
+      "total_casos": "41.21"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "2",
+      "departamento": "META",
+      "total_casos": "116.53"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "1751.38"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "8225.68"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "2",
+      "departamento": "HUILA",
+      "total_casos": "25.30"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "3",
+      "departamento": "ARAUCA",
+      "total_casos": "329.65"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "1863.17"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "12568.20"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "3",
+      "departamento": "TOLIMA",
+      "total_casos": "47.57"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "1579.57"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "total_casos": "1070.43"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "total_casos": "2552.32"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "133.9"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "12145.55"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "4",
+      "departamento": "META",
+      "total_casos": "4199.65"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "5034.71"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "5",
+      "departamento": "GUAVIARE",
+      "total_casos": "1543.29"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "5",
+      "departamento": "META",
+      "total_casos": "3670.70"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "337.06"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1344.39"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "total_casos": "238.98"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "208.45"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "GUAVIARE",
+      "total_casos": "2469.57"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "BOYACÁ",
+      "total_casos": "409.51"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "META",
+      "total_casos": "3727.87"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "5084.10"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "SANTANDER",
+      "total_casos": "439.23"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "CALDAS",
+      "total_casos": "889.32"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "866.70"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "CALDAS",
+      "total_casos": "17.48"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "BOYACÁ",
+      "total_casos": "75.67"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "4139.02"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "SANTANDER",
+      "total_casos": "1690.96"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "2301.97"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "3976.12"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "479.27"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "7",
+      "departamento": "CUNDINAMARCA",
+      "total_casos": "22.37"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "3209.42"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3916.97"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "CUNDINAMARCA",
+      "total_casos": "18.53"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "BOYACÁ",
+      "total_casos": "153.05"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "BOLÍVAR",
+      "total_casos": "68.14"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "CÓRDOBA",
+      "total_casos": "4058.55"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "SANTANDER",
+      "total_casos": "136.94"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "CALDAS",
+      "total_casos": "161.65"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "1027.35"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "10750.79"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "8",
+      "departamento": "CAQUETÁ",
+      "total_casos": "361.64"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "591.69"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "SANTANDER",
+      "total_casos": "136.54"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1338.60"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2232.06"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "828.78"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3445.12"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "CÓRDOBA",
+      "total_casos": "1529.25"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1858.17"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "287.84"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "93.35"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "GUAVIARE",
+      "total_casos": "368.66"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "98.53"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "META",
+      "total_casos": "707.62"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "BOLÍVAR",
+      "total_casos": "599.19"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "4232.04"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2551.31"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1283.89"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "11",
+      "departamento": "VAUPÉS",
+      "total_casos": "290.28"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1304.79"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2607.00"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "165.44"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "11",
+      "departamento": "VICHADA",
+      "total_casos": "3390.48"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "11",
+      "departamento": "META",
+      "total_casos": "2082.79"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "488.33"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "1788.19"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "12",
+      "departamento": "CAQUETÁ",
+      "total_casos": "404.98"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "508.45"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "12",
+      "departamento": "PUTUMAYO",
+      "total_casos": "10213.28"
+    },
+    {
+      "anio": "2006",
+      "mes_num": "12",
+      "departamento": "VICHADA",
+      "total_casos": "1804.27"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "2282.44"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "1294.80"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "1450.19"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "1",
+      "departamento": "CAQUETÁ",
+      "total_casos": "207.33"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "652.78"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "total_casos": "5113.97"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "2",
+      "departamento": "META",
+      "total_casos": "959.27"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "2813.06"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "12246.34"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "829.05"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1983.23"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "1395.00"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "1008.58"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "500.67"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "3779.06"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "3",
+      "departamento": "CÓRDOBA",
+      "total_casos": "864.56"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "4",
+      "departamento": "CÓRDOBA",
+      "total_casos": "1572.23"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "total_casos": "420.78"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "5507.67"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "5015.20"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "4",
+      "departamento": "META",
+      "total_casos": "1641.31"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "7338.52"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "5",
+      "departamento": "CÓRDOBA",
+      "total_casos": "1648.47"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "5",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1138.82"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "5",
+      "departamento": "META",
+      "total_casos": "1542.57"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "5",
+      "departamento": "GUAVIARE",
+      "total_casos": "33.59"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "3917.72"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "6",
+      "departamento": "CALDAS",
+      "total_casos": "283.66"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "6",
+      "departamento": "BOLÍVAR",
+      "total_casos": "2019.69"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "3643.35"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "6",
+      "departamento": "GUAVIARE",
+      "total_casos": "49.90"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "775.90"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "6",
+      "departamento": "META",
+      "total_casos": "726.12"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "6",
+      "departamento": "SANTANDER",
+      "total_casos": "1675.00"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "PUTUMAYO",
+      "total_casos": "9657.66"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "256.62"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "737.58"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "169.55"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "SANTANDER",
+      "total_casos": "78.55"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "1582.75"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "BOLÍVAR",
+      "total_casos": "2764.99"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1326.04"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "78.91"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "2508.25"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "7701.44"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "2572.49"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1357.23"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "1988.99"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "9",
+      "departamento": "VICHADA",
+      "total_casos": "5622.09"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "1804.73"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "975.25"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "122.17"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "3793.21"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "GUAVIARE",
+      "total_casos": "1203.58"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2444.54"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "4291.83"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "118.39"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "META",
+      "total_casos": "1051.31"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3159.62"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "VICHADA",
+      "total_casos": "1570.81"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "10",
+      "departamento": "BOLÍVAR",
+      "total_casos": "964.57"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "CÓRDOBA",
+      "total_casos": "1913.95"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "META",
+      "total_casos": "58.78"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1133.09"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1521.37"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "BOLÍVAR",
+      "total_casos": "161.63"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "502.23"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "564.41"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "11",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "5437.41"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "12",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1723.41"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "12",
+      "departamento": "CÓRDOBA",
+      "total_casos": "259.71"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "1157.59"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "490.68"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "12",
+      "departamento": "CAQUETÁ",
+      "total_casos": "911.09"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "981.28"
+    },
+    {
+      "anio": "2007",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "total_casos": "83.08"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "712.94"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "897.28"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "2691.50"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "4925.10"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "1017.47"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "2",
+      "departamento": "META",
+      "total_casos": "468.88"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "2",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2158.06"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "233.58"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "7838.09"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "398.08"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "7054.02"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "765.58"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "3",
+      "departamento": "CAQUETÁ",
+      "total_casos": "281.59"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "3",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3036.36"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "4",
+      "departamento": "SANTANDER",
+      "total_casos": "50.78"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "5569.28"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "4",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1023.17"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "4",
+      "departamento": "CAQUETÁ",
+      "total_casos": "238.20"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "280.61"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3240.07"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "228.26"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2452.93"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "5",
+      "departamento": "BOLÍVAR",
+      "total_casos": "30.03"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "5",
+      "departamento": "SANTANDER",
+      "total_casos": "371.60"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "5295.01"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "5",
+      "departamento": "BOYACÁ",
+      "total_casos": "165.65"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1225.11"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "6",
+      "departamento": "CÓRDOBA",
+      "total_casos": "1457.76"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "410.93"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "2296.33"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "8241.63"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1356.16"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "6",
+      "departamento": "BOLÍVAR",
+      "total_casos": "144.99"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "6",
+      "departamento": "VICHADA",
+      "total_casos": "4045.21"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "7",
+      "departamento": "BOLÍVAR",
+      "total_casos": "312.30"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3904.88"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "8064.44"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "932.76"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "727.77"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "7",
+      "departamento": "CÓRDOBA",
+      "total_casos": "941.09"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "7",
+      "departamento": "VICHADA",
+      "total_casos": "1855.69"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "8",
+      "departamento": "CAQUETÁ",
+      "total_casos": "3014.73"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "740.61"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "1331.00"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "3537.44"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "3942.02"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "2489.46"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1469.02"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "3792.57"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "448.80"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "1800.20"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "1647.01"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "2117.38"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "10",
+      "departamento": "GUAVIARE",
+      "total_casos": "651.48"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "10",
+      "departamento": "META",
+      "total_casos": "829.12"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "1408.00"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "1527.65"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1040.70"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1699.32"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "295.56"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2484.61"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "11",
+      "departamento": "META",
+      "total_casos": "402.97"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "1082.02"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "281.4"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "12",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2572.96"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "12",
+      "departamento": "BOLÍVAR",
+      "total_casos": "703.50"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "1204.65"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "12",
+      "departamento": "CÓRDOBA",
+      "total_casos": "1162.08"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "2245.23"
+    },
+    {
+      "anio": "2008",
+      "mes_num": "12",
+      "departamento": "CAQUETÁ",
+      "total_casos": "233.02"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "1",
+      "departamento": "BOLÍVAR",
+      "total_casos": "96.99"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "1628.78"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "921.51"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2381.01"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "1",
+      "departamento": "CÓRDOBA",
+      "total_casos": "104.30"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "736.58"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "2",
+      "departamento": "BOLÍVAR",
+      "total_casos": "843.92"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "2",
+      "departamento": "SANTANDER",
+      "total_casos": "603.97"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "2708.51"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1532.53"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "721.35"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "335.93"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "416.92"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "3",
+      "departamento": "BOLÍVAR",
+      "total_casos": "2835.41"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "3",
+      "departamento": "SANTANDER",
+      "total_casos": "366.75"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "47.86"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "6917.90"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "241.90"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "4",
+      "departamento": "BOYACÁ",
+      "total_casos": "117.19"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "4",
+      "departamento": "CALDAS",
+      "total_casos": "168.97"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "2944.33"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "3411.10"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "4",
+      "departamento": "SANTANDER",
+      "total_casos": "84.22"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1200.94"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "5",
+      "departamento": "GUAVIARE",
+      "total_casos": "4131.92"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "586.03"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "2519.95"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "2882.90"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "5",
+      "departamento": "META",
+      "total_casos": "774.06"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "6",
+      "departamento": "GUAVIARE",
+      "total_casos": "5108.54"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "6",
+      "departamento": "META",
+      "total_casos": "1932.93"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "7338.29"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "1127.08"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "536.07"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "6209.70"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "7",
+      "departamento": "VICHADA",
+      "total_casos": "1530.37"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "1169.59"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "625.65"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "1066.37"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "1067.15"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "8",
+      "departamento": "VICHADA",
+      "total_casos": "168.74"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "8",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1265.21"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "1034.87"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "640.13"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "9",
+      "departamento": "BOLÍVAR",
+      "total_casos": "280.80"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2764.24"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "1014.16"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3061.96"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "9",
+      "departamento": "CÓRDOBA",
+      "total_casos": "466.16"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "9",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1337.64"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "537.00"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "10",
+      "departamento": "BOLÍVAR",
+      "total_casos": "636.63"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "2417.54"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "10",
+      "departamento": "CÓRDOBA",
+      "total_casos": "171.85"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "25.74"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2683.94"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "13.54"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "559.83"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "11",
+      "departamento": "BOLÍVAR",
+      "total_casos": "2601.31"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "11",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "953.76"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "11",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "48.39"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "11",
+      "departamento": "SANTANDER",
+      "total_casos": "190.71"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "821.15"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "3980.06"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "12",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1419.48"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "850.63"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "4643.79"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "12",
+      "departamento": "SANTANDER",
+      "total_casos": "22.97"
+    },
+    {
+      "anio": "2009",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "183.82"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "560.69"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "3770.96"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "4139.65"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "5881.91"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "2",
+      "departamento": "META",
+      "total_casos": "1928.88"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "2023.63"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "2877.04"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "1768.45"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "223.24"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "1469.89"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "3",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2859.15"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "3",
+      "departamento": "VICHADA",
+      "total_casos": "215.62"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "1510.29"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "606.47"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "3",
+      "departamento": "PUTUMAYO",
+      "total_casos": "431.32"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "1527.30"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "9179.38"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "4",
+      "departamento": "CAQUETÁ",
+      "total_casos": "3177.41"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "total_casos": "734.27"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "5",
+      "departamento": "CÓRDOBA",
+      "total_casos": "139.57"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "1881.09"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "5",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2091.11"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "5",
+      "departamento": "BOLÍVAR",
+      "total_casos": "140.05"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1079.71"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "5",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1465.77"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "1645.71"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1005.88"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "1988.39"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "6",
+      "departamento": "CÓRDOBA",
+      "total_casos": "330.93"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "total_casos": "1442.35"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "6",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1497.12"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "3804.09"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "552.60"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "7",
+      "departamento": "BOLÍVAR",
+      "total_casos": "621.06"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "7",
+      "departamento": "SANTANDER",
+      "total_casos": "30.18"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "7",
+      "departamento": "CÓRDOBA",
+      "total_casos": "75.3"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "870.34"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "8",
+      "departamento": "SANTANDER",
+      "total_casos": "122.85"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "8",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1967.49"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "69.71"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "1605.66"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "135.35"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "1314.20"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "3518.04"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "4166.83"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "BOLÍVAR",
+      "total_casos": "186.24"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "239.54"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "13.15"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "VICHADA",
+      "total_casos": "46.46"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "99.03"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3883.22"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "10",
+      "departamento": "META",
+      "total_casos": "1350.43"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1544.74"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "10",
+      "departamento": "VICHADA",
+      "total_casos": "660.08"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "10",
+      "departamento": "GUAVIARE",
+      "total_casos": "2645.69"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "4488.89"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "11",
+      "departamento": "VICHADA",
+      "total_casos": "503.34"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "59.15"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "11",
+      "departamento": "META",
+      "total_casos": "978.79"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2749.15"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1437.80"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "1738.61"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "total_casos": "156.01"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "452.74"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "160.39"
+    },
+    {
+      "anio": "2010",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "99.26"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "4603.00"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "3613.53"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "1",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1026.60"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "242.20"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "5749.57"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "2",
+      "departamento": "BOLÍVAR",
+      "total_casos": "277.86"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "2",
+      "departamento": "CÓRDOBA",
+      "total_casos": "2118.25"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "727.01"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "512.48"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "2565.73"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "3",
+      "departamento": "BOLÍVAR",
+      "total_casos": "557.86"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "3",
+      "departamento": "PUTUMAYO",
+      "total_casos": "412.91"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "3",
+      "departamento": "CAQUETÁ",
+      "total_casos": "398.93"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "2535.07"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "3958.57"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2819.96"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "4028.82"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "4",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2269.28"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "2385.81"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "5",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1984.43"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "5",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1874.18"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "1368.59"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "2881.77"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "6",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2135.82"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "total_casos": "121.63"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "total_casos": "837.22"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "6964.89"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "7",
+      "departamento": "VICHADA",
+      "total_casos": "902.53"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "986.14"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "7",
+      "departamento": "GUAVIARE",
+      "total_casos": "5852.93"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "7",
+      "departamento": "META",
+      "total_casos": "1316.25"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "30.19"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "VICHADA",
+      "total_casos": "111.56"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "3787.56"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "CÓRDOBA",
+      "total_casos": "80.64"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "1935.00"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "1011.09"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "1565.26"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "8",
+      "departamento": "BOLÍVAR",
+      "total_casos": "465.47"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "9",
+      "departamento": "CHOCÓ",
+      "total_casos": "2949.08"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "9",
+      "departamento": "CÓRDOBA",
+      "total_casos": "830.58"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "336.29"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "896.07"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "3043.73"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "184.96"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "9",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "3249.41"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "CHOCÓ",
+      "total_casos": "1173.93"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2454.98"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "607.72"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "CÓRDOBA",
+      "total_casos": "98.50"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "481.49"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "626.32"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "BOLÍVAR",
+      "total_casos": "260.92"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "10",
+      "departamento": "CUNDINAMARCA",
+      "total_casos": "164.31"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2250.15"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "11",
+      "departamento": "BOLÍVAR",
+      "total_casos": "975.10"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "11",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "98.37"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1395.04"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "11",
+      "departamento": "SANTANDER",
+      "total_casos": "91.62"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "64.78"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "total_casos": "140.30"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "12",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "718.69"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "267.86"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "12",
+      "departamento": "CAQUETÁ",
+      "total_casos": "498.06"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "12",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1348.21"
+    },
+    {
+      "anio": "2011",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "1079.41"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "total_casos": "221.78"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "2089.23"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "CAQUETÁ",
+      "total_casos": "761.64"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "1180.37"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "4651.44"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "CHOCÓ",
+      "total_casos": "596.80"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "147.88"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "185.55"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "155.14"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "484.93"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "CHOCÓ",
+      "total_casos": "171.83"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "BOLÍVAR",
+      "total_casos": "353.39"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "GUAVIARE",
+      "total_casos": "418.16"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "VICHADA",
+      "total_casos": "40.61"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "5640.12"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "META",
+      "total_casos": "423.74"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "2",
+      "departamento": "CÓRDOBA",
+      "total_casos": "262.99"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "4340.13"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "1792.69"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1182.04"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "3",
+      "departamento": "CÓRDOBA",
+      "total_casos": "137.87"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "3",
+      "departamento": "BOLÍVAR",
+      "total_casos": "103.96"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "4",
+      "departamento": "BOLÍVAR",
+      "total_casos": "853.96"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1448.88"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "1368.27"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "5813.99"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "4",
+      "departamento": "CÓRDOBA",
+      "total_casos": "799.24"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "5",
+      "departamento": "BOLÍVAR",
+      "total_casos": "718.97"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1380.85"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "5906.41"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "892.15"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "5",
+      "departamento": "CÓRDOBA",
+      "total_casos": "97.18"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "2086.81"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "6",
+      "departamento": "CHOCÓ",
+      "total_casos": "1682.25"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "total_casos": "2607.24"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "6",
+      "departamento": "CAQUETÁ",
+      "total_casos": "253.95"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "total_casos": "652.96"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "235.53"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "7",
+      "departamento": "CHOCÓ",
+      "total_casos": "462.01"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "7",
+      "departamento": "PUTUMAYO",
+      "total_casos": "255.86"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "1488.40"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "2652.53"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "447.62"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "7",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1596.72"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "8",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2111.73"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "2358.30"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3269.07"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "1272.68"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "3857.86"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1076.53"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "100.03"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "720.70"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "1393.53"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "3959.74"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "9",
+      "departamento": "VICHADA",
+      "total_casos": "10.46"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "10",
+      "departamento": "CÓRDOBA",
+      "total_casos": "77.12"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "2043.20"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "10",
+      "departamento": "GUAVIARE",
+      "total_casos": "2058.95"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "10",
+      "departamento": "META",
+      "total_casos": "154.32"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "10",
+      "departamento": "BOLÍVAR",
+      "total_casos": "510.22"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1518.58"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "10",
+      "departamento": "CHOCÓ",
+      "total_casos": "2675.20"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "11",
+      "departamento": "CHOCÓ",
+      "total_casos": "2900.61"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "11",
+      "departamento": "CAQUETÁ",
+      "total_casos": "140.19"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "11",
+      "departamento": "BOLÍVAR",
+      "total_casos": "199.88"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "11",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1083.92"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "69.43"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "11",
+      "departamento": "CÓRDOBA",
+      "total_casos": "201.48"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "1042.29"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "total_casos": "369.64"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "12",
+      "departamento": "CAQUETÁ",
+      "total_casos": "673.72"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "12",
+      "departamento": "PUTUMAYO",
+      "total_casos": "957.90"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "12",
+      "departamento": "CHOCÓ",
+      "total_casos": "4770.58"
+    },
+    {
+      "anio": "2012",
+      "mes_num": "12",
+      "departamento": "CÓRDOBA",
+      "total_casos": "55.58"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1438.68"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "1",
+      "departamento": "BOLÍVAR",
+      "total_casos": "1925.14"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "1",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1863.31"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "total_casos": "156.76"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "442.50"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "1",
+      "departamento": "CÓRDOBA",
+      "total_casos": "648.36"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "2",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1095.51"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "2",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "775.70"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "1960.72"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "2",
+      "departamento": "CAQUETÁ",
+      "total_casos": "427.41"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "993.25"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "279.61"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "536.52"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "1438.76"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "3",
+      "departamento": "CHOCÓ",
+      "total_casos": "150.38"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "3",
+      "departamento": "GUAVIARE",
+      "total_casos": "3614.01"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "META",
+      "total_casos": "143.00"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "577.05"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "CHOCÓ",
+      "total_casos": "2646.48"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "355.85"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "total_casos": "856.62"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "total_casos": "3182.10"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "CAQUETÁ",
+      "total_casos": "115.95"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "167.64"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "5",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "469.53"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "5",
+      "departamento": "CAQUETÁ",
+      "total_casos": "801.58"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "56.38"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "5",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1387.72"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "5",
+      "departamento": "CUNDINAMARCA",
+      "total_casos": "258.02"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "5",
+      "departamento": "CHOCÓ",
+      "total_casos": "1941.25"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "54.54"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1550.53"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "6",
+      "departamento": "CHOCÓ",
+      "total_casos": "1047.11"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "6",
+      "departamento": "CAQUETÁ",
+      "total_casos": "272.26"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "7",
+      "departamento": "CÓRDOBA",
+      "total_casos": "323.10"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "264.79"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "627.04"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "7",
+      "departamento": "CHOCÓ",
+      "total_casos": "898.43"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "141.56"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "8",
+      "departamento": "CÓRDOBA",
+      "total_casos": "211.87"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "1287.61"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "8",
+      "departamento": "CAQUETÁ",
+      "total_casos": "839.03"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "8",
+      "departamento": "CHOCÓ",
+      "total_casos": "522.56"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "236.65"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1400.92"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "1202.81"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1356.53"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "total_casos": "460.76"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "9",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "232.79"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "849.04"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "927.49"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "10",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "623.27"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "63.14"
+    },
+    {
+      "anio": "2013",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "952.10"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "670.12"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "3046.45"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "18.79"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "total_casos": "1902.53"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "4",
+      "departamento": "META",
+      "total_casos": "124.18"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "2868.61"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "253.82"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "1611.14"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "1786.81"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "5",
+      "departamento": "META",
+      "total_casos": "150.19"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "5",
+      "departamento": "GUAVIARE",
+      "total_casos": "2682.65"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "5",
+      "departamento": "CHOCÓ",
+      "total_casos": "437.27"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "6",
+      "departamento": "CAQUETÁ",
+      "total_casos": "573.49"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "80.25"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "total_casos": "146.36"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "6",
+      "departamento": "META",
+      "total_casos": "346.36"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "6",
+      "departamento": "CHOCÓ",
+      "total_casos": "3048.91"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "6",
+      "departamento": "GUAVIARE",
+      "total_casos": "400.59"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "7",
+      "departamento": "PUTUMAYO",
+      "total_casos": "173.14"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "430.83"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "7",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1583.94"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "118.5"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "7",
+      "departamento": "CHOCÓ",
+      "total_casos": "2521.91"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "8",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1436.80"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "8",
+      "departamento": "CÓRDOBA",
+      "total_casos": "156.35"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1831.34"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2169.73"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "124.25"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "total_casos": "209.49"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "8",
+      "departamento": "BOLÍVAR",
+      "total_casos": "30.23"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "180.42"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "1004.70"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "9",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "231.76"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "9",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1401.22"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "849.81"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "9",
+      "departamento": "BOLÍVAR",
+      "total_casos": "381.04"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "5765.67"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "10",
+      "departamento": "CAQUETÁ",
+      "total_casos": "398.04"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "4298.59"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "total_casos": "169.43"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "1521.40"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "total_casos": "403.63"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "11",
+      "departamento": "GUAVIARE",
+      "total_casos": "154.91"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2617.10"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "12",
+      "departamento": "META",
+      "total_casos": "350.04"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "total_casos": "3344.35"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "total_casos": "21.18"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "59.47"
+    },
+    {
+      "anio": "2014",
+      "mes_num": "12",
+      "departamento": "CHOCÓ",
+      "total_casos": "1466.21"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "1",
+      "departamento": "META",
+      "total_casos": "1099.030000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "1",
+      "departamento": "CHOCÓ",
+      "total_casos": "1215.620000000000017"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "189.47"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "1",
+      "departamento": "GUAVIARE",
+      "total_casos": "1366.32000000000003"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "1",
+      "departamento": "CAQUETÁ",
+      "total_casos": "163.200000000000012"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "1",
+      "departamento": "VICHADA",
+      "total_casos": "42.36"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "2",
+      "departamento": "CAUCA",
+      "total_casos": "363.12000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "2",
+      "departamento": "CAQUETÁ",
+      "total_casos": "2671.4900000000000255"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "2",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "22.73"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "2",
+      "departamento": "CHOCÓ",
+      "total_casos": "166.60"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1346.570000000000011"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "2",
+      "departamento": "CÓRDOBA",
+      "total_casos": "517.350000000000004"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "3",
+      "departamento": "CAQUETÁ",
+      "total_casos": "1170.79000000000003"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "1177.800000000000034"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "3",
+      "departamento": "BOLÍVAR",
+      "total_casos": "567.070000000000004"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "3",
+      "departamento": "CÓRDOBA",
+      "total_casos": "33.89"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "total_casos": "127.22"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "3",
+      "departamento": "META",
+      "total_casos": "1057.04000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "total_casos": "728.74"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "total_casos": "431.95"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "4",
+      "departamento": "META",
+      "total_casos": "291.46"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "4",
+      "departamento": "CÓRDOBA",
+      "total_casos": "47.770000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "4",
+      "departamento": "BOLÍVAR",
+      "total_casos": "653.7600000000000022"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "4",
+      "departamento": "CAQUETÁ",
+      "total_casos": "906.190000000000018"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "2093.04000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "5",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1100.05000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "5",
+      "departamento": "CAQUETÁ",
+      "total_casos": "289.480000000000001"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "5",
+      "departamento": "META",
+      "total_casos": "59.17"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "total_casos": "22.03"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "total_casos": "522.20"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "2414.490000000000083"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2631.450000000000027"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": "14.05"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "total_casos": "724.22"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "7",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2004.4600000000000302"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "839.630000000000019"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "159.18"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "8",
+      "departamento": "GUAVIARE",
+      "total_casos": "1378.780000000000032"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2399.10000000000001"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "8",
+      "departamento": "META",
+      "total_casos": "608.68000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "8",
+      "departamento": "CHOCÓ",
+      "total_casos": "227.190000000000002"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "9",
+      "departamento": "CHOCÓ",
+      "total_casos": "1264.330000000000030"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "9",
+      "departamento": "VICHADA",
+      "total_casos": "60.7"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "9",
+      "departamento": "GUAVIARE",
+      "total_casos": "704.950000000000006"
+    },
+    {
+      "anio": "2015",
+      "mes_num": "9",
+      "departamento": "META",
+      "total_casos": "619.32000000000002"
+    }
+  ]
+}

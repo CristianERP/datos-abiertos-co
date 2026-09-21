@@ -1,0 +1,1272 @@
+{
+  "meta": {
+    "id": "voladura_oleoductos",
+    "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
+    "dataset_id": "ec2r-4byk",
+    "fuente": "https://www.datos.gov.co/d/ec2r-4byk",
+    "fetched_at": "2026-09-21T17:01:09.234540+00:00",
+    "row_count": 209,
+    "consulta_soql": {
+      "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
+      "group": "anio, mes_num, departamento",
+      "order": "anio, mes_num",
+      "where": "fecha_hecho >= '2016-01-01'"
+    }
+  },
+  "records": [
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "3",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "7",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "7",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "10",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "11",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "11",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2016",
+      "mes_num": "12",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "6"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "7"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "2",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "10"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "3",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "7"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "13"
+    },
+    {
+      "anio": "2017",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "10"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "1",
+      "departamento": "BOYACA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "1",
+      "departamento": "CASANARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "2",
+      "departamento": "CASANARE",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "12"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "6"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "14"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "9",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "6"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "10",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "11",
+      "departamento": "BOYACA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "11",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "12",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2018",
+      "mes_num": "12",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "3",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "8"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "10",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "11",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "6"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "8",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "10",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "10",
+      "departamento": "SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "11",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "12",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "BOYACA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "6"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "NARIÑO",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "departamento": "META",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "9"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "BOYACA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "9"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "CESAR",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "departamento": "SANTANDER",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "departamento": "ARAUCA",
+      "total_casos": "5"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "total_casos": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "10",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "total_casos": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "total_casos": "1"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "total_casos": "2"
+    }
+  ]
+}

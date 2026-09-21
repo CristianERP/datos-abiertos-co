@@ -126,12 +126,52 @@ def transform_fuerza_publica(df: pd.DataFrame, meta: dict) -> dict:
     }
 
 
+def transform_masacres(df: pd.DataFrame, meta: dict) -> dict:
+    df["mes_num"] = pd.to_numeric(df["mes_num"], errors="coerce")
+    for col in ("casos", "victimas"):
+        df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+    df["mes"] = df["mes_num"].map(lambda n: MESES[int(n) - 1])
+    df = df.sort_values(["anio", "mes_num", "departamento"])
+
+    return {
+        "meta": meta,
+        "filtros": {
+            "anios": sorted(df["anio"].unique().tolist()),
+            "meses": MESES,
+            "dimensiones": sorted(df["departamento"].unique().tolist()),
+        },
+        "registros": [
+            {
+                "anio": row["anio"],
+                "mes": row["mes"],
+                "mes_num": int(row["mes_num"]),
+                "departamento": row["departamento"],
+                "casos": row["casos"],
+                "victimas": row["victimas"],
+            }
+            for _, row in df.iterrows()
+        ],
+    }
+
+
 TRANSFORMS = {
     "gastos_pgn_mensual": transform_gastos_pgn_mensual,
     "homicidios": transform_delito_por_departamento,
     "secuestro": transform_delito_por_departamento,
     "hurto_residencias": transform_delito_por_departamento,
     "hurto_comercio": transform_delito_por_departamento,
+    "terrorismo": transform_delito_por_departamento,
+    "voladura_oleoductos": transform_delito_por_departamento,
+    "voladura_puentes_vias": transform_delito_por_departamento,
+    "minas_intervenidas": transform_delito_por_departamento,
+    "incautacion_cocaina": transform_delito_por_departamento,
+    "incautacion_base_coca": transform_delito_por_departamento,
+    "incautacion_basuco": transform_delito_por_departamento,
+    "incautacion_marihuana": transform_delito_por_departamento,
+    "erradicacion_cultivos": transform_delito_por_departamento,
+    "aspersion_cultivos": transform_delito_por_departamento,
+    "capturas_mineria_ilegal": transform_delito_por_departamento,
+    "masacres": transform_masacres,
     "hurto_vehiculos": transform_delito_por_departamento,
     "hurto_personas": transform_delito_por_departamento,
     "extorsion": transform_delito_por_departamento,

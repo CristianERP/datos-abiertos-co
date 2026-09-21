@@ -4,7 +4,7 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "gepp-dxcs",
     "fuente": "https://www.datos.gov.co/d/gepp-dxcs",
-    "fetched_at": "2026-09-21T16:28:06.405334+00:00",
+    "fetched_at": "2026-09-21T17:01:07.722120+00:00",
     "row_count": 4215,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",

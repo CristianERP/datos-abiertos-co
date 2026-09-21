@@ -1,0 +1,2454 @@
+{
+  "meta": {
+    "id": "masacres",
+    "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
+    "dataset_id": "u8eq-92tb",
+    "fuente": "https://www.datos.gov.co/d/u8eq-92tb",
+    "fetched_at": "2026-09-21T17:02:01.637749+00:00",
+    "row_count": 348,
+    "consulta_soql": {
+      "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(casos) as casos, sum(victimas) as victimas\n",
+      "group": "anio, mes_num, departamento",
+      "order": "anio, mes_num",
+      "where": "fecha_hecho >= '2016-01-01'"
+    }
+  },
+  "records": [
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "CASANARE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "ARAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "ARAUCA",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "BOLIVAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "AMAZONAS",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "casos": "3",
+      "victimas": "9"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "ARAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "casos": "2",
+      "victimas": "10"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
+      "departamento": "CUNDINAMARCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "TOLIMA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "5",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "BOLIVAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "BOGOTA D.C.",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "CAQUETA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "SUCRE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "NARIÑO",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "casos": "2",
+      "victimas": "8"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "BOGOTA D.C.",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "7"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "SANTANDER",
+      "casos": "2",
+      "victimas": "8"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "6"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "RISARALDA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "9"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "10",
+      "departamento": "SUCRE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "11",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "11",
+      "departamento": "AMAZONAS",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "11",
+      "departamento": "PUTUMAYO",
+      "casos": "2",
+      "victimas": "22"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "casos": "2",
+      "victimas": "9"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "CORDOBA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "casos": "3",
+      "victimas": "10"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "BOYACA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "TOLIMA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "8"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "10"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "3",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "CHOCO",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "SUCRE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "GUAVIARE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "departamento": "CHOCO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "SUCRE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "PUTUMAYO",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "CHOCO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "RISARALDA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
+      "departamento": "BOLIVAR",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "CORDOBA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "departamento": "MAGDALENA",
+      "casos": "3",
+      "victimas": "9"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "AMAZONAS",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "CASANARE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "ANTIOQUIA",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "departamento": "CUNDINAMARCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "departamento": "ANTIOQUIA",
+      "casos": "2",
+      "victimas": "10"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "departamento": "CALDAS",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "departamento": "BOLIVAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "departamento": "RISARALDA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "departamento": "CASANARE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "3",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "3",
+      "departamento": "CHOCO",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "3",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "3",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "casos": "3",
+      "victimas": "10"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "CHOCO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "7"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "7",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "7",
+      "departamento": "ANTIOQUIA",
+      "casos": "4",
+      "victimas": "16"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "departamento": "BOLIVAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "CORDOBA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "ARAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "CHOCO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "CAUCA",
+      "casos": "3",
+      "victimas": "10"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "CORDOBA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "SANTANDER",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "RISARALDA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "NARIÑO",
+      "casos": "3",
+      "victimas": "12"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "GUAVIARE",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "CAUCA",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "departamento": "SUCRE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "SANTANDER",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "3",
+      "victimas": "10"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "departamento": "BOLIVAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "casos": "2",
+      "victimas": "8"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "departamento": "GUAVIARE",
+      "casos": "2",
+      "victimas": "15"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
+      "departamento": "QUINDIO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
+      "departamento": "RISARALDA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "CUNDINAMARCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "HUILA",
+      "casos": "3",
+      "victimas": "11"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "departamento": "CALDAS",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "CUNDINAMARCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "RISARALDA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "ARAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "BOYACA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "4",
+      "victimas": "15"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "casos": "3",
+      "victimas": "20"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "departamento": "BOLIVAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "10",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "10",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "10",
+      "departamento": "CASANARE",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "10",
+      "departamento": "SANTANDER",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "ATLANTICO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "ANTIOQUIA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
+      "departamento": "BOLIVAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "12",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "12",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "12",
+      "departamento": "CESAR",
+      "casos": "3",
+      "victimas": "13"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "TOLIMA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "ANTIOQUIA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "LA GUAJIRA",
+      "casos": "2",
+      "victimas": "8"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "departamento": "CESAR",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "2",
+      "departamento": "CALDAS",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "2",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "2",
+      "departamento": "ANTIOQUIA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "2",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "SANTANDER",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "NARIÑO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "TOLIMA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "RISARALDA",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "3",
+      "victimas": "9"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "7"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "departamento": "HUILA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "CASANARE",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "PUTUMAYO",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "LA GUAJIRA",
+      "casos": "1",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "CAUCA",
+      "casos": "3",
+      "victimas": "30"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "departamento": "SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "departamento": "NARIÑO",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "departamento": "MAGDALENA",
+      "casos": "1",
+      "victimas": "5"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "2",
+      "victimas": "10"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "6",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "4"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "6",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "6",
+      "departamento": "CUNDINAMARCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "6",
+      "departamento": "ATLANTICO",
+      "casos": "3",
+      "victimas": "10"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "6",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "7",
+      "departamento": "CAQUETA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "7",
+      "departamento": "ARAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "7",
+      "departamento": "CAUCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "7",
+      "departamento": "VICHADA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "7",
+      "departamento": "CUNDINAMARCA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "departamento": "BOGOTA D.C.",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "departamento": "ATLANTICO",
+      "casos": "2",
+      "victimas": "6"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "departamento": "ANTIOQUIA",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "departamento": "NORTE DE SANTANDER",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "departamento": "META",
+      "casos": "1",
+      "victimas": "3"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "departamento": "VALLE DEL CAUCA",
+      "casos": "3",
+      "victimas": "9"
+    }
+  ]
+}
