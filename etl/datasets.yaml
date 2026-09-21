@@ -34,7 +34,7 @@ datasets:
       series:
         - { key: apropiacion_vigente, label: "Apropiación vigente", color_var: "--series-1" }
         - { key: pagos, label: Pagos, color_var: "--series-2" }
-      pct: { key: pct_pagado, numerator_key: pagos, denominator_key: apropiacion_vigente, label: "% pagado" }
+      pct: { key: pct_pagado, numeratorKey: pagos, denominatorKey: apropiacion_vigente, label: "% pagado" }
 
   - id: homicidios
     categoria: Seguridad y Defensa
