@@ -109,3 +109,75 @@ datasets:
       dim_todos_label: Todos los departamentos
       series:
         - { key: total_casos, label: Casos, color_var: "--series-4" }
+
+  - id: hurto_residencias
+    categoria: Seguridad y Defensa
+    titulo: Hurto a Residencias
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: 7mn7-vzqp
+    frecuencia: mensual
+    descripcion: >
+      Casos de hurto a residencias reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-5" }
+
+  - id: hurto_comercio
+    categoria: Seguridad y Defensa
+    titulo: Hurto a Comercio
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: 7i2x-h5vp
+    frecuencia: mensual
+    descripcion: >
+      Casos de hurto a comercio reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-6" }
+
+  - id: hurto_vehiculos
+    categoria: Seguridad y Defensa
+    titulo: Hurto a Vehículos
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: csb4-y6v2
+    frecuencia: mensual
+    descripcion: >
+      Casos de hurto a vehículos reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-7" }

@@ -13,6 +13,9 @@
   --series-2: #eb6834; /* pagos / asesinados */
   --series-3: #e34948; /* casos (homicidios) */
   --series-4: #1baf7a; /* casos (secuestro) */
+  --series-5: #eda100; /* casos (hurto a residencias) */
+  --series-6: #e87ba4; /* casos (hurto a comercio) */
+  --series-7: #4a3aa7; /* casos (hurto a vehículos) */
 }
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) .viz-root {
@@ -30,6 +33,9 @@
     --series-2: #d95926;
     --series-3: #e66767;
     --series-4: #199e70;
+    --series-5: #c98500;
+    --series-6: #d55181;
+    --series-7: #9085e9;
   }
 }
 :root[data-theme="dark"] .viz-root {
@@ -47,6 +53,9 @@
   --series-2: #d95926;
   --series-3: #e66767;
   --series-4: #199e70;
+  --series-5: #c98500;
+  --series-6: #d55181;
+  --series-7: #9085e9;
 }
 
 body {

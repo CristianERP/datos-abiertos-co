@@ -130,6 +130,9 @@ TRANSFORMS = {
     "gastos_pgn_mensual": transform_gastos_pgn_mensual,
     "homicidios": transform_delito_por_departamento,
     "secuestro": transform_delito_por_departamento,
+    "hurto_residencias": transform_delito_por_departamento,
+    "hurto_comercio": transform_delito_por_departamento,
+    "hurto_vehiculos": transform_delito_por_departamento,
     "fuerza_publica": transform_fuerza_publica,
 }
 
