@@ -16,6 +16,7 @@
   --series-5: #eda100; /* casos (hurto a residencias) */
   --series-6: #e87ba4; /* casos (hurto a comercio) */
   --series-7: #4a3aa7; /* casos (hurto a vehículos) */
+  --series-8: #008300; /* casos (hurto a personas) */
 }
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) .viz-root {
@@ -36,6 +37,7 @@
     --series-5: #c98500;
     --series-6: #d55181;
     --series-7: #9085e9;
+    --series-8: #008300;
   }
 }
 :root[data-theme="dark"] .viz-root {
@@ -56,6 +58,7 @@
   --series-5: #c98500;
   --series-6: #d55181;
   --series-7: #9085e9;
+  --series-8: #008300;
 }
 
 body {

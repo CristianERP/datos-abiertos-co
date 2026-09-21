@@ -133,6 +133,11 @@ TRANSFORMS = {
     "hurto_residencias": transform_delito_por_departamento,
     "hurto_comercio": transform_delito_por_departamento,
     "hurto_vehiculos": transform_delito_por_departamento,
+    "hurto_personas": transform_delito_por_departamento,
+    "extorsion": transform_delito_por_departamento,
+    "lesiones_personales": transform_delito_por_departamento,
+    "delitos_sexuales": transform_delito_por_departamento,
+    "violencia_intrafamiliar": transform_delito_por_departamento,
     "fuerza_publica": transform_fuerza_publica,
 }
 

@@ -181,3 +181,123 @@ datasets:
       dim_todos_label: Todos los departamentos
       series:
         - { key: total_casos, label: Casos, color_var: "--series-7" }
+
+  - id: hurto_personas
+    categoria: Seguridad y Defensa
+    titulo: Hurto a Personas
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: 4rxi-8m8d
+    frecuencia: mensual
+    descripcion: >
+      Casos de hurto a personas reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-8" }
+
+  - id: extorsion
+    categoria: Seguridad y Defensa
+    titulo: Extorsión
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: q2ib-t9am
+    frecuencia: mensual
+    descripcion: >
+      Casos de extorsión reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-1" }
+
+  - id: lesiones_personales
+    categoria: Seguridad y Defensa
+    titulo: Lesiones Personales
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: jr6v-i33g
+    frecuencia: mensual
+    descripcion: >
+      Casos de lesiones personales reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-2" }
+
+  - id: delitos_sexuales
+    categoria: Seguridad y Defensa
+    titulo: Delitos Sexuales
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: bz43-8ahq
+    frecuencia: mensual
+    descripcion: >
+      Casos de delitos sexuales reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-4" }
+
+  - id: violencia_intrafamiliar
+    categoria: Seguridad y Defensa
+    titulo: Violencia Intrafamiliar
+    ministerio: Ministerio de Defensa Nacional / Policía Nacional
+    dataset_id: gepp-dxcs
+    frecuencia: mensual
+    descripcion: >
+      Casos de violencia intrafamiliar reportados por la Policía Nacional, por departamento, desde 2016.
+    select: >
+      date_extract_y(fecha_hecho) as anio,
+      date_extract_m(fecha_hecho) as mes_num,
+      departamento,
+      sum(cantidad) as total_casos
+    group: anio, mes_num, departamento
+    where: "fecha_hecho >= '2016-01-01'"
+    order: anio, mes_num
+    limit: 10000
+    viz:
+      dim_field: departamento
+      dim_label: Departamento
+      dim_todos_label: Todos los departamentos
+      series:
+        - { key: total_casos, label: Casos, color_var: "--series-6" }
