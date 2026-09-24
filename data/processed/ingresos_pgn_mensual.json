@@ -4,7 +4,7 @@
     "ministerio": "Ministerio de Hacienda y Crédito Público",
     "dataset_id": "22f3-gynv",
     "fuente": "https://www.datos.gov.co/d/22f3-gynv",
-    "fetched_at": "2026-09-23T14:49:26.599292+00:00",
+    "fetched_at": "2026-09-24T14:46:56.450301+00:00",
     "row_count": 644,
     "consulta_soql": {
       "select": "anio, numeromes as mes_num, nombreniveldos as categoria, sum(aforovigente) as aforo_vigente, sum(recaudoefectivoacumulado) as recaudo\n",
