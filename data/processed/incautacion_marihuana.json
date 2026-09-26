@@ -4,7 +4,7 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "g228-vp9d",
     "fuente": "https://www.datos.gov.co/d/g228-vp9d",
-    "fetched_at": "2026-09-25T15:10:08.851289+00:00",
+    "fetched_at": "2026-09-26T14:19:10.134234+00:00",
     "row_count": 4453,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",

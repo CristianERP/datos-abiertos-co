@@ -4,7 +4,7 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "8rpn-wpty",
     "fuente": "https://www.datos.gov.co/d/8rpn-wpty",
-    "fetched_at": "2026-09-25T15:05:44.851943+00:00",
+    "fetched_at": "2026-09-26T14:16:25.526818+00:00",
     "row_count": 2646,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, accion, sum(cantidad) as total\n",
