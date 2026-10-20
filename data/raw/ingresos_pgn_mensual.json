@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Hacienda y Crédito Público",
     "dataset_id": "22f3-gynv",
     "fuente": "https://www.datos.gov.co/d/22f3-gynv",
-    "fetched_at": "2026-10-19T16:52:52.950469+00:00",
-    "row_count": 644,
+    "fetched_at": "2026-10-20T14:51:46.335338+00:00",
+    "row_count": 651,
     "consulta_soql": {
       "select": "anio, numeromes as mes_num, nombreniveldos as categoria, sum(aforovigente) as aforo_vigente, sum(recaudoefectivoacumulado) as recaudo\n",
       "group": "anio, mes_num, categoria",
@@ -16,30 +16,9 @@
     {
       "anio": "2019",
       "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "529042022743.00",
-      "recaudo": "23492966387.62"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "10684323902480.00",
-      "recaudo": "426648048377.54"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "1",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "263426234361.05"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "1",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "144209794175871.00",
-      "recaudo": "19880994561526.80"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2085384000000.00",
+      "recaudo": "156190113022.44"
     },
     {
       "anio": "2019",
@@ -51,23 +30,37 @@
     {
       "anio": "2019",
       "mes_num": "1",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2085384000000.00",
-      "recaudo": "156190113022.44"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "1",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "78576864593542.00",
       "recaudo": "3196074166152.52"
     },
     {
       "anio": "2019",
-      "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2085384000000.00",
-      "recaudo": "1717705235243.81"
+      "mes_num": "1",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "144209794175871.00",
+      "recaudo": "19880994561526.80"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "529042022743.00",
+      "recaudo": "23492966387.62"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "1",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "263426234361.05"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "10684323902480.00",
+      "recaudo": "426648048377.54"
     },
     {
       "anio": "2019",
@@ -79,23 +72,16 @@
     {
       "anio": "2019",
       "mes_num": "10",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2085384000000.00",
+      "recaudo": "1717705235243.81"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "10",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "144209794175871.00",
       "recaudo": "129974845465644.76"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "3017194564220.66"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "529042022743.00",
-      "recaudo": "471270544703.35"
     },
     {
       "anio": "2019",
@@ -107,23 +93,23 @@
     {
       "anio": "2019",
       "mes_num": "10",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "529042022743.00",
+      "recaudo": "471270544703.35"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "10",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "10639982999589.40",
       "recaudo": "9067944999275.84"
     },
     {
       "anio": "2019",
-      "mes_num": "11",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "78576864593542.00",
-      "recaudo": "48463582278258.55"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "11",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "9935996090098.10"
+      "mes_num": "10",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "3017194564220.66"
     },
     {
       "anio": "2019",
@@ -142,9 +128,16 @@
     {
       "anio": "2019",
       "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "3327407384882.06"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "9935996090098.10"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "11",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "78576864593542.00",
+      "recaudo": "48463582278258.55"
     },
     {
       "anio": "2019",
@@ -162,10 +155,10 @@
     },
     {
       "anio": "2019",
-      "mes_num": "12",
+      "mes_num": "11",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "3685831755563.00",
-      "recaudo": "3771515867319.88"
+      "recaudo": "3327407384882.06"
     },
     {
       "anio": "2019",
@@ -177,23 +170,9 @@
     {
       "anio": "2019",
       "mes_num": "12",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "10684323902480.00",
-      "recaudo": "11722132471377.10"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "12",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "78576864593542.00",
-      "recaudo": "55455518726869.07"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "12",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "529042022743.00",
-      "recaudo": "612751196678.34"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "3771515867319.88"
     },
     {
       "anio": "2019",
@@ -205,9 +184,51 @@
     {
       "anio": "2019",
       "mes_num": "12",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "529042022743.00",
+      "recaudo": "612751196678.34"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "12",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "10684323902480.00",
+      "recaudo": "11722132471377.10"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "12",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "144209794175871.00",
       "recaudo": "152578292030779.59"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "12",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "78576864593542.00",
+      "recaudo": "55455518726869.07"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "535926410864.27"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "144209794175871.00",
+      "recaudo": "28627467109621.71"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "2",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "1665294076152.12"
     },
     {
       "anio": "2019",
@@ -226,20 +247,6 @@
     {
       "anio": "2019",
       "mes_num": "2",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "1665294076152.12"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "2",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "144209794175871.00",
-      "recaudo": "28627467109621.71"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "2",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "10684323902480.00",
       "recaudo": "771644744459.17"
@@ -253,31 +260,10 @@
     },
     {
       "anio": "2019",
-      "mes_num": "2",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "535926410864.27"
-    },
-    {
-      "anio": "2019",
       "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "807587636797.78"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "3",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "529042022743.00",
-      "recaudo": "84655203764.58"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2085384000000.00",
-      "recaudo": "402246413577.91"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "2560748379339.70"
     },
     {
       "anio": "2019",
@@ -296,6 +282,13 @@
     {
       "anio": "2019",
       "mes_num": "3",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2085384000000.00",
+      "recaudo": "402246413577.91"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "3",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "144209794175871.00",
       "recaudo": "40259869827077.19"
@@ -303,30 +296,16 @@
     {
       "anio": "2019",
       "mes_num": "3",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "2560748379339.70"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "807587636797.78"
     },
     {
       "anio": "2019",
-      "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "144209794175871.00",
-      "recaudo": "51601409323652.75"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "4",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "3323629540397.67"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "4",
+      "mes_num": "3",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "529042022743.00",
-      "recaudo": "207228597046.91"
+      "recaudo": "84655203764.58"
     },
     {
       "anio": "2019",
@@ -338,9 +317,37 @@
     {
       "anio": "2019",
       "mes_num": "4",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "144209794175871.00",
+      "recaudo": "51601409323652.75"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "4",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "2085384000000.00",
       "recaudo": "570005052173.84"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "4",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "1113839222282.36"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "4",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "529042022743.00",
+      "recaudo": "207228597046.91"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "4",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "3323629540397.67"
     },
     {
       "anio": "2019",
@@ -351,10 +358,24 @@
     },
     {
       "anio": "2019",
-      "mes_num": "4",
+      "mes_num": "5",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "4385821300538.89"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "5",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "3685831755563.00",
-      "recaudo": "1113839222282.36"
+      "recaudo": "1421229072265.40"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "5",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "144209794175871.00",
+      "recaudo": "68122299697264.35"
     },
     {
       "anio": "2019",
@@ -373,9 +394,9 @@
     {
       "anio": "2019",
       "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "1421229072265.40"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2085384000000.00",
+      "recaudo": "729345052743.00"
     },
     {
       "anio": "2019",
@@ -386,24 +407,24 @@
     },
     {
       "anio": "2019",
-      "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2085384000000.00",
-      "recaudo": "729345052743.00"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "5",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "4385821300538.89"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "5",
+      "mes_num": "6",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "144209794175871.00",
-      "recaudo": "68122299697264.35"
+      "recaudo": "80996773828070.22"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "6",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2085384000000.00",
+      "recaudo": "927257036334.17"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "6",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "5117207761280.59"
     },
     {
       "anio": "2019",
@@ -422,20 +443,6 @@
     {
       "anio": "2019",
       "mes_num": "6",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "529042022743.00",
-      "recaudo": "276826239030.66"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "6",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2085384000000.00",
-      "recaudo": "927257036334.17"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "6",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "3685831755563.00",
       "recaudo": "1706404174271.82"
@@ -443,37 +450,9 @@
     {
       "anio": "2019",
       "mes_num": "6",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "5117207761280.59"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "6",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "144209794175871.00",
-      "recaudo": "80996773828070.22"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2085384000000.00",
-      "recaudo": "1101200917891.84"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "7",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "6402466245976.18"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "2090809133797.81"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "529042022743.00",
+      "recaudo": "276826239030.66"
     },
     {
       "anio": "2019",
@@ -485,9 +464,23 @@
     {
       "anio": "2019",
       "mes_num": "7",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "78576864593542.00",
-      "recaudo": "40313864927715.69"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "2090809133797.81"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "7",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "144209794175871.00",
+      "recaudo": "94707912592892.73"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "7",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "6402466245976.18"
     },
     {
       "anio": "2019",
@@ -499,23 +492,16 @@
     {
       "anio": "2019",
       "mes_num": "7",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "144209794175871.00",
-      "recaudo": "94707912592892.73"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2085384000000.00",
+      "recaudo": "1101200917891.84"
     },
     {
       "anio": "2019",
-      "mes_num": "8",
+      "mes_num": "7",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "78576864593542.00",
-      "recaudo": "41386371187897.22"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "10684323902480.00",
-      "recaudo": "6636378472563.59"
+      "recaudo": "40313864927715.69"
     },
     {
       "anio": "2019",
@@ -527,9 +513,9 @@
     {
       "anio": "2019",
       "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "529042022743.00",
-      "recaudo": "376947293564.75"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10639982999589.40",
+      "recaudo": "7231677741933.89"
     },
     {
       "anio": "2019",
@@ -541,37 +527,37 @@
     {
       "anio": "2019",
       "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "10684323902480.00",
+      "recaudo": "6636378472563.59"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "8",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "78576864593542.00",
+      "recaudo": "41386371187897.22"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "529042022743.00",
+      "recaudo": "376947293564.75"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "8",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "3685831755563.00",
       "recaudo": "2400587043146.92"
     },
     {
       "anio": "2019",
-      "mes_num": "8",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10639982999589.40",
-      "recaudo": "7231677741933.89"
-    },
-    {
-      "anio": "2019",
       "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2085384000000.00",
-      "recaudo": "1549315364183.96"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "9",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "78576864593542.00",
-      "recaudo": "45612235554948.52"
-    },
-    {
-      "anio": "2019",
-      "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3685831755563.00",
-      "recaudo": "2699227647958.12"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "529042022743.00",
+      "recaudo": "408577934880.23"
     },
     {
       "anio": "2019",
@@ -579,6 +565,13 @@
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "144209794175871.00",
       "recaudo": "119584256732641.38"
+    },
+    {
+      "anio": "2019",
+      "mes_num": "9",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "78576864593542.00",
+      "recaudo": "45612235554948.52"
     },
     {
       "anio": "2019",
@@ -597,37 +590,16 @@
     {
       "anio": "2019",
       "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "529042022743.00",
-      "recaudo": "408577934880.23"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2085384000000.00",
+      "recaudo": "1549315364183.96"
     },
     {
-      "anio": "2020",
-      "mes_num": "1",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10554140656651.00",
-      "recaudo": "1445562760942.14"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "651049187052.00",
-      "recaudo": "77142274268.74"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "1",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "135646860000000.00",
-      "recaudo": "19186239612816.28"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "52378589610082.00",
-      "recaudo": "377865364595.33"
+      "anio": "2019",
+      "mes_num": "9",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3685831755563.00",
+      "recaudo": "2699227647958.12"
     },
     {
       "anio": "2020",
@@ -639,9 +611,30 @@
     {
       "anio": "2020",
       "mes_num": "1",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "135646860000000.00",
+      "recaudo": "19186239612816.28"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10554140656651.00",
+      "recaudo": "1445562760942.14"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "3603175515739.00",
       "recaudo": "263564266850.22"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "52378589610082.00",
+      "recaudo": "377865364595.33"
     },
     {
       "anio": "2020",
@@ -652,10 +645,10 @@
     },
     {
       "anio": "2020",
-      "mes_num": "10",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "135646860000000.00",
-      "recaudo": "109344350223971.57"
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "651049187052.00",
+      "recaudo": "77142274268.74"
     },
     {
       "anio": "2020",
@@ -667,9 +660,9 @@
     {
       "anio": "2020",
       "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "52378589610082.00",
-      "recaudo": "31081192842185.54"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3603175515739.00",
+      "recaudo": "3089587545830.50"
     },
     {
       "anio": "2020",
@@ -681,13 +674,6 @@
     {
       "anio": "2020",
       "mes_num": "10",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10554140656651.00",
-      "recaudo": "8954527322423.88"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "10",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "104147345862679.00",
       "recaudo": "76421284884228.15"
@@ -695,44 +681,23 @@
     {
       "anio": "2020",
       "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3603175515739.00",
-      "recaudo": "3089587545830.50"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3603175515739.00",
-      "recaudo": "3401564800626.82"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "11",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "10554140656651.00",
-      "recaudo": "9779899059678.73"
+      "recaudo": "8954527322423.88"
     },
     {
       "anio": "2020",
-      "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2239268798191.00",
-      "recaudo": "2005733966755.05"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "11",
+      "mes_num": "10",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "52378589610082.00",
-      "recaudo": "32080336384272.07"
+      "recaudo": "31081192842185.54"
     },
     {
       "anio": "2020",
-      "mes_num": "11",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "651049187052.00",
-      "recaudo": "513072997312.65"
+      "mes_num": "10",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "135646860000000.00",
+      "recaudo": "109344350223971.57"
     },
     {
       "anio": "2020",
@@ -744,16 +709,44 @@
     {
       "anio": "2020",
       "mes_num": "11",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3603175515739.00",
+      "recaudo": "3401564800626.82"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "11",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "651049187052.00",
+      "recaudo": "513072997312.65"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "11",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "135646860000000.00",
       "recaudo": "121396757841925.29"
     },
     {
       "anio": "2020",
-      "mes_num": "12",
+      "mes_num": "11",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10554140656651.00",
+      "recaudo": "9779899059678.73"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "11",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "52378589610082.00",
-      "recaudo": "33922334307942.92"
+      "recaudo": "32080336384272.07"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "11",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2239268798191.00",
+      "recaudo": "2005733966755.05"
     },
     {
       "anio": "2020",
@@ -765,23 +758,9 @@
     {
       "anio": "2020",
       "mes_num": "12",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3603175515739.00",
-      "recaudo": "3845381692600.43"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "12",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "2239268798191.00",
       "recaudo": "2177071735522.92"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "12",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10554140656651.00",
-      "recaudo": "11267709369272.26"
     },
     {
       "anio": "2020",
@@ -799,31 +778,31 @@
     },
     {
       "anio": "2020",
-      "mes_num": "2",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "651049187052.00",
-      "recaudo": "194493315601.84"
+      "mes_num": "12",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "52378589610082.00",
+      "recaudo": "33922334307942.92"
     },
     {
       "anio": "2020",
-      "mes_num": "2",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2239268798191.00",
-      "recaudo": "315564957052.94"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "2",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "135646860000000.00",
-      "recaudo": "28351920295266.20"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "2",
+      "mes_num": "12",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "3603175515739.00",
-      "recaudo": "545479721622.04"
+      "recaudo": "3845381692600.43"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "12",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10554140656651.00",
+      "recaudo": "11267709369272.26"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "104147345862679.00",
+      "recaudo": "15041809544214.41"
     },
     {
       "anio": "2020",
@@ -835,6 +814,20 @@
     {
       "anio": "2020",
       "mes_num": "2",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3603175515739.00",
+      "recaudo": "545479721622.04"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "135646860000000.00",
+      "recaudo": "28351920295266.20"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "2",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "52378589610082.00",
       "recaudo": "1542714751782.19"
@@ -842,23 +835,16 @@
     {
       "anio": "2020",
       "mes_num": "2",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "104147345862679.00",
-      "recaudo": "15041809544214.41"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2239268798191.00",
+      "recaudo": "315564957052.94"
     },
     {
       "anio": "2020",
-      "mes_num": "3",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10554140656651.00",
-      "recaudo": "4187614310113.02"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3603175515739.00",
-      "recaudo": "887158712182.23"
+      "mes_num": "2",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "651049187052.00",
+      "recaudo": "194493315601.84"
     },
     {
       "anio": "2020",
@@ -870,9 +856,30 @@
     {
       "anio": "2020",
       "mes_num": "3",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3603175515739.00",
+      "recaudo": "887158712182.23"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "651049187052.00",
+      "recaudo": "225210885208.06"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "135646860000000.00",
       "recaudo": "40933675485334.82"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "3",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10554140656651.00",
+      "recaudo": "4187614310113.02"
     },
     {
       "anio": "2020",
@@ -890,10 +897,17 @@
     },
     {
       "anio": "2020",
-      "mes_num": "3",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "651049187052.00",
-      "recaudo": "225210885208.06"
+      "mes_num": "4",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "135646860000000.00",
+      "recaudo": "49052258002475.01"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "4",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3603175515739.00",
+      "recaudo": "1184931508961.86"
     },
     {
       "anio": "2020",
@@ -912,30 +926,9 @@
     {
       "anio": "2020",
       "mes_num": "4",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2239268798191.00",
-      "recaudo": "672505711796.46"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "4",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "104147345862679.00",
       "recaudo": "30362053902988.68"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "4",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3603175515739.00",
-      "recaudo": "1184931508961.86"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "135646860000000.00",
-      "recaudo": "49052258002475.01"
     },
     {
       "anio": "2020",
@@ -946,17 +939,10 @@
     },
     {
       "anio": "2020",
-      "mes_num": "5",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "135646860000000.00",
-      "recaudo": "61593130927650.53"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "5",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "104147345862679.00",
-      "recaudo": "44405778371428.43"
+      "mes_num": "4",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2239268798191.00",
+      "recaudo": "672505711796.46"
     },
     {
       "anio": "2020",
@@ -968,16 +954,16 @@
     {
       "anio": "2020",
       "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2239268798191.00",
-      "recaudo": "813607091582.46"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "135646860000000.00",
+      "recaudo": "61593130927650.53"
     },
     {
       "anio": "2020",
       "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "52378589610082.00",
-      "recaudo": "3446276169480.29"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "651049187052.00",
+      "recaudo": "284730140201.68"
     },
     {
       "anio": "2020",
@@ -989,16 +975,37 @@
     {
       "anio": "2020",
       "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "651049187052.00",
-      "recaudo": "284730140201.68"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "52378589610082.00",
+      "recaudo": "3446276169480.29"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "104147345862679.00",
+      "recaudo": "44405778371428.43"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "5",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2239268798191.00",
+      "recaudo": "813607091582.46"
     },
     {
       "anio": "2020",
       "mes_num": "6",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "52378589610082.00",
-      "recaudo": "5442219990034.49"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "104147345862679.00",
+      "recaudo": "44455288101738.04"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "6",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "135646860000000.00",
+      "recaudo": "72419915924324.67"
     },
     {
       "anio": "2020",
@@ -1017,16 +1024,9 @@
     {
       "anio": "2020",
       "mes_num": "6",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "104147345862679.00",
-      "recaudo": "44455288101738.04"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "6",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "651049187052.00",
-      "recaudo": "317482886825.23"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "52378589610082.00",
+      "recaudo": "5442219990034.49"
     },
     {
       "anio": "2020",
@@ -1038,16 +1038,9 @@
     {
       "anio": "2020",
       "mes_num": "6",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "135646860000000.00",
-      "recaudo": "72419915924324.67"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "7",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "104147345862679.00",
-      "recaudo": "48544852511655.72"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "651049187052.00",
+      "recaudo": "317482886825.23"
     },
     {
       "anio": "2020",
@@ -1066,9 +1059,9 @@
     {
       "anio": "2020",
       "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2239268798191.00",
-      "recaudo": "1246939271341.31"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3603175515739.00",
+      "recaudo": "2167673107415.60"
     },
     {
       "anio": "2020",
@@ -1080,9 +1073,16 @@
     {
       "anio": "2020",
       "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3603175515739.00",
-      "recaudo": "2167673107415.60"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2239268798191.00",
+      "recaudo": "1246939271341.31"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "7",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "104147345862679.00",
+      "recaudo": "48544852511655.72"
     },
     {
       "anio": "2020",
@@ -1094,20 +1094,6 @@
     {
       "anio": "2020",
       "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "52378589610082.00",
-      "recaudo": "29088692576560.55"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "8",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3603175515739.00",
-      "recaudo": "2498389080261.60"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "8",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "135646860000000.00",
       "recaudo": "88125887704069.10"
@@ -1115,16 +1101,9 @@
     {
       "anio": "2020",
       "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "651049187052.00",
-      "recaudo": "394647427215.05"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "8",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "10554140656651.00",
-      "recaudo": "7578688062637.74"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "52378589610082.00",
+      "recaudo": "29088692576560.55"
     },
     {
       "anio": "2020",
@@ -1142,31 +1121,31 @@
     },
     {
       "anio": "2020",
-      "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2239268798191.00",
-      "recaudo": "1595402468209.73"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "9",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "104147345862679.00",
-      "recaudo": "71047591071456.86"
-    },
-    {
-      "anio": "2020",
-      "mes_num": "9",
+      "mes_num": "8",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "10554140656651.00",
-      "recaudo": "8260476914901.02"
+      "recaudo": "7578688062637.74"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "651049187052.00",
+      "recaudo": "394647427215.05"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "8",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3603175515739.00",
+      "recaudo": "2498389080261.60"
     },
     {
       "anio": "2020",
       "mes_num": "9",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "135646860000000.00",
-      "recaudo": "100571818474539.81"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "52378589610082.00",
+      "recaudo": "30040830262657.06"
     },
     {
       "anio": "2020",
@@ -1178,6 +1157,27 @@
     {
       "anio": "2020",
       "mes_num": "9",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2239268798191.00",
+      "recaudo": "1595402468209.73"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "135646860000000.00",
+      "recaudo": "100571818474539.81"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "104147345862679.00",
+      "recaudo": "71047591071456.86"
+    },
+    {
+      "anio": "2020",
+      "mes_num": "9",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "651049187052.00",
       "recaudo": "438011735060.35"
@@ -1185,30 +1185,9 @@
     {
       "anio": "2020",
       "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "52378589610082.00",
-      "recaudo": "30040830262657.06"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "1",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "134159345822371.00",
-      "recaudo": "4024190968282.26"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "36883166155433.00",
-      "recaudo": "933176817910.50"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "647761509321.00",
-      "recaudo": "86948558694.04"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "10554140656651.00",
+      "recaudo": "8260476914901.02"
     },
     {
       "anio": "2021",
@@ -1220,13 +1199,6 @@
     {
       "anio": "2021",
       "mes_num": "1",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "151780803914748.00",
-      "recaudo": "15192931505936.60"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "1",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "2416062836363.00",
       "recaudo": "173752296967.40"
@@ -1234,9 +1206,37 @@
     {
       "anio": "2021",
       "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "647761509321.00",
+      "recaudo": "86948558694.04"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "1",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "151780803914748.00",
+      "recaudo": "15192931505936.60"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "1",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "14140639553070.00",
       "recaudo": "767552252287.84"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "36883166155433.00",
+      "recaudo": "933176817910.50"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "1",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "134159345822371.00",
+      "recaudo": "4024190968282.26"
     },
     {
       "anio": "2021",
@@ -1248,16 +1248,9 @@
     {
       "anio": "2021",
       "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "647761509321.00",
-      "recaudo": "509648408916.56"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3948349857835.00",
-      "recaudo": "3235002275699.91"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "134159345822371.00",
+      "recaudo": "88294287494509.32"
     },
     {
       "anio": "2021",
@@ -1269,9 +1262,16 @@
     {
       "anio": "2021",
       "mes_num": "10",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "134159345822371.00",
-      "recaudo": "88294287494509.32"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "647761509321.00",
+      "recaudo": "509648408916.56"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "10",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2416062836363.00",
+      "recaudo": "1839883782194.37"
     },
     {
       "anio": "2021",
@@ -1283,16 +1283,9 @@
     {
       "anio": "2021",
       "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2416062836363.00",
-      "recaudo": "1839883782194.37"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "11",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "151780803914748.00",
-      "recaudo": "150280206461015.73"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3948349857835.00",
+      "recaudo": "3235002275699.91"
     },
     {
       "anio": "2021",
@@ -1304,13 +1297,6 @@
     {
       "anio": "2021",
       "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3948349857835.00",
-      "recaudo": "3607441096118.73"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "11",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "134159345822371.00",
       "recaudo": "92501254487838.94"
@@ -1318,9 +1304,23 @@
     {
       "anio": "2021",
       "mes_num": "11",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14140639553070.00",
-      "recaudo": "11960483996511.44"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2416062836363.00",
+      "recaudo": "1841402350657.37"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "11",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3948349857835.00",
+      "recaudo": "3607441096118.73"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "11",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "151780803914748.00",
+      "recaudo": "150280206461015.73"
     },
     {
       "anio": "2021",
@@ -1332,9 +1332,9 @@
     {
       "anio": "2021",
       "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2416062836363.00",
-      "recaudo": "1841402350657.37"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14140639553070.00",
+      "recaudo": "11960483996511.44"
     },
     {
       "anio": "2021",
@@ -1346,23 +1346,16 @@
     {
       "anio": "2021",
       "mes_num": "12",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "134159345822371.00",
+      "recaudo": "95783057108383.05"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "12",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "36883166155433.00",
       "recaudo": "41762104316946.42"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "12",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3948349857835.00",
-      "recaudo": "4115655758612.04"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "12",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "151780803914748.00",
-      "recaudo": "162963958774010.18"
     },
     {
       "anio": "2021",
@@ -1374,6 +1367,13 @@
     {
       "anio": "2021",
       "mes_num": "12",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3948349857835.00",
+      "recaudo": "4115655758612.04"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "12",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "14140639553070.00",
       "recaudo": "14503571651187.26"
@@ -1381,9 +1381,9 @@
     {
       "anio": "2021",
       "mes_num": "12",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "134159345822371.00",
-      "recaudo": "95783057108383.05"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "151780803914748.00",
+      "recaudo": "162963958774010.18"
     },
     {
       "anio": "2021",
@@ -1409,6 +1409,20 @@
     {
       "anio": "2021",
       "mes_num": "2",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14140639553070.00",
+      "recaudo": "2553756881034.98"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "2",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "151780803914748.00",
+      "recaudo": "26000838763124.87"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "2",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "647761509321.00",
       "recaudo": "208091048784.63"
@@ -1422,24 +1436,38 @@
     },
     {
       "anio": "2021",
-      "mes_num": "2",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "151780803914748.00",
-      "recaudo": "26000838763124.87"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "2",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14140639553070.00",
-      "recaudo": "2553756881034.98"
-    },
-    {
-      "anio": "2021",
       "mes_num": "3",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "647761509321.00",
       "recaudo": "247449685211.01"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "3",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3948349857835.00",
+      "recaudo": "885561553523.72"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "3",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "134159345822371.00",
+      "recaudo": "23234776701639.85"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "3",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "151780803914748.00",
+      "recaudo": "39738739999068.40"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "3",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14140639553070.00",
+      "recaudo": "4361730150884.67"
     },
     {
       "anio": "2021",
@@ -1457,31 +1485,24 @@
     },
     {
       "anio": "2021",
-      "mes_num": "3",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "134159345822371.00",
-      "recaudo": "23234776701639.85"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "3",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14140639553070.00",
-      "recaudo": "4361730150884.67"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3948349857835.00",
-      "recaudo": "885561553523.72"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "3",
+      "mes_num": "4",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "151780803914748.00",
-      "recaudo": "39738739999068.40"
+      "recaudo": "52583194812297.94"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "4",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "647761509321.00",
+      "recaudo": "281982689830.51"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "4",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2416062836363.00",
+      "recaudo": "699471232782.18"
     },
     {
       "anio": "2021",
@@ -1513,24 +1534,10 @@
     },
     {
       "anio": "2021",
-      "mes_num": "4",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "647761509321.00",
-      "recaudo": "281982689830.51"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "151780803914748.00",
-      "recaudo": "52583194812297.94"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "4",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2416062836363.00",
-      "recaudo": "699471232782.18"
+      "mes_num": "5",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "36883166155433.00",
+      "recaudo": "4182179562248.68"
     },
     {
       "anio": "2021",
@@ -1542,9 +1549,9 @@
     {
       "anio": "2021",
       "mes_num": "5",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14140639553070.00",
-      "recaudo": "6092052108034.89"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "647761509321.00",
+      "recaudo": "317269388684.94"
     },
     {
       "anio": "2021",
@@ -1556,20 +1563,6 @@
     {
       "anio": "2021",
       "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "647761509321.00",
-      "recaudo": "317269388684.94"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3948349857835.00",
-      "recaudo": "1538854150527.39"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "5",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "2416062836363.00",
       "recaudo": "873710583425.18"
@@ -1577,44 +1570,16 @@
     {
       "anio": "2021",
       "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "36883166155433.00",
-      "recaudo": "4182179562248.68"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "6",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "134159345822371.00",
-      "recaudo": "55004330785833.05"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "6",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "36883166155433.00",
-      "recaudo": "5049493159595.33"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "6",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "14140639553070.00",
-      "recaudo": "6702751239311.83"
+      "recaudo": "6092052108034.89"
     },
     {
       "anio": "2021",
-      "mes_num": "6",
+      "mes_num": "5",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "3948349857835.00",
-      "recaudo": "1871700699408.89"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "6",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2416062836363.00",
-      "recaudo": "1080734426526.84"
+      "recaudo": "1538854150527.39"
     },
     {
       "anio": "2021",
@@ -1626,9 +1591,72 @@
     {
       "anio": "2021",
       "mes_num": "6",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "36883166155433.00",
+      "recaudo": "5049493159595.33"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "134159345822371.00",
+      "recaudo": "55004330785833.05"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "151780803914748.00",
       "recaudo": "81777654213898.45"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2416062836363.00",
+      "recaudo": "1080734426526.84"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3948349857835.00",
+      "recaudo": "1871700699408.89"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "6",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14140639553070.00",
+      "recaudo": "6702751239311.83"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "7",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "647761509321.00",
+      "recaudo": "390597741497.91"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "7",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "36883166155433.00",
+      "recaudo": "19086862991910.35"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "7",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "151780803914748.00",
+      "recaudo": "95964149663768.65"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "7",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "3948349857835.00",
+      "recaudo": "2261784023469.73"
     },
     {
       "anio": "2021",
@@ -1653,52 +1681,10 @@
     },
     {
       "anio": "2021",
-      "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "36883166155433.00",
-      "recaudo": "19086862991910.35"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "3948349857835.00",
-      "recaudo": "2261784023469.73"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "647761509321.00",
-      "recaudo": "390597741497.91"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "7",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "151780803914748.00",
-      "recaudo": "95964149663768.65"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "8",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14140639553070.00",
-      "recaudo": "8702708550801.50"
-    },
-    {
-      "anio": "2021",
       "mes_num": "8",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "151780803914748.00",
       "recaudo": "105650887979091.07"
-    },
-    {
-      "anio": "2021",
-      "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "36883166155433.00",
-      "recaudo": "20793599596701.48"
     },
     {
       "anio": "2021",
@@ -1710,9 +1696,9 @@
     {
       "anio": "2021",
       "mes_num": "8",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2416062836363.00",
-      "recaudo": "1443083676928.57"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "134159345822371.00",
+      "recaudo": "80352338926585.37"
     },
     {
       "anio": "2021",
@@ -1724,16 +1710,30 @@
     {
       "anio": "2021",
       "mes_num": "8",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "134159345822371.00",
-      "recaudo": "80352338926585.37"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14140639553070.00",
+      "recaudo": "8702708550801.50"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "8",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2416062836363.00",
+      "recaudo": "1443083676928.57"
+    },
+    {
+      "anio": "2021",
+      "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "36883166155433.00",
+      "recaudo": "20793599596701.48"
     },
     {
       "anio": "2021",
       "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2416062836363.00",
-      "recaudo": "1637431641871.39"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14140639553070.00",
+      "recaudo": "9787267170849.38"
     },
     {
       "anio": "2021",
@@ -1752,9 +1752,9 @@
     {
       "anio": "2021",
       "mes_num": "9",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14140639553070.00",
-      "recaudo": "9787267170849.38"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2416062836363.00",
+      "recaudo": "1637431641871.39"
     },
     {
       "anio": "2021",
@@ -1780,6 +1780,13 @@
     {
       "anio": "2022",
       "mes_num": "1",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "146834681950291.00",
+      "recaudo": "235607987774.39"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "1",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "13630678989861.00",
       "recaudo": "940282700942.61"
@@ -1787,9 +1794,9 @@
     {
       "anio": "2022",
       "mes_num": "1",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "146834681950291.00",
-      "recaudo": "235607987774.39"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14222135215425.00",
+      "recaudo": "1316329253555.39"
     },
     {
       "anio": "2022",
@@ -1801,13 +1808,6 @@
     {
       "anio": "2022",
       "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "627891025800.00",
-      "recaudo": "239546113843.38"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "1",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "4046805426671.00",
       "recaudo": "293019611276.88"
@@ -1815,16 +1815,16 @@
     {
       "anio": "2022",
       "mes_num": "1",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "21196761522954.27"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "627891025800.00",
+      "recaudo": "239546113843.38"
     },
     {
       "anio": "2022",
       "mes_num": "1",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14222135215425.00",
-      "recaudo": "1316329253555.39"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "21196761522954.27"
     },
     {
       "anio": "2022",
@@ -1836,16 +1836,16 @@
     {
       "anio": "2022",
       "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "627891025800.00",
-      "recaudo": "714229196630.89"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2434904976821.00",
+      "recaudo": "2278765511957.08"
     },
     {
       "anio": "2022",
       "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2434904976821.00",
-      "recaudo": "2278765511957.08"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "4046805426671.00",
+      "recaudo": "3737168707754.25"
     },
     {
       "anio": "2022",
@@ -1864,30 +1864,16 @@
     {
       "anio": "2022",
       "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "13630678989861.00",
-      "recaudo": "11173303757224.31"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "627891025800.00",
+      "recaudo": "714229196630.89"
     },
     {
       "anio": "2022",
       "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "4046805426671.00",
-      "recaudo": "3737168707754.25"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "11",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "200714990838134.23"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "11",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14222135215425.00",
-      "recaudo": "16291281467730.53"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "13630678989861.00",
+      "recaudo": "11173303757224.31"
     },
     {
       "anio": "2022",
@@ -1899,16 +1885,30 @@
     {
       "anio": "2022",
       "mes_num": "11",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "627891025800.00",
-      "recaudo": "788918168319.58"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2434904976821.00",
+      "recaudo": "2487897789654.73"
     },
     {
       "anio": "2022",
       "mes_num": "11",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "146834681950291.00",
-      "recaudo": "61181100169060.26"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14222135215425.00",
+      "recaudo": "16291281467730.53"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "11",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "200714990838134.23"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "11",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "627891025800.00",
+      "recaudo": "788918168319.58"
     },
     {
       "anio": "2022",
@@ -1920,23 +1920,9 @@
     {
       "anio": "2022",
       "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2434904976821.00",
-      "recaudo": "2487897789654.73"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "12",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2434904976821.00",
-      "recaudo": "2673789074074.73"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "12",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "13630678989861.00",
-      "recaudo": "16398163661050.89"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "146834681950291.00",
+      "recaudo": "61181100169060.26"
     },
     {
       "anio": "2022",
@@ -1955,9 +1941,9 @@
     {
       "anio": "2022",
       "mes_num": "12",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "146834681950291.00",
-      "recaudo": "73538704012113.70"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "13630678989861.00",
+      "recaudo": "16398163661050.89"
     },
     {
       "anio": "2022",
@@ -1975,10 +1961,24 @@
     },
     {
       "anio": "2022",
+      "mes_num": "12",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2434904976821.00",
+      "recaudo": "2673789074074.73"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "12",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "146834681950291.00",
+      "recaudo": "73538704012113.70"
+    },
+    {
+      "anio": "2022",
       "mes_num": "2",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "34508500533434.39"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "627891025800.00",
+      "recaudo": "277727435522.89"
     },
     {
       "anio": "2022",
@@ -1990,9 +1990,9 @@
     {
       "anio": "2022",
       "mes_num": "2",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2434904976821.00",
-      "recaudo": "388228848225.08"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "4046805426671.00",
+      "recaudo": "624705357429.88"
     },
     {
       "anio": "2022",
@@ -2004,13 +2004,6 @@
     {
       "anio": "2022",
       "mes_num": "2",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "4046805426671.00",
-      "recaudo": "624705357429.88"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "2",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "14222135215425.00",
       "recaudo": "3389637218188.67"
@@ -2018,30 +2011,16 @@
     {
       "anio": "2022",
       "mes_num": "2",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "627891025800.00",
-      "recaudo": "277727435522.89"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2434904976821.00",
+      "recaudo": "388228848225.08"
     },
     {
       "anio": "2022",
-      "mes_num": "3",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "627891025800.00",
-      "recaudo": "338383175888.51"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "3",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "146834681950291.00",
-      "recaudo": "12511842294121.47"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "3",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "13630678989861.00",
-      "recaudo": "3041216296760.81"
+      "mes_num": "2",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "34508500533434.39"
     },
     {
       "anio": "2022",
@@ -2053,6 +2032,20 @@
     {
       "anio": "2022",
       "mes_num": "3",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "13630678989861.00",
+      "recaudo": "3041216296760.81"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "146834681950291.00",
+      "recaudo": "12511842294121.47"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "2434904976821.00",
       "recaudo": "583535279843.08"
@@ -2060,16 +2053,23 @@
     {
       "anio": "2022",
       "mes_num": "3",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14222135215425.00",
-      "recaudo": "4662886038459.93"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "4046805426671.00",
+      "recaudo": "984551597277.28"
     },
     {
       "anio": "2022",
       "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "4046805426671.00",
-      "recaudo": "984551597277.28"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "627891025800.00",
+      "recaudo": "338383175888.51"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "3",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14222135215425.00",
+      "recaudo": "4662886038459.93"
     },
     {
       "anio": "2022",
@@ -2088,6 +2088,13 @@
     {
       "anio": "2022",
       "mes_num": "4",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "70594006041390.71"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "4",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "627891025800.00",
       "recaudo": "381655435237.76"
@@ -2102,9 +2109,9 @@
     {
       "anio": "2022",
       "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "70594006041390.71"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2434904976821.00",
+      "recaudo": "797137038097.08"
     },
     {
       "anio": "2022",
@@ -2115,10 +2122,10 @@
     },
     {
       "anio": "2022",
-      "mes_num": "4",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2434904976821.00",
-      "recaudo": "797137038097.08"
+      "mes_num": "5",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "146834681950291.00",
+      "recaudo": "25090045440019.13"
     },
     {
       "anio": "2022",
@@ -2144,16 +2151,9 @@
     {
       "anio": "2022",
       "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "13630678989861.00",
-      "recaudo": "4949934048541.49"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "5",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "146834681950291.00",
-      "recaudo": "25090045440019.13"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "91942949225079.72"
     },
     {
       "anio": "2022",
@@ -2165,30 +2165,9 @@
     {
       "anio": "2022",
       "mes_num": "5",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "91942949225079.72"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "6",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "108656725728119.54"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "6",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "627891025800.00",
-      "recaudo": "486241991267.37"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "6",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2434904976821.00",
-      "recaudo": "1310957378202.58"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "13630678989861.00",
+      "recaudo": "4949934048541.49"
     },
     {
       "anio": "2022",
@@ -2200,9 +2179,9 @@
     {
       "anio": "2022",
       "mes_num": "6",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "146834681950291.00",
-      "recaudo": "31566755182269.11"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "627891025800.00",
+      "recaudo": "486241991267.37"
     },
     {
       "anio": "2022",
@@ -2220,10 +2199,24 @@
     },
     {
       "anio": "2022",
-      "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "13630678989861.00",
-      "recaudo": "7071401263212.93"
+      "mes_num": "6",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "146834681950291.00",
+      "recaudo": "31566755182269.11"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "108656725728119.54"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "6",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2434904976821.00",
+      "recaudo": "1310957378202.58"
     },
     {
       "anio": "2022",
@@ -2231,20 +2224,6 @@
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "2434904976821.00",
       "recaudo": "1551843430270.08"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "7",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14222135215425.00",
-      "recaudo": "10620486103968.99"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "4046805426671.00",
-      "recaudo": "2582924992463.52"
     },
     {
       "anio": "2022",
@@ -2263,30 +2242,30 @@
     {
       "anio": "2022",
       "mes_num": "7",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "13630678989861.00",
+      "recaudo": "7071401263212.93"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14222135215425.00",
+      "recaudo": "10620486103968.99"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "4046805426671.00",
+      "recaudo": "2582924992463.52"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "7",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "146834681950291.00",
       "recaudo": "40430794509760.49"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "8",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "4046805426671.00",
-      "recaudo": "2992621866968.45"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "8",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "14222135215425.00",
-      "recaudo": "11814761296932.40"
-    },
-    {
-      "anio": "2022",
-      "mes_num": "8",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "142789643761630.76"
     },
     {
       "anio": "2022",
@@ -2298,16 +2277,16 @@
     {
       "anio": "2022",
       "mes_num": "8",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2434904976821.00",
-      "recaudo": "1802452020670.08"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "142789643761630.76"
     },
     {
       "anio": "2022",
       "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "13630678989861.00",
-      "recaudo": "8518702630020.15"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "4046805426671.00",
+      "recaudo": "2992621866968.45"
     },
     {
       "anio": "2022",
@@ -2318,17 +2297,24 @@
     },
     {
       "anio": "2022",
-      "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "13630678989861.00",
-      "recaudo": "9638319179333.44"
+      "mes_num": "8",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2434904976821.00",
+      "recaudo": "1802452020670.08"
     },
     {
       "anio": "2022",
-      "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "627891025800.00",
-      "recaudo": "669096927849.19"
+      "mes_num": "8",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "14222135215425.00",
+      "recaudo": "11814761296932.40"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "13630678989861.00",
+      "recaudo": "8518702630020.15"
     },
     {
       "anio": "2022",
@@ -2340,9 +2326,16 @@
     {
       "anio": "2022",
       "mes_num": "9",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "170861576056976.00",
-      "recaudo": "166297412513043.78"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "627891025800.00",
+      "recaudo": "669096927849.19"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "13630678989861.00",
+      "recaudo": "9638319179333.44"
     },
     {
       "anio": "2022",
@@ -2354,9 +2347,9 @@
     {
       "anio": "2022",
       "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "4046805426671.00",
-      "recaudo": "3368833520480.42"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "170861576056976.00",
+      "recaudo": "166297412513043.78"
     },
     {
       "anio": "2022",
@@ -2364,6 +2357,20 @@
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "146834681950291.00",
       "recaudo": "56139202202744.47"
+    },
+    {
+      "anio": "2022",
+      "mes_num": "9",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "4046805426671.00",
+      "recaudo": "3368833520480.42"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "1366115851332.30"
     },
     {
       "anio": "2023",
@@ -2375,6 +2382,13 @@
     {
       "anio": "2023",
       "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "14576747674607.00",
+      "recaudo": "1371854962070.48"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "1",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "108476134191645.00",
       "recaudo": "4008103295063.18"
@@ -2382,9 +2396,9 @@
     {
       "anio": "2023",
       "mes_num": "1",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "1366115851332.30"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5011444058727.00",
+      "recaudo": "345057848977.74"
     },
     {
       "anio": "2023",
@@ -2402,17 +2416,10 @@
     },
     {
       "anio": "2023",
-      "mes_num": "1",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5011444058727.00",
-      "recaudo": "345057848977.74"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "14576747674607.00",
-      "recaudo": "1371854962070.48"
+      "mes_num": "10",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "108476134191645.00",
+      "recaudo": "72498244884183.55"
     },
     {
       "anio": "2023",
@@ -2424,23 +2431,16 @@
     {
       "anio": "2023",
       "mes_num": "10",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "15751164184560.51"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "10",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "108476134191645.00",
-      "recaudo": "72498244884183.55"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "10",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "14576747674607.00",
       "recaudo": "11932957276178.59"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "10",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "871069586073.00",
+      "recaudo": "847312753473.55"
     },
     {
       "anio": "2023",
@@ -2452,16 +2452,16 @@
     {
       "anio": "2023",
       "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "1845209169765.86"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "15751164184560.51"
     },
     {
       "anio": "2023",
       "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "871069586073.00",
-      "recaudo": "847312753473.55"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "1845209169765.86"
     },
     {
       "anio": "2023",
@@ -2473,23 +2473,16 @@
     {
       "anio": "2023",
       "mes_num": "11",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "275633952000000.00",
+      "recaudo": "253328753973071.25"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "11",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "14576747674607.00",
       "recaudo": "14521418195339.95"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "11",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "108476134191645.00",
-      "recaudo": "85507534214926.36"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5011444058727.00",
-      "recaudo": "4680143888178.21"
     },
     {
       "anio": "2023",
@@ -2501,9 +2494,9 @@
     {
       "anio": "2023",
       "mes_num": "11",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "275633952000000.00",
-      "recaudo": "253328753973071.25"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5011444058727.00",
+      "recaudo": "4680143888178.21"
     },
     {
       "anio": "2023",
@@ -2514,24 +2507,10 @@
     },
     {
       "anio": "2023",
-      "mes_num": "12",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "14576747674607.00",
-      "recaudo": "16906783720260.62"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "12",
+      "mes_num": "11",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "108476134191645.00",
-      "recaudo": "90750584865727.27"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "12",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "18821564572629.98"
+      "recaudo": "85507534214926.36"
     },
     {
       "anio": "2023",
@@ -2543,9 +2522,9 @@
     {
       "anio": "2023",
       "mes_num": "12",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "2556362549212.72"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "108476134191645.00",
+      "recaudo": "90750584865727.27"
     },
     {
       "anio": "2023",
@@ -2557,9 +2536,37 @@
     {
       "anio": "2023",
       "mes_num": "12",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "2556362549212.72"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "18821564572629.98"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "871069586073.00",
       "recaudo": "1029795305684.95"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "12",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "14576747674607.00",
+      "recaudo": "16906783720260.62"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5011444058727.00",
+      "recaudo": "706215996931.90"
     },
     {
       "anio": "2023",
@@ -2585,6 +2592,13 @@
     {
       "anio": "2023",
       "mes_num": "2",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "3106254939661.10"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "2",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "871069586073.00",
       "recaudo": "212107551778.08"
@@ -2598,24 +2612,10 @@
     },
     {
       "anio": "2023",
-      "mes_num": "2",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "3106254939661.10"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "2",
+      "mes_num": "3",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "5011444058727.00",
-      "recaudo": "706215996931.90"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "3",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "6208080208915.97"
+      "recaudo": "1123080892461.29"
     },
     {
       "anio": "2023",
@@ -2627,9 +2627,9 @@
     {
       "anio": "2023",
       "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5011444058727.00",
-      "recaudo": "1123080892461.29"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "275633952000000.00",
+      "recaudo": "63159334316651.50"
     },
     {
       "anio": "2023",
@@ -2641,16 +2641,16 @@
     {
       "anio": "2023",
       "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "696809521013.72"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "6208080208915.97"
     },
     {
       "anio": "2023",
       "mes_num": "3",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "275633952000000.00",
-      "recaudo": "63159334316651.50"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "696809521013.72"
     },
     {
       "anio": "2023",
@@ -2662,6 +2662,13 @@
     {
       "anio": "2023",
       "mes_num": "4",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "871069586073.00",
+      "recaudo": "342964127347.14"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "4",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "5011444058727.00",
       "recaudo": "1519595629854.26"
@@ -2669,16 +2676,9 @@
     {
       "anio": "2023",
       "mes_num": "4",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "866875918346.72"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "4",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "108476134191645.00",
-      "recaudo": "29252885134635.82"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "275633952000000.00",
+      "recaudo": "92932583709304.55"
     },
     {
       "anio": "2023",
@@ -2697,16 +2697,44 @@
     {
       "anio": "2023",
       "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "275633952000000.00",
-      "recaudo": "92932583709304.55"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "866875918346.72"
     },
     {
       "anio": "2023",
       "mes_num": "4",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "108476134191645.00",
+      "recaudo": "29252885134635.82"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "1119589914352.72"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5011444058727.00",
+      "recaudo": "1933337370498.34"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "108476134191645.00",
+      "recaudo": "35690962138269.89"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "5",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "871069586073.00",
-      "recaudo": "342964127347.14"
+      "recaudo": "421433212186.42"
     },
     {
       "anio": "2023",
@@ -2728,48 +2756,6 @@
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "275633952000000.00",
       "recaudo": "119013813610469.53"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "1119589914352.72"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5011444058727.00",
-      "recaudo": "1933337370498.34"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "871069586073.00",
-      "recaudo": "421433212186.42"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "5",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "108476134191645.00",
-      "recaudo": "35690962138269.89"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "6",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "9548428535265.33"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "6",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5011444058727.00",
-      "recaudo": "2372422264025.23"
     },
     {
       "anio": "2023",
@@ -2795,6 +2781,20 @@
     {
       "anio": "2023",
       "mes_num": "6",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "9548428535265.33"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5011444058727.00",
+      "recaudo": "2372422264025.23"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "6",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "14576747674607.00",
       "recaudo": "7586685850563.56"
@@ -2809,37 +2809,9 @@
     {
       "anio": "2023",
       "mes_num": "7",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "108476134191645.00",
-      "recaudo": "54026770904024.40"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "7",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "5011444058727.00",
       "recaudo": "2889067290664.84"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "14576747674607.00",
-      "recaudo": "8844336454163.32"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "7",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "11604154059031.23"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "1627445618469.86"
     },
     {
       "anio": "2023",
@@ -2851,9 +2823,58 @@
     {
       "anio": "2023",
       "mes_num": "7",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "14576747674607.00",
+      "recaudo": "8844336454163.32"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "1627445618469.86"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "11604154059031.23"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "108476134191645.00",
+      "recaudo": "54026770904024.40"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "7",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "871069586073.00",
       "recaudo": "559793491173.92"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "14576747674607.00",
+      "recaudo": "9896391682632.38"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "108476134191645.00",
+      "recaudo": "57612889209158.10"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "8",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "15895941049826.00",
+      "recaudo": "13101483360624.88"
     },
     {
       "anio": "2023",
@@ -2872,20 +2893,6 @@
     {
       "anio": "2023",
       "mes_num": "8",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "108476134191645.00",
-      "recaudo": "57612889209158.10"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "8",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "1744894493147.86"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "8",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "871069586073.00",
       "recaudo": "627483306806.41"
@@ -2893,16 +2900,9 @@
     {
       "anio": "2023",
       "mes_num": "8",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "15895941049826.00",
-      "recaudo": "13101483360624.88"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "14576747674607.00",
-      "recaudo": "9896391682632.38"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "1744894493147.86"
     },
     {
       "anio": "2023",
@@ -2914,23 +2914,16 @@
     {
       "anio": "2023",
       "mes_num": "9",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "108476134191645.00",
+      "recaudo": "71223516133342.47"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "14576747674607.00",
       "recaudo": "11104342207046.30"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5011444058727.00",
-      "recaudo": "3806292451685.52"
-    },
-    {
-      "anio": "2023",
-      "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "2707382375076.00",
-      "recaudo": "1838678437231.86"
     },
     {
       "anio": "2023",
@@ -2942,9 +2935,16 @@
     {
       "anio": "2023",
       "mes_num": "9",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "108476134191645.00",
-      "recaudo": "71223516133342.47"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "2707382375076.00",
+      "recaudo": "1838678437231.86"
+    },
+    {
+      "anio": "2023",
+      "mes_num": "9",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5011444058727.00",
+      "recaudo": "3806292451685.52"
     },
     {
       "anio": "2023",
@@ -2956,9 +2956,9 @@
     {
       "anio": "2024",
       "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "762380872264.00",
-      "recaudo": "177591797606.60"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "5418439703311.24"
     },
     {
       "anio": "2024",
@@ -2970,9 +2970,16 @@
     {
       "anio": "2024",
       "mes_num": "1",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "20635290694484.50",
-      "recaudo": "1483778713951.08"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "29305531527200.46"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "762380872264.00",
+      "recaudo": "177591797606.60"
     },
     {
       "anio": "2024",
@@ -2984,37 +2991,16 @@
     {
       "anio": "2024",
       "mes_num": "1",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "20635290694484.50",
+      "recaudo": "1483778713951.08"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "1",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "15207329599317.00",
       "recaudo": "1544826134248.21"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "1",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "5418439703311.24"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "1",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "29305531527200.46"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "4675786627937.06"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "10",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "20635290694484.50",
-      "recaudo": "19633027745157.05"
     },
     {
       "anio": "2024",
@@ -3026,16 +3012,16 @@
     {
       "anio": "2024",
       "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "762380872264.00",
-      "recaudo": "933653041242.48"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "212136507204266.93"
     },
     {
       "anio": "2024",
       "mes_num": "10",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "82924624797222.96"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "762380872264.00",
+      "recaudo": "933653041242.48"
     },
     {
       "anio": "2024",
@@ -3047,9 +3033,23 @@
     {
       "anio": "2024",
       "mes_num": "10",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "212136507204266.93"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "20635290694484.50",
+      "recaudo": "19633027745157.05"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "4675786627937.06"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "10",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "82924624797222.96"
     },
     {
       "anio": "2024",
@@ -3061,6 +3061,13 @@
     {
       "anio": "2024",
       "mes_num": "11",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "5148521324607.77"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "15207329599317.00",
       "recaudo": "15312654916580.88"
@@ -3068,23 +3075,9 @@
     {
       "anio": "2024",
       "mes_num": "11",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "231722684185873.30"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "3107045087874.00",
-      "recaudo": "3106596532048.27"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "5148521324607.77"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "98140428620718.39"
     },
     {
       "anio": "2024",
@@ -3096,30 +3089,23 @@
     {
       "anio": "2024",
       "mes_num": "11",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "98140428620718.39"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "12",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "250016739175989.58"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "12",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "3107045087874.00",
-      "recaudo": "3566908891072.27"
+      "recaudo": "3106596532048.27"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "11",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "231722684185873.30"
     },
     {
       "anio": "2024",
       "mes_num": "12",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "5844949161253.29"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "102775689833178.57"
     },
     {
       "anio": "2024",
@@ -3138,6 +3124,13 @@
     {
       "anio": "2024",
       "mes_num": "12",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "250016739175989.58"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "15207329599317.00",
       "recaudo": "17605648837538.21"
@@ -3145,30 +3138,23 @@
     {
       "anio": "2024",
       "mes_num": "12",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "102775689833178.57"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "2",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "785779801930.69"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "2",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "3107045087874.00",
-      "recaudo": "276299488060.27"
+      "recaudo": "3566908891072.27"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "12",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "5844949161253.29"
     },
     {
       "anio": "2024",
       "mes_num": "2",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "44536042878355.95"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "15207329599317.00",
+      "recaudo": "2405561744249.98"
     },
     {
       "anio": "2024",
@@ -3194,9 +3180,30 @@
     {
       "anio": "2024",
       "mes_num": "2",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "15207329599317.00",
-      "recaudo": "2405561744249.98"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "3107045087874.00",
+      "recaudo": "276299488060.27"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "44536042878355.95"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "2",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "785779801930.69"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "3",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "66000688243232.27"
     },
     {
       "anio": "2024",
@@ -3208,13 +3215,6 @@
     {
       "anio": "2024",
       "mes_num": "3",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "762380872264.00",
-      "recaudo": "353110700260.95"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "3",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "15207329599317.00",
       "recaudo": "3435574382580.51"
@@ -3222,9 +3222,9 @@
     {
       "anio": "2024",
       "mes_num": "3",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "66000688243232.27"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "1232521692990.73"
     },
     {
       "anio": "2024",
@@ -3243,9 +3243,23 @@
     {
       "anio": "2024",
       "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "1232521692990.73"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "762380872264.00",
+      "recaudo": "353110700260.95"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "84219894764701.90"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "20635290694484.50",
+      "recaudo": "10828832276026.80"
     },
     {
       "anio": "2024",
@@ -3253,6 +3267,13 @@
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "762380872264.00",
       "recaudo": "436644610586.74"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "4",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "43702229819725.77"
     },
     {
       "anio": "2024",
@@ -3277,59 +3298,10 @@
     },
     {
       "anio": "2024",
-      "mes_num": "4",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "20635290694484.50",
-      "recaudo": "10828832276026.80"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "84219894764701.90"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "4",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "43702229819725.77"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "762380872264.00",
-      "recaudo": "531918713568.00"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "5",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "49831323381409.46"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "3107045087874.00",
-      "recaudo": "762420187137.60"
-    },
-    {
-      "anio": "2024",
       "mes_num": "5",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "289005206000000.00",
       "recaudo": "113233959301135.95"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "2202746665383.95"
     },
     {
       "anio": "2024",
@@ -3347,31 +3319,38 @@
     },
     {
       "anio": "2024",
+      "mes_num": "5",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "3107045087874.00",
+      "recaudo": "762420187137.60"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "2202746665383.95"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "49831323381409.46"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "5",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "762380872264.00",
+      "recaudo": "531918713568.00"
+    },
+    {
+      "anio": "2024",
       "mes_num": "6",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "3107045087874.00",
       "recaudo": "932886109381.47"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "6",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "130276851196918.47"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "6",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "2688762038450.64"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "6",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "20635290694484.50",
-      "recaudo": "13471831125362.13"
     },
     {
       "anio": "2024",
@@ -3390,30 +3369,30 @@
     {
       "anio": "2024",
       "mes_num": "6",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "20635290694484.50",
+      "recaudo": "13471831125362.13"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "2688762038450.64"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "130276851196918.47"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "6",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "15207329599317.00",
       "recaudo": "7375349190860.10"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "762380872264.00",
-      "recaudo": "693340999436.18"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "3230578380997.02"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "7",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "67645265293978.96"
     },
     {
       "anio": "2024",
@@ -3425,16 +3404,16 @@
     {
       "anio": "2024",
       "mes_num": "7",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "289005206000000.00",
-      "recaudo": "158122916876768.22"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "67645265293978.96"
     },
     {
       "anio": "2024",
       "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "3107045087874.00",
-      "recaudo": "1869850095709.87"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "762380872264.00",
+      "recaudo": "693340999436.18"
     },
     {
       "anio": "2024",
@@ -3445,24 +3424,24 @@
     },
     {
       "anio": "2024",
-      "mes_num": "8",
+      "mes_num": "7",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "289005206000000.00",
-      "recaudo": "171893586975218.01"
+      "recaudo": "158122916876768.22"
     },
     {
       "anio": "2024",
-      "mes_num": "8",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "73759203318038.10"
+      "mes_num": "7",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "3230578380997.02"
     },
     {
       "anio": "2024",
-      "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "15207329599317.00",
-      "recaudo": "9695673787103.09"
+      "mes_num": "7",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "3107045087874.00",
+      "recaudo": "1869850095709.87"
     },
     {
       "anio": "2024",
@@ -3488,23 +3467,30 @@
     {
       "anio": "2024",
       "mes_num": "8",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "289005206000000.00",
+      "recaudo": "171893586975218.01"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "15207329599317.00",
+      "recaudo": "9695673787103.09"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "8",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "762380872264.00",
       "recaudo": "755385955742.13"
     },
     {
       "anio": "2024",
-      "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "15207329599317.00",
-      "recaudo": "11788126526811.51"
-    },
-    {
-      "anio": "2024",
-      "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "762380872264.00",
-      "recaudo": "845790117749.17"
+      "mes_num": "8",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "73759203318038.10"
     },
     {
       "anio": "2024",
@@ -3516,16 +3502,16 @@
     {
       "anio": "2024",
       "mes_num": "9",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "140891805104459.00",
-      "recaudo": "78734222049411.98"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "762380872264.00",
+      "recaudo": "845790117749.17"
     },
     {
       "anio": "2024",
       "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "3107045087874.00",
-      "recaudo": "2154846064079.27"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5587053151880.00",
+      "recaudo": "4186272680720.33"
     },
     {
       "anio": "2024",
@@ -3537,16 +3523,23 @@
     {
       "anio": "2024",
       "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5587053151880.00",
-      "recaudo": "4186272680720.33"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "3107045087874.00",
+      "recaudo": "2154846064079.27"
     },
     {
-      "anio": "2025",
-      "mes_num": "1",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5956937650677.00",
-      "recaudo": "408583759421.45"
+      "anio": "2024",
+      "mes_num": "9",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "15207329599317.00",
+      "recaudo": "11788126526811.51"
+    },
+    {
+      "anio": "2024",
+      "mes_num": "9",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "140891805104459.00",
+      "recaudo": "78734222049411.98"
     },
     {
       "anio": "2025",
@@ -3554,13 +3547,6 @@
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "4031689853309.00",
       "recaudo": "284236246933.64"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "1",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "155782423522588.00",
-      "recaudo": "11594332785152.64"
     },
     {
       "anio": "2025",
@@ -3579,9 +3565,9 @@
     {
       "anio": "2025",
       "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "18119471887411.00",
-      "recaudo": "1701719234197.30"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5956937650677.00",
+      "recaudo": "408583759421.45"
     },
     {
       "anio": "2025",
@@ -3589,6 +3575,20 @@
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "308545927000000.00",
       "recaudo": "29080112874961.07"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "18119471887411.00",
+      "recaudo": "1701719234197.30"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "1",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "155782423522588.00",
+      "recaudo": "11594332785152.64"
     },
     {
       "anio": "2025",
@@ -3600,16 +3600,9 @@
     {
       "anio": "2025",
       "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "1683209211302.48"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "10",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "18119471887411.00",
-      "recaudo": "16338602705877.67"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4031689853309.00",
+      "recaudo": "3209516298761.69"
     },
     {
       "anio": "2025",
@@ -3621,16 +3614,16 @@
     {
       "anio": "2025",
       "mes_num": "10",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "155824047124816.00",
-      "recaudo": "138773542963663.20"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "18119471887411.00",
+      "recaudo": "16338602705877.67"
     },
     {
       "anio": "2025",
       "mes_num": "10",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4031689853309.00",
-      "recaudo": "3209516298761.69"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "1683209211302.48"
     },
     {
       "anio": "2025",
@@ -3641,10 +3634,10 @@
     },
     {
       "anio": "2025",
-      "mes_num": "11",
+      "mes_num": "10",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "156624448655309.00",
-      "recaudo": "143748113771276.14"
+      "aforo_vigente": "155824047124816.00",
+      "recaudo": "138773542963663.20"
     },
     {
       "anio": "2025",
@@ -3656,16 +3649,16 @@
     {
       "anio": "2025",
       "mes_num": "11",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5956937650677.00",
-      "recaudo": "5605146910975.89"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "18119471887411.00",
+      "recaudo": "17712353484141.38"
     },
     {
       "anio": "2025",
       "mes_num": "11",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "18119471887411.00",
-      "recaudo": "17712353484141.38"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "156624448655309.00",
+      "recaudo": "143748113771276.14"
     },
     {
       "anio": "2025",
@@ -3684,6 +3677,13 @@
     {
       "anio": "2025",
       "mes_num": "11",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5956937650677.00",
+      "recaudo": "5605146910975.89"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "11",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "973436411295.00",
       "recaudo": "1778017593103.99"
@@ -3691,30 +3691,9 @@
     {
       "anio": "2025",
       "mes_num": "12",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "19455501855690.00",
-      "recaudo": "22722206370759.17"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "12",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5950857920077.00",
-      "recaudo": "6353003196383.43"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "12",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "921238941320.00",
-      "recaudo": "1900055944463.91"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "12",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4031689853309.00",
-      "recaudo": "3929928597597.24"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "306144838403096.00",
+      "recaudo": "273843959341295.66"
     },
     {
       "anio": "2025",
@@ -3726,51 +3705,37 @@
     {
       "anio": "2025",
       "mes_num": "12",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "17350347272231.00",
-      "recaudo": "19929795683176.11"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "19455501855690.00",
+      "recaudo": "22722206370759.17"
     },
     {
       "anio": "2025",
       "mes_num": "12",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "306144838403096.00",
-      "recaudo": "273843959341295.66"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "921238941320.00",
+      "recaudo": "1900055944463.91"
     },
     {
       "anio": "2025",
-      "mes_num": "2",
+      "mes_num": "12",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5956937650677.00",
-      "recaudo": "850259304454.01"
+      "aforo_vigente": "5950857920077.00",
+      "recaudo": "6353003196383.43"
     },
     {
       "anio": "2025",
-      "mes_num": "2",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "20431246131424.00",
-      "recaudo": "3487289719794.24"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "2",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "18119471887411.00",
-      "recaudo": "2976458996009.97"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "2",
+      "mes_num": "12",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "4031689853309.00",
-      "recaudo": "571754215397.64"
+      "recaudo": "3929928597597.24"
     },
     {
       "anio": "2025",
-      "mes_num": "2",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "155782423522588.00",
-      "recaudo": "23544644824024.22"
+      "mes_num": "12",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "17350347272231.00",
+      "recaudo": "19929795683176.11"
     },
     {
       "anio": "2025",
@@ -3788,17 +3753,38 @@
     },
     {
       "anio": "2025",
-      "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4031689853309.00",
-      "recaudo": "857059685164.64"
+      "mes_num": "2",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5956937650677.00",
+      "recaudo": "850259304454.01"
     },
     {
       "anio": "2025",
-      "mes_num": "3",
+      "mes_num": "2",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "155782423522588.00",
+      "recaudo": "23544644824024.22"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4031689853309.00",
+      "recaudo": "571754215397.64"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "18119471887411.00",
-      "recaudo": "4954464037888.98"
+      "recaudo": "2976458996009.97"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "2",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "20431246131424.00",
+      "recaudo": "3487289719794.24"
     },
     {
       "anio": "2025",
@@ -3810,13 +3796,6 @@
     {
       "anio": "2025",
       "mes_num": "3",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "511743744170.89"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "3",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "20431246131424.00",
       "recaudo": "5643314095521.33"
@@ -3824,9 +3803,16 @@
     {
       "anio": "2025",
       "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5956937650677.00",
-      "recaudo": "1349364902713.12"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "18119471887411.00",
+      "recaudo": "4954464037888.98"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "511743744170.89"
     },
     {
       "anio": "2025",
@@ -3837,24 +3823,17 @@
     },
     {
       "anio": "2025",
-      "mes_num": "4",
+      "mes_num": "3",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4031689853309.00",
+      "recaudo": "857059685164.64"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "3",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "5956937650677.00",
-      "recaudo": "1846814903892.04"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "4",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "746225418050.88"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "308545927000000.00",
-      "recaudo": "85388525605286.44"
+      "recaudo": "1349364902713.12"
     },
     {
       "anio": "2025",
@@ -3862,13 +3841,6 @@
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "4031689853309.00",
       "recaudo": "1147994705102.64"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "4",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "18119471887411.00",
-      "recaudo": "6480361068134.81"
     },
     {
       "anio": "2025",
@@ -3886,10 +3858,45 @@
     },
     {
       "anio": "2025",
+      "mes_num": "4",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "308545927000000.00",
+      "recaudo": "85388525605286.44"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "746225418050.88"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "18119471887411.00",
+      "recaudo": "6480361068134.81"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "4",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5956937650677.00",
+      "recaudo": "1846814903892.04"
+    },
+    {
+      "anio": "2025",
       "mes_num": "5",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "308545927000000.00",
       "recaudo": "115831529435705.31"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "5",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "20431246131424.00",
+      "recaudo": "11628870426186.78"
     },
     {
       "anio": "2025",
@@ -3908,9 +3915,9 @@
     {
       "anio": "2025",
       "mes_num": "5",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "20431246131424.00",
-      "recaudo": "11628870426186.78"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "843858226011.68"
     },
     {
       "anio": "2025",
@@ -3922,23 +3929,9 @@
     {
       "anio": "2025",
       "mes_num": "5",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "843858226011.68"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "5",
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "18119471887411.00",
       "recaudo": "7893012742766.59"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "6",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "958116516624.49"
     },
     {
       "anio": "2025",
@@ -3950,16 +3943,16 @@
     {
       "anio": "2025",
       "mes_num": "6",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "308545927000000.00",
-      "recaudo": "136427695085037.13"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "958116516624.49"
     },
     {
       "anio": "2025",
       "mes_num": "6",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "155799136468683.00",
-      "recaudo": "84576744991683.71"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5956937650677.00",
+      "recaudo": "2865274976836.27"
     },
     {
       "anio": "2025",
@@ -3971,6 +3964,13 @@
     {
       "anio": "2025",
       "mes_num": "6",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "308545927000000.00",
+      "recaudo": "136427695085037.13"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "6",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "20420061810058.00",
       "recaudo": "12528605766591.88"
@@ -3978,44 +3978,9 @@
     {
       "anio": "2025",
       "mes_num": "6",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5956937650677.00",
-      "recaudo": "2865274976836.27"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "7",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "308545927000000.00",
-      "recaudo": "167596407216288.12"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "18119471887411.00",
-      "recaudo": "11240928583843.89"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "1236550139221.45"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "7",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "20420061810058.00",
-      "recaudo": "14685666130614.92"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "7",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "155799136468683.00",
-      "recaudo": "92816402680501.31"
+      "recaudo": "84576744991683.71"
     },
     {
       "anio": "2025",
@@ -4027,16 +3992,44 @@
     {
       "anio": "2025",
       "mes_num": "7",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "18119471887411.00",
+      "recaudo": "11240928583843.89"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "20420061810058.00",
+      "recaudo": "14685666130614.92"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "308545927000000.00",
+      "recaudo": "167596407216288.12"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "155799136468683.00",
+      "recaudo": "92816402680501.31"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "7",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
       "aforo_vigente": "4031689853309.00",
       "recaudo": "2199565271351.02"
     },
     {
       "anio": "2025",
-      "mes_num": "8",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4031689853309.00",
-      "recaudo": "2506655221806.02"
+      "mes_num": "7",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "1236550139221.45"
     },
     {
       "anio": "2025",
@@ -4048,6 +4041,13 @@
     {
       "anio": "2025",
       "mes_num": "8",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "1334832875448.23"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "8",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "308545927000000.00",
       "recaudo": "183641648002521.94"
@@ -4055,9 +4055,9 @@
     {
       "anio": "2025",
       "mes_num": "8",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "155801136468683.00",
-      "recaudo": "104937659394325.83"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4031689853309.00",
+      "recaudo": "2506655221806.02"
     },
     {
       "anio": "2025",
@@ -4069,30 +4069,16 @@
     {
       "anio": "2025",
       "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "1334832875448.23"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "8",
       "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "5956937650677.00",
       "recaudo": "4045438364436.87"
     },
     {
       "anio": "2025",
-      "mes_num": "9",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "5956937650677.00",
-      "recaudo": "4582918315451.61"
-    },
-    {
-      "anio": "2025",
-      "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "18119471887411.00",
-      "recaudo": "14010986819453.56"
+      "mes_num": "8",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "155801136468683.00",
+      "recaudo": "104937659394325.83"
     },
     {
       "anio": "2025",
@@ -4111,9 +4097,9 @@
     {
       "anio": "2025",
       "mes_num": "9",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "973436411295.00",
-      "recaudo": "1427183653113.00"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "18119471887411.00",
+      "recaudo": "14010986819453.56"
     },
     {
       "anio": "2025",
@@ -4125,23 +4111,23 @@
     {
       "anio": "2025",
       "mes_num": "9",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "973436411295.00",
+      "recaudo": "1427183653113.00"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "5956937650677.00",
+      "recaudo": "4582918315451.61"
+    },
+    {
+      "anio": "2025",
+      "mes_num": "9",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "20462028432193.00",
       "recaudo": "17407651102404.16"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "1",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "17482810297839.00",
-      "recaudo": "1745425868541.94"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "1",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "22310640007216.00",
-      "recaudo": "1602915634686.07"
     },
     {
       "anio": "2026",
@@ -4153,16 +4139,9 @@
     {
       "anio": "2026",
       "mes_num": "1",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "6309458650828.00",
-      "recaudo": "424163287451.52"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "1",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4263020043872.00",
-      "recaudo": "307332502443.81"
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "22310640007216.00",
+      "recaudo": "1602915634686.07"
     },
     {
       "anio": "2026",
@@ -4174,30 +4153,30 @@
     {
       "anio": "2026",
       "mes_num": "1",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4263020043872.00",
+      "recaudo": "307332502443.81"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "17482810297839.00",
+      "recaudo": "1745425868541.94"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "1",
       "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "1037335435350.00",
       "recaudo": "100826105554.27"
     },
     {
       "anio": "2026",
-      "mes_num": "2",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "17482810297839.00",
-      "recaudo": "3175234721246.66"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "2",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "314136625000000.00",
-      "recaudo": "50218424284707.76"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "2",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "176189397691031.00",
-      "recaudo": "42524471225001.72"
+      "mes_num": "1",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "6309458650828.00",
+      "recaudo": "424163287451.52"
     },
     {
       "anio": "2026",
@@ -4209,16 +4188,16 @@
     {
       "anio": "2026",
       "mes_num": "2",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "22310640007216.00",
-      "recaudo": "3178056562785.00"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "17482810297839.00",
+      "recaudo": "3175234721246.66"
     },
     {
       "anio": "2026",
       "mes_num": "2",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "1037335435350.00",
-      "recaudo": "181277893030.55"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "176189397691031.00",
+      "recaudo": "42524471225001.72"
     },
     {
       "anio": "2026",
@@ -4229,31 +4208,24 @@
     },
     {
       "anio": "2026",
-      "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "6309458650828.00",
-      "recaudo": "1446252595908.41"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "3",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4263020043872.00",
-      "recaudo": "954046541761.55"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "3",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "1037335435350.00",
-      "recaudo": "291944434398.06"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "3",
+      "mes_num": "2",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "22310640007216.00",
-      "recaudo": "4578315431449.88"
+      "recaudo": "3178056562785.00"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "2",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "314136625000000.00",
+      "recaudo": "50218424284707.76"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "2",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "1037335435350.00",
+      "recaudo": "181277893030.55"
     },
     {
       "anio": "2026",
@@ -4265,9 +4237,30 @@
     {
       "anio": "2026",
       "mes_num": "3",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "6309458650828.00",
+      "recaudo": "1446252595908.41"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
       "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
       "aforo_vigente": "176189397691031.00",
       "recaudo": "60995459453964.50"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "1037335435350.00",
+      "recaudo": "291944434398.06"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "3",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4263020043872.00",
+      "recaudo": "954046541761.55"
     },
     {
       "anio": "2026",
@@ -4278,31 +4271,10 @@
     },
     {
       "anio": "2026",
-      "mes_num": "4",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "176189397691031.00",
-      "recaudo": "73837131359119.00"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "4",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "17482810297839.00",
-      "recaudo": "6412254416938.29"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "4",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "6309458650828.00",
-      "recaudo": "1978472094516.21"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "4",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "322818688516112.00",
-      "recaudo": "94071805846084.32"
+      "mes_num": "3",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "22310640007216.00",
+      "recaudo": "4578315431449.88"
     },
     {
       "anio": "2026",
@@ -4314,9 +4286,37 @@
     {
       "anio": "2026",
       "mes_num": "4",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "322818688516112.00",
+      "recaudo": "94071805846084.32"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "6309458650828.00",
+      "recaudo": "1978472094516.21"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "22310640007216.00",
       "recaudo": "6564070826230.92"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "17482810297839.00",
+      "recaudo": "6412254416938.29"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "4",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "176189397691031.00",
+      "recaudo": "73837131359119.00"
     },
     {
       "anio": "2026",
@@ -4328,16 +4328,9 @@
     {
       "anio": "2026",
       "mes_num": "5",
-      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "22374932130109.00",
-      "recaudo": "7666626126889.29"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "5",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "176242780787716.00",
-      "recaudo": "89511665335422.25"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "6309458650828.00",
+      "recaudo": "2536553348902.97"
     },
     {
       "anio": "2026",
@@ -4345,13 +4338,6 @@
       "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
       "aforo_vigente": "17482810297839.00",
       "recaudo": "8061843759299.89"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4263020043872.00",
-      "recaudo": "1683555764654.50"
     },
     {
       "anio": "2026",
@@ -4370,9 +4356,30 @@
     {
       "anio": "2026",
       "mes_num": "5",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "6309458650828.00",
-      "recaudo": "2536553348902.97"
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "176242780787716.00",
+      "recaudo": "89511665335422.25"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4263020043872.00",
+      "recaudo": "1683555764654.50"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "5",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "22374932130109.00",
+      "recaudo": "7666626126889.29"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "6",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "1037335435350.00",
+      "recaudo": "936605474345.80"
     },
     {
       "anio": "2026",
@@ -4391,13 +4398,6 @@
     {
       "anio": "2026",
       "mes_num": "6",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4263020043872.00",
-      "recaudo": "2184395011382.95"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "6",
       "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
       "aforo_vigente": "322818688516112.00",
       "recaudo": "154768544130097.35"
@@ -4405,9 +4405,9 @@
     {
       "anio": "2026",
       "mes_num": "6",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "1037335435350.00",
-      "recaudo": "936605474345.80"
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4263020043872.00",
+      "recaudo": "2184395011382.95"
     },
     {
       "anio": "2026",
@@ -4433,9 +4433,9 @@
     {
       "anio": "2026",
       "mes_num": "7",
-      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "1037335435350.00",
-      "recaudo": "1076613895648.23"
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "322818688516112.00",
+      "recaudo": "183553673236419.63"
     },
     {
       "anio": "2026",
@@ -4447,16 +4447,9 @@
     {
       "anio": "2026",
       "mes_num": "7",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
-      "aforo_vigente": "6513033558478.00",
-      "recaudo": "3769715112643.40"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "7",
-      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
-      "aforo_vigente": "322818688516112.00",
-      "recaudo": "183553673236419.63"
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "1037335435350.00",
+      "recaudo": "1076613895648.23"
     },
     {
       "anio": "2026",
@@ -4468,23 +4461,16 @@
     {
       "anio": "2026",
       "mes_num": "7",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "6513033558478.00",
+      "recaudo": "3769715112643.40"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "7",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "22675143549967.00",
       "recaudo": "14596086484725.14"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "8",
-      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
-      "aforo_vigente": "176244520573966.00",
-      "recaudo": "123076468008871.84"
-    },
-    {
-      "anio": "2026",
-      "mes_num": "8",
-      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
-      "aforo_vigente": "17482810297839.00",
-      "recaudo": "12902334059928.44"
     },
     {
       "anio": "2026",
@@ -4496,9 +4482,23 @@
     {
       "anio": "2026",
       "mes_num": "8",
-      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
-      "aforo_vigente": "4263020043872.00",
-      "recaudo": "2886632320194.64"
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "17482810297839.00",
+      "recaudo": "12902334059928.44"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "22675143549967.00",
+      "recaudo": "16015560825451.17"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "8",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "176244520573966.00",
+      "recaudo": "123076468008871.84"
     },
     {
       "anio": "2026",
@@ -4517,9 +4517,58 @@
     {
       "anio": "2026",
       "mes_num": "8",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4263020043872.00",
+      "recaudo": "2886632320194.64"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "9",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "6513033558478.00",
+      "recaudo": "4855568740224.10"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "9",
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": "322818688516112.00",
+      "recaudo": "233192496658325.00"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "9",
       "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
       "aforo_vigente": "22675143549967.00",
-      "recaudo": "16015560825451.17"
+      "recaudo": "17871605846872.15"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "9",
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": "17482810297839.00",
+      "recaudo": "13728202053359.47"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "9",
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": "176869176573966.00",
+      "recaudo": "126891083176766.66"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "9",
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": "4263020043872.00",
+      "recaudo": "3230681243835.20"
+    },
+    {
+      "anio": "2026",
+      "mes_num": "9",
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": "1037335435350.00",
+      "recaudo": "1310461892257.68"
     }
   ]
 }

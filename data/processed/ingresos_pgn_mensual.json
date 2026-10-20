@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Hacienda y Crédito Público",
     "dataset_id": "22f3-gynv",
     "fuente": "https://www.datos.gov.co/d/22f3-gynv",
-    "fetched_at": "2026-10-19T16:52:52.950469+00:00",
-    "row_count": 644,
+    "fetched_at": "2026-10-20T14:51:46.335338+00:00",
+    "row_count": 651,
     "consulta_soql": {
       "select": "anio, numeromes as mes_num, nombreniveldos as categoria, sum(aforovigente) as aforo_vigente, sum(recaudoefectivoacumulado) as recaudo\n",
       "group": "anio, mes_num, categoria",
@@ -5843,6 +5843,69 @@
       "aforo_vigente": 22675143549967.0,
       "recaudo": 16015560825451.17,
       "pct_recaudado": 70.6
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LA NACIÓN",
+      "aforo_vigente": 4263020043872.0,
+      "recaudo": 3230681243835.2,
+      "pct_recaudado": 75.8
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "categoria": "CONTRIBUCIONES PARAFISCALES DE LOS ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": 6513033558478.0,
+      "recaudo": 4855568740224.1,
+      "pct_recaudado": 74.6
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "categoria": "FONDOS ESPECIALES DE LA NACIÓN",
+      "aforo_vigente": 17482810297839.0,
+      "recaudo": 13728202053359.47,
+      "pct_recaudado": 78.5
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "categoria": "FONDOS ESPECIALES ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": 1037335435350.0,
+      "recaudo": 1310461892257.68,
+      "pct_recaudado": 126.3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "categoria": "INGRESOS CORRIENTES DE LA NACIÓN",
+      "aforo_vigente": 322818688516112.0,
+      "recaudo": 233192496658325.0,
+      "pct_recaudado": 72.2
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "categoria": "RECURSOS DE CAPITAL DE LA NACIÓN",
+      "aforo_vigente": 176869176573966.0,
+      "recaudo": 126891083176766.66,
+      "pct_recaudado": 71.7
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "categoria": "RECURSOS PROPIOS DE ESTABLECIMIENTOS PÚBLICOS",
+      "aforo_vigente": 22675143549967.0,
+      "recaudo": 17871605846872.15,
+      "pct_recaudado": 78.8
     }
   ]
 }
