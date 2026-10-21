@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "8rpn-wpty",
     "fuente": "https://www.datos.gov.co/d/8rpn-wpty",
-    "fetched_at": "2026-10-20T14:51:50.496410+00:00",
-    "row_count": 2646,
+    "fetched_at": "2026-10-21T14:59:08.009501+00:00",
+    "row_count": 2660,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, accion, sum(cantidad) as total\n",
       "group": "anio, mes_num, departamento, accion",
@@ -16235,7 +16235,7 @@
       "mes": "Febrero",
       "mes_num": 2,
       "departamento": "ATLANTICO",
-      "heridos": 2,
+      "heridos": 1,
       "asesinados": 1
     },
     {
@@ -16506,14 +16506,6 @@
       "anio": "2026",
       "mes": "Abril",
       "mes_num": 4,
-      "departamento": "ATLANTICO",
-      "heridos": 1,
-      "asesinados": 0
-    },
-    {
-      "anio": "2026",
-      "mes": "Abril",
-      "mes_num": 4,
       "departamento": "BOLIVAR",
       "heridos": 5,
       "asesinados": 1
@@ -16755,8 +16747,8 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "NORTE DE SANTANDER",
-      "heridos": 16,
-      "asesinados": 5
+      "heridos": 14,
+      "asesinados": 4
     },
     {
       "anio": "2026",
@@ -16787,7 +16779,7 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "VALLE DEL CAUCA",
-      "heridos": 5,
+      "heridos": 6,
       "asesinados": 2
     },
     {
@@ -16979,7 +16971,7 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "GUAVIARE",
-      "heridos": 2,
+      "heridos": 3,
       "asesinados": 0
     },
     {
@@ -16987,7 +16979,7 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "HUILA",
-      "heridos": 25,
+      "heridos": 30,
       "asesinados": 2
     },
     {
@@ -17010,8 +17002,16 @@
       "anio": "2026",
       "mes": "Agosto",
       "mes_num": 8,
-      "departamento": "TOLIMA",
+      "departamento": "SANTANDER",
       "heridos": 1,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "TOLIMA",
+      "heridos": 2,
       "asesinados": 3
     },
     {
@@ -17021,6 +17021,86 @@
       "departamento": "VALLE DEL CAUCA",
       "heridos": 3,
       "asesinados": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "BOLIVAR",
+      "heridos": 1,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAQUETA",
+      "heridos": 3,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAUCA",
+      "heridos": 14,
+      "asesinados": 4
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "META",
+      "heridos": 7,
+      "asesinados": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NARIÑO",
+      "heridos": 0,
+      "asesinados": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NORTE DE SANTANDER",
+      "heridos": 6,
+      "asesinados": 6
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "PUTUMAYO",
+      "heridos": 1,
+      "asesinados": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "RISARALDA",
+      "heridos": 4,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "SUCRE",
+      "heridos": 0,
+      "asesinados": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "VALLE DEL CAUCA",
+      "heridos": 10,
+      "asesinados": 0
     }
   ]
 }

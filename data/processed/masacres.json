@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "u8eq-92tb",
     "fuente": "https://www.datos.gov.co/d/u8eq-92tb",
-    "fetched_at": "2026-10-20T14:53:04.344581+00:00",
-    "row_count": 348,
+    "fetched_at": "2026-10-21T15:01:51.883210+00:00",
+    "row_count": 355,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(casos) as casos, sum(victimas) as victimas\n",
       "group": "anio, mes_num, departamento",
@@ -2434,8 +2434,8 @@
       "mes": "Enero",
       "mes_num": 1,
       "departamento": "ANTIOQUIA",
-      "casos": 2,
-      "victimas": 6
+      "casos": 3,
+      "victimas": 10
     },
     {
       "anio": "2026",
@@ -2587,7 +2587,7 @@
       "mes_num": 3,
       "departamento": "SANTANDER",
       "casos": 2,
-      "victimas": 7
+      "victimas": 6
     },
     {
       "anio": "2026",
@@ -2618,8 +2618,8 @@
       "mes": "Abril",
       "mes_num": 4,
       "departamento": "CAUCA",
-      "casos": 3,
-      "victimas": 30
+      "casos": 4,
+      "victimas": 33
     },
     {
       "anio": "2026",
@@ -2627,7 +2627,7 @@
       "mes_num": 4,
       "departamento": "LA GUAJIRA",
       "casos": 1,
-      "victimas": 6
+      "victimas": 3
     },
     {
       "anio": "2026",
@@ -2849,9 +2849,65 @@
       "anio": "2026",
       "mes": "Agosto",
       "mes_num": 8,
+      "departamento": "TOLIMA",
+      "casos": 1,
+      "victimas": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
       "departamento": "VALLE DEL CAUCA",
       "casos": 3,
       "victimas": 9
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAUCA",
+      "casos": 1,
+      "victimas": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CESAR",
+      "casos": 1,
+      "victimas": 5
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NORTE DE SANTANDER",
+      "casos": 1,
+      "victimas": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "PUTUMAYO",
+      "casos": 1,
+      "victimas": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "TOLIMA",
+      "casos": 1,
+      "victimas": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "VALLE DEL CAUCA",
+      "casos": 2,
+      "victimas": 6
     }
   ]
 }

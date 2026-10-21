@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "gr35-i7pm",
     "fuente": "https://www.datos.gov.co/d/gr35-i7pm",
-    "fetched_at": "2026-10-20T14:52:50.913442+00:00",
-    "row_count": 2252,
+    "fetched_at": "2026-10-21T15:01:09.242697+00:00",
+    "row_count": 2277,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
       "group": "anio, mes_num, departamento",
@@ -15797,7 +15797,7 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "PUTUMAYO",
-      "total_casos": 8
+      "total_casos": 9
     },
     {
       "anio": "2026",
@@ -15832,7 +15832,7 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "TOLIMA",
-      "total_casos": 14
+      "total_casos": 16
     },
     {
       "anio": "2026",
@@ -15840,6 +15840,181 @@
       "mes_num": 8,
       "departamento": "VALLE DEL CAUCA",
       "total_casos": 21
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "ANTIOQUIA",
+      "total_casos": 76
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "ATLANTICO",
+      "total_casos": 14
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "BOGOTA D.C.",
+      "total_casos": 5
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "BOLIVAR",
+      "total_casos": 15
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "BOYACA",
+      "total_casos": 37
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CALDAS",
+      "total_casos": 9
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAQUETA",
+      "total_casos": 21
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAUCA",
+      "total_casos": 5
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CESAR",
+      "total_casos": 15
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CHOCO",
+      "total_casos": 15
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CORDOBA",
+      "total_casos": 22
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CUNDINAMARCA",
+      "total_casos": 13
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "HUILA",
+      "total_casos": 56
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "MAGDALENA",
+      "total_casos": 5
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "META",
+      "total_casos": 12
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NARIÑO",
+      "total_casos": 10
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "PUTUMAYO",
+      "total_casos": 5
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "QUINDIO",
+      "total_casos": 5
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "RISARALDA",
+      "total_casos": 7
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "SANTANDER",
+      "total_casos": 29
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "SUCRE",
+      "total_casos": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "TOLIMA",
+      "total_casos": 16
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": 15
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "VICHADA",
+      "total_casos": 1
     }
   ]
 }

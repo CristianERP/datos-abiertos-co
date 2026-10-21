@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "d7zw-hpf4",
     "fuente": "https://www.datos.gov.co/d/d7zw-hpf4",
-    "fetched_at": "2026-10-20T14:51:50.735990+00:00",
-    "row_count": 1179,
+    "fetched_at": "2026-10-21T14:59:08.578565+00:00",
+    "row_count": 1201,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
       "group": "anio, mes_num, departamento",
@@ -7920,6 +7920,13 @@
       "anio": "2026",
       "mes": "Febrero",
       "mes_num": 2,
+      "departamento": "CAQUETA",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Febrero",
+      "mes_num": 2,
       "departamento": "CAUCA",
       "total_casos": 14
     },
@@ -7963,7 +7970,7 @@
       "mes": "Febrero",
       "mes_num": 2,
       "departamento": "NORTE DE SANTANDER",
-      "total_casos": 6
+      "total_casos": 7
     },
     {
       "anio": "2026",
@@ -8117,14 +8124,14 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "ARAUCA",
-      "total_casos": 4
+      "total_casos": 7
     },
     {
       "anio": "2026",
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "BOGOTA D.C.",
-      "total_casos": 1
+      "total_casos": 4
     },
     {
       "anio": "2026",
@@ -8138,7 +8145,7 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "CAUCA",
-      "total_casos": 1
+      "total_casos": 2
     },
     {
       "anio": "2026",
@@ -8158,6 +8165,20 @@
       "anio": "2026",
       "mes": "Mayo",
       "mes_num": 5,
+      "departamento": "PUTUMAYO",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Mayo",
+      "mes_num": 5,
+      "departamento": "TOLIMA",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Mayo",
+      "mes_num": 5,
       "departamento": "VALLE DEL CAUCA",
       "total_casos": 2
     },
@@ -8166,20 +8187,27 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "ANTIOQUIA",
-      "total_casos": 5
+      "total_casos": 12
     },
     {
       "anio": "2026",
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "ARAUCA",
-      "total_casos": 1
+      "total_casos": 3
     },
     {
       "anio": "2026",
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "CAUCA",
+      "total_casos": 5
+    },
+    {
+      "anio": "2026",
+      "mes": "Junio",
+      "mes_num": 6,
+      "departamento": "GUAVIARE",
       "total_casos": 1
     },
     {
@@ -8208,6 +8236,13 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "NORTE DE SANTANDER",
+      "total_casos": 4
+    },
+    {
+      "anio": "2026",
+      "mes": "Junio",
+      "mes_num": 6,
+      "departamento": "RISARALDA",
       "total_casos": 2
     },
     {
@@ -8215,7 +8250,14 @@
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "ANTIOQUIA",
-      "total_casos": 1
+      "total_casos": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Julio",
+      "mes_num": 7,
+      "departamento": "ATLANTICO",
+      "total_casos": 2
     },
     {
       "anio": "2026",
@@ -8228,8 +8270,15 @@
       "anio": "2026",
       "mes": "Julio",
       "mes_num": 7,
+      "departamento": "CAQUETA",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Julio",
+      "mes_num": 7,
       "departamento": "CAUCA",
-      "total_casos": 6
+      "total_casos": 11
     },
     {
       "anio": "2026",
@@ -8257,20 +8306,27 @@
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "NARIÑO",
-      "total_casos": 2
+      "total_casos": 3
     },
     {
       "anio": "2026",
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "NORTE DE SANTANDER",
-      "total_casos": 2
+      "total_casos": 4
     },
     {
       "anio": "2026",
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "RISARALDA",
+      "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Julio",
+      "mes_num": 7,
+      "departamento": "SUCRE",
       "total_casos": 1
     },
     {
@@ -8285,20 +8341,41 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "ANTIOQUIA",
-      "total_casos": 1
+      "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "BOGOTA D.C.",
+      "total_casos": 3
     },
     {
       "anio": "2026",
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "CAUCA",
-      "total_casos": 5
+      "total_casos": 16
     },
     {
       "anio": "2026",
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "CESAR",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "CUNDINAMARCA",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "HUILA",
       "total_casos": 1
     },
     {
@@ -8320,7 +8397,7 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "NORTE DE SANTANDER",
-      "total_casos": 4
+      "total_casos": 6
     },
     {
       "anio": "2026",
@@ -8328,6 +8405,83 @@
       "mes_num": 8,
       "departamento": "PUTUMAYO",
       "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "QUINDIO",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "TOLIMA",
+      "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "ANTIOQUIA",
+      "total_casos": 7
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAQUETA",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAUCA",
+      "total_casos": 6
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CESAR",
+      "total_casos": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "HUILA",
+      "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NARIÑO",
+      "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "PUTUMAYO",
+      "total_casos": 1
     }
   ]
 }

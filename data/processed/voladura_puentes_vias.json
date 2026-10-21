@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "m98b-cdys",
     "fuente": "https://www.datos.gov.co/d/m98b-cdys",
-    "fetched_at": "2026-10-20T14:52:50.643907+00:00",
-    "row_count": 156,
+    "fetched_at": "2026-10-21T15:01:08.547683+00:00",
+    "row_count": 158,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
       "group": "anio, mes_num, departamento",
@@ -1142,6 +1142,13 @@
     },
     {
       "anio": "2026",
+      "mes": "Marzo",
+      "mes_num": 3,
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
       "mes": "Abril",
       "mes_num": 4,
       "departamento": "VALLE DEL CAUCA",
@@ -1152,12 +1159,19 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "CAUCA",
-      "total_casos": 1
+      "total_casos": 2
     },
     {
       "anio": "2026",
       "mes": "Junio",
       "mes_num": 6,
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
       "departamento": "VALLE DEL CAUCA",
       "total_casos": 1
     }

@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "nxbk-nikm",
     "fuente": "https://www.datos.gov.co/d/nxbk-nikm",
-    "fetched_at": "2026-10-20T14:52:55.556444+00:00",
-    "row_count": 3814,
+    "fetched_at": "2026-10-21T15:01:23.905907+00:00",
+    "row_count": 3834,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, sum(cantidad) as total_casos\n",
       "group": "anio, mes_num, departamento",
@@ -25285,7 +25285,7 @@
       "mes": "Febrero",
       "mes_num": 2,
       "departamento": "ANTIOQUIA",
-      "total_casos": 116.40605
+      "total_casos": 116.05505
     },
     {
       "anio": "2026",
@@ -25362,7 +25362,7 @@
       "mes": "Febrero",
       "mes_num": 2,
       "departamento": "CORDOBA",
-      "total_casos": 3.4787
+      "total_casos": 3.4517
     },
     {
       "anio": "2026",
@@ -25495,7 +25495,7 @@
       "mes": "Marzo",
       "mes_num": 3,
       "departamento": "ANTIOQUIA",
-      "total_casos": 129.97327
+      "total_casos": 129.76727
     },
     {
       "anio": "2026",
@@ -25523,7 +25523,7 @@
       "mes": "Marzo",
       "mes_num": 3,
       "departamento": "BOLIVAR",
-      "total_casos": 11.7369
+      "total_casos": 10.9569
     },
     {
       "anio": "2026",
@@ -25719,7 +25719,7 @@
       "mes": "Abril",
       "mes_num": 4,
       "departamento": "ANTIOQUIA",
-      "total_casos": 60.18541
+      "total_casos": 60.18201
     },
     {
       "anio": "2026",
@@ -25789,7 +25789,7 @@
       "mes": "Abril",
       "mes_num": 4,
       "departamento": "CESAR",
-      "total_casos": 701.0671
+      "total_casos": 701.0171
     },
     {
       "anio": "2026",
@@ -25873,7 +25873,7 @@
       "mes": "Abril",
       "mes_num": 4,
       "departamento": "PUTUMAYO",
-      "total_casos": 198.6
+      "total_casos": 198.272
     },
     {
       "anio": "2026",
@@ -26013,7 +26013,7 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "CORDOBA",
-      "total_casos": 3.7351
+      "total_casos": 3.7731
     },
     {
       "anio": "2026",
@@ -26041,7 +26041,7 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "HUILA",
-      "total_casos": 117.33609
+      "total_casos": 117.32509
     },
     {
       "anio": "2026",
@@ -26076,7 +26076,7 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "NORTE DE SANTANDER",
-      "total_casos": 459.5024
+      "total_casos": 459.4724
     },
     {
       "anio": "2026",
@@ -26111,7 +26111,7 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "SUCRE",
-      "total_casos": 0.416
+      "total_casos": 0.369
     },
     {
       "anio": "2026",
@@ -26139,14 +26139,14 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "AMAZONAS",
-      "total_casos": 2091.309
+      "total_casos": 0.309
     },
     {
       "anio": "2026",
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "ANTIOQUIA",
-      "total_casos": 65.25982
+      "total_casos": 65.14382
     },
     {
       "anio": "2026",
@@ -26216,7 +26216,7 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "CESAR",
-      "total_casos": 7.818
+      "total_casos": 7.809
     },
     {
       "anio": "2026",
@@ -26272,7 +26272,7 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "META",
-      "total_casos": 444.527
+      "total_casos": 447.627
     },
     {
       "anio": "2026",
@@ -26286,21 +26286,21 @@
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "NORTE DE SANTANDER",
-      "total_casos": 433.5433
+      "total_casos": 433.0793
     },
     {
       "anio": "2026",
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "PERU",
-      "total_casos": 2091.0
+      "total_casos": 2808.0
     },
     {
       "anio": "2026",
       "mes": "Junio",
       "mes_num": 6,
       "departamento": "PUTUMAYO",
-      "total_casos": 1005.714
+      "total_casos": 886.714
     },
     {
       "anio": "2026",
@@ -26363,7 +26363,7 @@
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "AMAZONAS",
-      "total_casos": 0.043
+      "total_casos": 0.413
     },
     {
       "anio": "2026",
@@ -26433,14 +26433,14 @@
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "CESAR",
-      "total_casos": 72.895
+      "total_casos": 72.8125
     },
     {
       "anio": "2026",
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "CHOCO",
-      "total_casos": 9.101
+      "total_casos": 17.101
     },
     {
       "anio": "2026",
@@ -26503,7 +26503,7 @@
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "NARIÑO",
-      "total_casos": 2984.455
+      "total_casos": 2983.9
     },
     {
       "anio": "2026",
@@ -26559,7 +26559,7 @@
       "mes": "Julio",
       "mes_num": 7,
       "departamento": "TOLIMA",
-      "total_casos": 0.6815
+      "total_casos": 0.6772
     },
     {
       "anio": "2026",
@@ -26643,7 +26643,7 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "CASANARE",
-      "total_casos": 0.5093
+      "total_casos": 0.0123
     },
     {
       "anio": "2026",
@@ -26784,6 +26784,146 @@
       "mes_num": 8,
       "departamento": "VALLE DEL CAUCA",
       "total_casos": 5.81784
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "ANTIOQUIA",
+      "total_casos": 8.423
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "ATLANTICO",
+      "total_casos": 0.015
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "BOGOTA D.C.",
+      "total_casos": 0.196
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "BOLIVAR",
+      "total_casos": 0.14
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "BOYACA",
+      "total_casos": 0.623
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAQUETA",
+      "total_casos": 0.201
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CAUCA",
+      "total_casos": 43.44
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CESAR",
+      "total_casos": 0.166
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CHOCO",
+      "total_casos": 12.0
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "GUAVIARE",
+      "total_casos": 61.1
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "HUILA",
+      "total_casos": 286.51
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "META",
+      "total_casos": 230.111
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NARIÑO",
+      "total_casos": 24.0
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "NORTE DE SANTANDER",
+      "total_casos": 493.633
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "PERU",
+      "total_casos": 9909.0
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "PUTUMAYO",
+      "total_casos": 1249.804
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "QUINDIO",
+      "total_casos": 0.122
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "SANTANDER",
+      "total_casos": 2.38
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "SUCRE",
+      "total_casos": 0.28
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "VALLE DEL CAUCA",
+      "total_casos": 0.492
     }
   ]
 }
