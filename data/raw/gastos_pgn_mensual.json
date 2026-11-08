@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Hacienda y Crédito Público",
     "dataset_id": "5phs-yqfw",
     "fuente": "https://www.datos.gov.co/d/5phs-yqfw",
-    "fetched_at": "2026-11-07T16:12:21.886478+00:00",
-    "row_count": 2912,
+    "fetched_at": "2026-11-08T16:33:58.022448+00:00",
+    "row_count": 2944,
     "consulta_soql": {
       "select": "anio, nombremes, sector, sum(apropiacionvigente) as apropiacion_vigente, sum(compromisos) as compromisos, sum(obligaciones) as obligaciones, sum(pagos) as pagos\n",
       "group": "anio, nombremes, sector",
@@ -25932,6 +25932,294 @@
       "compromisos": "6293519744973.00",
       "obligaciones": "2543346736035.00",
       "pagos": "2540469730231.00"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "AGRICULTURA Y DESARROLLO RURAL",
+      "apropiacion_vigente": "3740631291849",
+      "compromisos": "4840525436926",
+      "obligaciones": "3509877365893",
+      "pagos": "3396010479875"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "AMBIENTE Y DESARROLLO SOSTENIBLE",
+      "apropiacion_vigente": "1430103504613",
+      "compromisos": "1484782001936",
+      "obligaciones": "1017077709079",
+      "pagos": "1010062470411"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "CIENCIA, TECNOLOGÍA E INNOVACIÓN",
+      "apropiacion_vigente": "374351137330",
+      "compromisos": "255412556267",
+      "obligaciones": "146406464818",
+      "pagos": "146394507851"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "COMERCIO, INDUSTRIA Y TURISMO",
+      "apropiacion_vigente": "1703756032320",
+      "compromisos": "1613627240513",
+      "obligaciones": "1110885721791",
+      "pagos": "1109433900093"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "CONGRESO DE LA REPUBLICA",
+      "apropiacion_vigente": "1629304443273",
+      "compromisos": "1483564641819",
+      "obligaciones": "1320402373684",
+      "pagos": "1304854368097"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "CULTURA",
+      "apropiacion_vigente": "1116123785163",
+      "compromisos": "1288401736640",
+      "obligaciones": "931395647557",
+      "pagos": "930659435516"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "DEFENSA Y POLICIA",
+      "apropiacion_vigente": "68887429012238",
+      "compromisos": "58931371519183",
+      "obligaciones": "53604347795944",
+      "pagos": "53379937006461"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "DEPORTE Y RECREACION",
+      "apropiacion_vigente": "493818281681",
+      "compromisos": "582306689046",
+      "obligaciones": "482508645663",
+      "pagos": "482333985663"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "EDUCACION",
+      "apropiacion_vigente": "88222747858476",
+      "compromisos": "77583763697731",
+      "obligaciones": "73292814665349",
+      "pagos": "72922793826105"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "EMPLEO PUBLICO",
+      "apropiacion_vigente": "626842427473",
+      "compromisos": "499053751096",
+      "obligaciones": "382701886149",
+      "pagos": "381385802552"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "FISCALIA",
+      "apropiacion_vigente": "7299165229020",
+      "compromisos": "6075044329528",
+      "obligaciones": "5594211966485",
+      "pagos": "5585768200491"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "HACIENDA",
+      "apropiacion_vigente": "27323598904665",
+      "compromisos": "24441084127149",
+      "obligaciones": "20655098561495",
+      "pagos": "17502595507632"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "IGUALDAD Y EQUIDAD",
+      "apropiacion_vigente": "11687617474114",
+      "compromisos": "11403933146479",
+      "obligaciones": "9376663386571",
+      "pagos": "9336220201327"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "INCLUSION SOCIAL Y RECONCILIACION",
+      "apropiacion_vigente": "12736515953445",
+      "compromisos": "13275692991194",
+      "obligaciones": "9842500251112",
+      "pagos": "9158365186888"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "INFORMACION ESTADISTICA",
+      "apropiacion_vigente": "766637081264",
+      "compromisos": "897488423598",
+      "obligaciones": "759082299861",
+      "pagos": "759067612329"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "INTELIGENCIA",
+      "apropiacion_vigente": "164105289009",
+      "compromisos": "132630625776",
+      "obligaciones": "122965045874",
+      "pagos": "122892129312"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "INTERIOR",
+      "apropiacion_vigente": "4570938644507",
+      "compromisos": "5081551648905",
+      "obligaciones": "3647264097228",
+      "pagos": "3642650456537"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "JUSTICIA Y DEL DERECHO",
+      "apropiacion_vigente": "5019661923142",
+      "compromisos": "4985398645844",
+      "obligaciones": "4052512670910",
+      "pagos": "4032397265888"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "MINAS Y ENERGIA",
+      "apropiacion_vigente": "13030254398784",
+      "compromisos": "12227810644226",
+      "obligaciones": "10710786683951",
+      "pagos": "10648781377901"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "ORGANISMOS DE CONTROL",
+      "apropiacion_vigente": "4959894588441",
+      "compromisos": "3990552177660",
+      "obligaciones": "3573041687553",
+      "pagos": "3527177537476"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "PLANEACION",
+      "apropiacion_vigente": "1848323350221",
+      "compromisos": "1836865692035",
+      "obligaciones": "1490146323685",
+      "pagos": "1485370719593"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "PRESIDENCIA DE LA REPUBLICA",
+      "apropiacion_vigente": "9642936662551",
+      "compromisos": "11781090544400",
+      "obligaciones": "3716692571212",
+      "pagos": "3666833649680"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "RAMA JUDICIAL",
+      "apropiacion_vigente": "11108446852568",
+      "compromisos": "8988364699598",
+      "obligaciones": "8267087824087",
+      "pagos": "8262904426351"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "REGISTRADURIA",
+      "apropiacion_vigente": "6320548176744",
+      "compromisos": "5781322892821",
+      "obligaciones": "5148704342281",
+      "pagos": "5141496742810"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "RELACIONES EXTERIORES",
+      "apropiacion_vigente": "1951787705523",
+      "compromisos": "1639761145095",
+      "obligaciones": "1397370238702",
+      "pagos": "1392810681773"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "SALUD Y PROTECCION SOCIAL",
+      "apropiacion_vigente": "78774968073142",
+      "compromisos": "68035007697934",
+      "obligaciones": "62111247533280",
+      "pagos": "61685985510773"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "SERVICIO DE LA DEUDA PUBLICA NACIONAL",
+      "apropiacion_vigente": "93191505905792",
+      "compromisos": "75532608825336",
+      "obligaciones": "75465853108128",
+      "pagos": "73831225075925"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "SISTEMA INTEGRAL DE VERDAD, JUSTICIA, REPARACIÓN Y NO REPETICIÓN",
+      "apropiacion_vigente": "996076909439",
+      "compromisos": "958408531178",
+      "obligaciones": "855506453244",
+      "pagos": "855386267871"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "apropiacion_vigente": "2184600833579",
+      "compromisos": "2513604121074",
+      "obligaciones": "2037301230664",
+      "pagos": "2005368324786"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "TRABAJO",
+      "apropiacion_vigente": "56497219841729",
+      "compromisos": "41624580636143",
+      "obligaciones": "40353560678314",
+      "pagos": "40309836136789"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "TRANSPORTE",
+      "apropiacion_vigente": "17707184473233",
+      "compromisos": "20894575228491",
+      "obligaciones": "11461583548213",
+      "pagos": "10350784349986"
+    },
+    {
+      "anio": "2026",
+      "nombremes": "Octubre",
+      "sector": "VIVIENDA, CIUDAD Y TERRITORIO",
+      "apropiacion_vigente": "7181004631133",
+      "compromisos": "8359902760627",
+      "obligaciones": "5069146549391",
+      "pagos": "5044529109230"
     },
     {
       "anio": "2026",
