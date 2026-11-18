@@ -4,8 +4,8 @@
     "ministerio": "Ministerio de Defensa Nacional / Policía Nacional",
     "dataset_id": "8rpn-wpty",
     "fuente": "https://www.datos.gov.co/d/8rpn-wpty",
-    "fetched_at": "2026-11-17T19:00:46.643770+00:00",
-    "row_count": 2660,
+    "fetched_at": "2026-11-18T18:44:56.422856+00:00",
+    "row_count": 2679,
     "consulta_soql": {
       "select": "date_extract_y(fecha_hecho) as anio, date_extract_m(fecha_hecho) as mes_num, departamento, accion, sum(cantidad) as total\n",
       "group": "anio, mes_num, departamento, accion",
@@ -16243,7 +16243,7 @@
       "mes": "Febrero",
       "mes_num": 2,
       "departamento": "BOLIVAR",
-      "heridos": 16,
+      "heridos": 17,
       "asesinados": 0
     },
     {
@@ -16619,7 +16619,7 @@
       "mes": "Mayo",
       "mes_num": 5,
       "departamento": "CAUCA",
-      "heridos": 29,
+      "heridos": 32,
       "asesinados": 1
     },
     {
@@ -16955,7 +16955,7 @@
       "mes": "Agosto",
       "mes_num": 8,
       "departamento": "CAUCA",
-      "heridos": 5,
+      "heridos": 21,
       "asesinados": 1
     },
     {
@@ -16981,6 +16981,14 @@
       "departamento": "HUILA",
       "heridos": 30,
       "asesinados": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Agosto",
+      "mes_num": 8,
+      "departamento": "MAGDALENA",
+      "heridos": 1,
+      "asesinados": 0
     },
     {
       "anio": "2026",
@@ -17043,8 +17051,16 @@
       "mes": "Septiembre",
       "mes_num": 9,
       "departamento": "CAUCA",
-      "heridos": 14,
+      "heridos": 17,
       "asesinados": 4
+    },
+    {
+      "anio": "2026",
+      "mes": "Septiembre",
+      "mes_num": 9,
+      "departamento": "CHOCO",
+      "heridos": 4,
+      "asesinados": 0
     },
     {
       "anio": "2026",
@@ -17099,8 +17115,112 @@
       "mes": "Septiembre",
       "mes_num": 9,
       "departamento": "VALLE DEL CAUCA",
-      "heridos": 10,
+      "heridos": 11,
       "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "ANTIOQUIA",
+      "heridos": 1,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "ARAUCA",
+      "heridos": 1,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "BOYACA",
+      "heridos": 1,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "CAQUETA",
+      "heridos": 0,
+      "asesinados": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "CAUCA",
+      "heridos": 7,
+      "asesinados": 2
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "CESAR",
+      "heridos": 6,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "CHOCO",
+      "heridos": 19,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "CORDOBA",
+      "heridos": 0,
+      "asesinados": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "HUILA",
+      "heridos": 4,
+      "asesinados": 3
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "META",
+      "heridos": 1,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "NORTE DE SANTANDER",
+      "heridos": 7,
+      "asesinados": 1
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "SANTANDER",
+      "heridos": 1,
+      "asesinados": 0
+    },
+    {
+      "anio": "2026",
+      "mes": "Octubre",
+      "mes_num": 10,
+      "departamento": "VALLE DEL CAUCA",
+      "heridos": 13,
+      "asesinados": 2
     }
   ]
 }
